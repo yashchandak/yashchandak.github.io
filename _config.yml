@@ -1,0 +1,45 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+encoding:         utf-8
+
+# Setup
+title:            Yash Chandak
+tagline:          'Personal Webpage'
+description:      'ychandak@cs.umass.edu'
+url:              https://yashchandak.github.io/yashchandak
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+email:            ychandak@cs.umass.edu
+author:
+  name:           'Yash Chandak'
+  url:            yashchandak.github.io
+
+paginate:         1
+paginate_path:    '/blog/'
+                  # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+version:            3.4.1
+sidebar_home_link:  false
+sidebar_blog_link:  false # '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+sidebar_about_link: false #'/about.html'
+
+github:
+  repo:             https://github.com/yashchandak
+
+twitter:            https://twitter.com/yashchandak
+facebook:           https://www.facebook.com/yashchandak.13
+linkedin:           https://www.linkedin.com/in/yashchandak/
+

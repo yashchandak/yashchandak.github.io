@@ -1,0 +1,28 @@
+<div id="sidebar">
+  <center>
+  <header>
+    <img src="/images/dp.jpg" alt="Can't locate DP">
+    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+      <a href="{{ site.baseurl }}/">
+        {% unless page.url == "/" %}
+          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+        {% endunless %}
+        {{ site.title }}
+      </a>
+    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
+    <p class="lead">{{ site.description }}</p>
+
+  </header>
+
+  <p> <br>  </p>
+
+  {% include sidebar-nav-links.html %}
+  <p> <br> </p>
+  <!-- {% if site.version %}
+    <span class="site-version">Currently v{{ site.version }}</span>
+  {% endif %} -->
+
+  {% include sidebar-icon-links.html %}
+  {% include copyright.html %}
+  </center>
+</div>

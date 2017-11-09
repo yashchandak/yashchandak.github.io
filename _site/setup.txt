@@ -1,0 +1,16 @@
+sudo apt-get install ruby
+sudo apt-get install ruby-all-dev
+gem install bundler
+gem install jekyll
+
+sudo gem install pygments.rb
+bundle install
+
+git clone https://github.com/fongandrew/hydeout
+mv hydeout yashchandak
+cd yashchandak
+rm -rf .git
+git init 
+
+#jekyll build
+#jekyll serve
