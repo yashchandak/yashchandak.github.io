@@ -1,5 +1,5 @@
 <center>
-<nav style="list-style: none; margin: auto; width: 65%;" id="sidebar-icon-links">
+<nav style="list-style: none; margin: auto; width: 85%; justify-content: center;" id="sidebar-icon-links">
   {% if site.github.repo %}
     <a id="github-link"
        class="icon" title="Github Project" aria-label="Github Project"
@@ -23,7 +23,7 @@
 
    {% if site.linkedin %}
     <a id="linkedin-link"
-       class="icon" title="linkedin" aria-label="linkedin"
+       class="icon" title="linkedin" aria-label="Linkedin"
        href="{{ site.linkedin }}">
       {% include svg/linkedin.svg %}
     </a>
@@ -31,12 +31,19 @@
 
   {% if site.facebook %}
     <a id="facebook-link"
-       class="icon" title="facebook" aria-label="facebook"
+       class="icon" title="facebook" aria-label="Facebook"
        href="{{ site.facebook }}">
       {% include svg/facebook.svg %}
     </a>
   {% endif %}
 
+  {% if site.scholar %}
+    <a id="scholar-link"
+       class="icon" title="scholar" aria-label="Google Scholar"
+       href="{{ site.scholar }}">
+      {% include svg/scholar.svg %}
+    </a>
+  {% endif %}
   <!--<a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
      href="{{ site.baseurl }}/feed.xml">

@@ -1,18 +1,14 @@
 ---
-layout: default
+permalink: "/blog/"
+layout: page
+title: Blog
+sidebar_link: false
 ---
 
 <div class="content">
   {{ content }}
 
-  {% assign pages_list = site.pages %}
-  {% for post in pages_list %}
-
-  {% comment %}
-    for post in paginator.posts # this will only select pages under '_posts'
-  {% endcomment %}
-
-  {% if post.title == 'About' %}
+  {% for post in paginator.posts %}
   <article class="post-body">
     <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
@@ -24,6 +20,5 @@ layout: default
     {{ post.content }}
 
   </article>
-  {% endif %}
   {% endfor %}
 </div>

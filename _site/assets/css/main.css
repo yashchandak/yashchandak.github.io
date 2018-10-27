@@ -568,7 +568,7 @@ body {
 
   /* Undo mobile CSS */
   #sidebar, .home #sidebar {
-    width: 18rem;
+    width: 21rem;
     text-align: left; }
     #sidebar > *:last-child, .home #sidebar > *:last-child {
       margin-bottom: 0; }
@@ -649,9 +649,6 @@ body {
   Set $sidebar-stick variable to affix sidebar contents to the
   bottom of the sidebar in tablets and up.
 ----------------------------------------------------------- */
-@media (min-width: 49rem) {
-  body {
-    align-items: flex-end; } }
 /* -----------------------------------------------------------
   Reverse layout
 
@@ -751,7 +748,7 @@ button.disqus-load {
     border-radius: 300px;
     border-width: 1px;
     width: 60%;
-    max-width: 18rem;
+    max-width: 21rem;
     background: #fff;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); }
     .pagination > a:hover {

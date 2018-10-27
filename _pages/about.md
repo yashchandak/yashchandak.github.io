@@ -1,9 +1,10 @@
 ---
+permalink: "/about/"
 layout: page
-title: Publications
+title: About_2
 sidebar_link: false
 ---
 
 <p class="message">
-  Add link to publications here
+  Hello!
 </p>

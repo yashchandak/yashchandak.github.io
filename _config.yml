@@ -42,4 +42,7 @@ github:
 twitter:            https://twitter.com/chandakyash13
 facebook:           https://www.facebook.com/yashchandak.13
 linkedin:           https://www.linkedin.com/in/yashchandak/
+scholar:            https://scholar.google.com/citations?user=AsgUcSEAAAAJ&hl=en&oi=ao
 
+# Include all files under '_pages' as files in root directory
+include: ['_pages']

@@ -4,6 +4,7 @@ title: About
 excerpt_separator:  <!--more-->
 ---
 <br>
+
 I am a first year MS/PhD student in the [College of Information and Computer Sciences](https://www.cics.umass.edu/)
 at the [University of Massachusetts, Amherst](https://www.umass.edu/).
 My interests are in **continual learning**, a branch of Artificial Intelligence, which aims at teaching machines
@@ -18,6 +19,7 @@ under Dr. J.P. Singh and later at [University of Technology, Troyes, France](htt
 As a sophomore, I was part of a great initiative by University of California and Stanford:
 [Aspiring Researcher's Challenge](https://aspiringresearchers.soe.ucsc.edu/), where I was guided by
 [Prof. James Davis](https://users.soe.ucsc.edu/~davis/), UCSC and [Rajan Vaish](https://stanford.edu/~rvaish/), postdoc, Stanford.
+
 
 <br>
 ### Talks
