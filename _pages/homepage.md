@@ -39,16 +39,16 @@ paper {
 <br>
 
 I'm a second year MS/PhD student at [University of Massachusetts, Amherst](https://www.umass.edu/) fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
-My research interests are in **continual learning**, a branch of Artificial Intelligence, which aims at teaching machines
-new concepts over time. My work is concentrated around the intersection of reinforcement learning,
+My primary interest is in **continual learning**, a branch of Artificial Intelligence, which aims at teaching machines
+new concepts over time. My research is mostly at the intersection of reinforcement learning,
 optimization and machine learning. I enjoy reading and looking out for inspirations from neuroscience as well.
 
-I completed by B.Tech in Computer Science at [VIT University](http://chennai.vit.ac.in/) in 2017, where [Prof. Nithya Darisini](https://www.researchgate.net/scientific-contributions/2046556969_PS_Nithya_Darisini) was my mentor. I was also fortunate to spend most of my senior year at [IIT-Madras](https://www.iitm.ac.in) under the guidance of
-[Prof. B. Ravindran](https://www.cse.iitm.ac.in/~ravi/). In my Junior year, I had a great time learning at [Defence Research and Development Organization(IRDE, DRDO)](https://www.drdo.gov.in/drdo/labs1/IRDE/English/indexnew.jsp?pg=homepage.jsp)
-under Dr. J.P. Singh and later at [University of Technology, Troyes, France](http://www.utt.fr/en/index.html) with [Prof. Babiga Birregah](https://scholar.google.com/citations?user=qHEWWZ8AAAAJ&hl=en).
+I completed my B.Tech in Computer Science at [VIT University](http://chennai.vit.ac.in/) in 2017, where [Prof. Nithya Darisini](https://www.researchgate.net/scientific-contributions/2046556969_PS_Nithya_Darisini) was my mentor. I was also fortunate to spend most of my senior year at [IIT-Madras](https://www.iitm.ac.in) under the guidance of
+[Prof. B. Ravindran](https://www.cse.iitm.ac.in/~ravi/). In my Junior year, I had great learning experiences at [Defence Research and Development Organization(IRDE, DRDO)](https://www.drdo.gov.in/drdo/labs1/IRDE/English/indexnew.jsp?pg=homepage.jsp)
+under Dr. J.P. Singh and later at [University of Technology, Troyes, France](http://www.utt.fr/en/index.html) under [Prof. Babiga Birregah](https://scholar.google.com/citations?user=qHEWWZ8AAAAJ&hl=en).
 During my sophomore days, I was introduced to machine learning research by
 [Prof. James Davis](https://users.soe.ucsc.edu/~davis/), UCSC, and [Rajan Vaish](https://stanford.edu/~rvaish/), Stanford, through their large-scale research initiative:
-[Aspiring Researcher's Challenge](https://aspiringresearchers.soe.ucsc.edu/).
+[Aspiring Researcher Challenge](https://aspiringresearchers.soe.ucsc.edu/).
 Before that, I was a national level basketball player in India and used to play all day everyday.
 
 
@@ -229,7 +229,7 @@ Artificial Intelligence (IJCAI 2018).
             <b>Improving Generalization by Learning
  Action Representations for Reinforcement Learning.</b>
             <br>
-            Autonomous Learning Lab, UMass, 2018. [<a href='https://docs.google.com/presentation/d/1g8v-8Bje6WhUAjcZ4I46gFmoo5thAe4rautrQ3o0gMY/edit?usp=sharing'>Slides</a>]
+            <a href='http://www-all.cs.umass.edu/'>Autonomous Learning Lab</a>, UMass, 2018. [<a href='https://docs.google.com/presentation/d/1g8v-8Bje6WhUAjcZ4I46gFmoo5thAe4rautrQ3o0gMY/edit?usp=sharing'>Slides</a>]
           </p>  
      </td>
    </tr>
@@ -242,7 +242,7 @@ Artificial Intelligence (IJCAI 2018).
           <p>
             <b>Faster convergence for Q-Learning using Zap-Q.</b>
             <br>
-            Autonomous Learning Lab, UMass, 2017. [<a href='https://docs.google.com/presentation/d/1kczu1I8HDtOf6VI8rBHlJ9v4w2NDzFbBf8oqo9_iEBQ/edit?usp=sharing'>Slides</a>]
+            <a href='http://www-all.cs.umass.edu/'>Autonomous Learning Lab</a>, UMass, 2017. [<a href='https://docs.google.com/presentation/d/1kczu1I8HDtOf6VI8rBHlJ9v4w2NDzFbBf8oqo9_iEBQ/edit?usp=sharing'>Slides</a>]
           </p>  
      </td>
    </tr>
@@ -255,7 +255,7 @@ Artificial Intelligence (IJCAI 2018).
           <p>
             <b>Life-long learning, overcoming catastrophic forgetting in Neural Netowrks.</b>
             <br>
-            RISE lab, IIT-Madras, 2017. [<a href='https://docs.google.com/presentation/d/1gcaM2Q6wfpQ4da8KTaCOFaEBpkjTyd_8XJHpygSLF58/edit?usp=sharing'>Slides</a>]
+            <a href='http://rise.cse.iitm.ac.in/'>RISE lab</a>, IIT-Madras, 2017. [<a href='https://docs.google.com/presentation/d/1gcaM2Q6wfpQ4da8KTaCOFaEBpkjTyd_8XJHpygSLF58/edit?usp=sharing'>Slides</a>]
           </p>  
      </td>
    </tr>      

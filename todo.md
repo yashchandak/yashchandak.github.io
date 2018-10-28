@@ -3,5 +3,3 @@
 # Last updated notification
 
 # redirect cics webpage site
-
-# Google analytics
