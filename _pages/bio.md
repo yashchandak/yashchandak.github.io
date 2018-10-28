@@ -2,7 +2,7 @@
 permalink: "/bio/"
 layout: page
 title: Bio
-sidebar_link: true
+sidebar_link: false
 ---
 
 <p class="message">
