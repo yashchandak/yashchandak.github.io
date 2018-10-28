@@ -18,11 +18,84 @@ Engineering. I did my undergrad research project at [IIT-Madras](https://www.iit
 under Dr. J.P. Singh and later at [University of Technology, Troyes, France](http://www.utt.fr/en/index.html) with [Prof. Babiga Birregah](https://scholar.google.com/citations?user=qHEWWZ8AAAAJ&hl=en).
 As a sophomore, I was part of a great initiative by University of California and Stanford:
 [Aspiring Researcher's Challenge](https://aspiringresearchers.soe.ucsc.edu/), where I was guided by
-[Prof. James Davis](https://users.soe.ucsc.edu/~davis/), UCSC and [Rajan Vaish](https://stanford.edu/~rvaish/), postdoc, Stanford.
+[Prof. James Davis](https://users.soe.ucsc.edu/~davis/), UCSC and [Rajan Vaish](https://stanford.edu/~rvaish/), Stanford.
 
 
-<br>
-### Talks
-<br>
-<img src="/images/talk_lifelong.png" alt="talk_lifelong" align="left" style="width: 100px; margin:0px 20px; border-radius:0%"/>  Life-long learning, avoiding catastrophic forgetting in Neural Netowrks.
-<br/>Lab talk at IIT-Madras, 2017. [Slides](https://docs.google.com/presentation/d/1gcaM2Q6wfpQ4da8KTaCOFaEBpkjTyd_8XJHpygSLF58/edit?usp=sharing)
+
+### Lab Talks
+
+
+
+<style>
+
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 85%;
+  border: 0px solid $border-color;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: .25rem .5rem;
+  border: 0px solid $border-color;
+}
+
+th {
+  text-align: left;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: transparent;
+}
+
+paper {
+ color: #; 
+ font-weight:bold;
+}
+</style>
+
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+   <tr>
+     <td width="7%"  valign="top">
+            <img src="/images/talks/action_rep.png" alt="action_rep" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="middle" width="85%">
+          <p>
+            <b>Improving Generalization by Learning
+ Action Representations.</b>
+            <br>
+            Autonomous Learning Lab, UMass, 2018. [<a href='https://docs.google.com/presentation/d/1g8v-8Bje6WhUAjcZ4I46gFmoo5thAe4rautrQ3o0gMY/edit?usp=sharing'>Slides</a>]
+          </p>  
+     </td>
+   </tr>
+   
+   <tr>
+     <td width="7%"  valign="top">
+            <img src="/images/talks/zap.png" alt="ZapQ" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="middle" width="85%">
+          <p>
+            <b>Faster convergence for Q-Learning using Zap-Q.</b>
+            <br>
+            Autonomous Learning Lab, UMass, 2017. [<a href='https://docs.google.com/presentation/d/1kczu1I8HDtOf6VI8rBHlJ9v4w2NDzFbBf8oqo9_iEBQ/edit?usp=sharing'>Slides</a>]
+          </p>  
+     </td>
+   </tr>
+
+   <tr>
+     <td width="7%"  valign="top">
+            <img src="/images/talks/talk_lifelong.png" alt="talk_lifelong" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="middle" width="85%">
+          <p>
+            <b>Life-long learning, overcoming catastrophic forgetting in Neural Netowrks.</b>
+            <br>
+            RISE lab, IIT-Madras, 2017. [<a href='https://docs.google.com/presentation/d/1gcaM2Q6wfpQ4da8KTaCOFaEBpkjTyd_8XJHpygSLF58/edit?usp=sharing'>Slides</a>]
+          </p>  
+     </td>
+   </tr>      
+</table>
