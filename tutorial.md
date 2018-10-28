@@ -21,7 +21,13 @@
     - _posts:
         - (IMP) look at the example-content.md for lots of useful examples!!
         - The actual posts which are invoked by the files in _layouts.
-
+        
+    - _bibliography:
+        - contains .bib files of all the publications
+        - More info: 
+            - https://github.com/inukshuk/jekyll-scholar
+            - http://www.mghassany.com/blog/From-Wordpress-to-Jekyll/
+            - https://gykovacsblog.wordpress.com/tag/jekyll-scholar/
     - _site:
         - Dont touch this. This is dynamically overwritten by jekyll
 

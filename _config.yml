@@ -46,3 +46,27 @@ scholar:            https://scholar.google.com/citations?user=AsgUcSEAAAAJ&hl=en
 
 # Include all files under '_pages' as files in root directory
 include: ['_pages']
+
+
+## Jekyll-scholar settings
+#plugins: ['jekyll/scholar']
+#scholar:
+#  style: apa
+#  locale: en
+#
+#  sort_by: year
+#  order: descending
+#  bibliography_list_tag: ul
+#
+#  source: _bibliography
+#  repository: pdf
+#  bibliography: references
+#  bibliography_template: bibliography
+#
+#  replace_strings: true
+#
+#  details_dir:    bibliography
+#  details_layout: bibtex.html
+#  details_link:   Details
+#
+#  query: "@*"
