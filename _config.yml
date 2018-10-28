@@ -47,6 +47,7 @@ scholar:            https://scholar.google.com/citations?user=AsgUcSEAAAAJ&hl=en
 # Include all files under '_pages' as files in root directory
 include: ['_pages']
 
+google_analytics:   UA-128250681-1
 
 ## Jekyll-scholar settings
 #plugins: ['jekyll/scholar']
