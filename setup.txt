@@ -1,7 +1,7 @@
 sudo apt-get install ruby
 sudo apt-get install ruby-all-dev
-gem install bundler
-gem install jekyll
+sudo gem install bundler
+sudo gem install jekyll
 
 sudo gem install pygments.rb
 bundle install

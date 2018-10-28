@@ -522,7 +522,8 @@ body {
 .content {
   background: #fff;
   color: #515151;
-  padding: 2rem; }
+  padding: 2rem;
+  max-width: 90rem; }
 
 /* -----------------------------------------------------------
   Mobile view
@@ -568,7 +569,7 @@ body {
 
   /* Undo mobile CSS */
   #sidebar, .home #sidebar {
-    width: 21rem;
+    width: 20rem;
     text-align: left; }
     #sidebar > *:last-child, .home #sidebar > *:last-child {
       margin-bottom: 0; }
@@ -600,7 +601,7 @@ body {
         .container > header h1:last-child, .container > header h2:last-child {
           margin-bottom: 0.5rem; }
     .container > * {
-      max-width: 55rem;
+      max-width: 90rem;
       padding: 0; } }
 /* -----------------------------------------------------------
   Sidebar links + nav
@@ -748,7 +749,7 @@ button.disqus-load {
     border-radius: 300px;
     border-width: 1px;
     width: 60%;
-    max-width: 21rem;
+    max-width: 20rem;
     background: #fff;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); }
     .pagination > a:hover {
