@@ -36,6 +36,11 @@ paper {
  color: #; 
  font-weight:bold;
 }
+
+details summary::-webkit-details-marker {
+    margin: 0;
+    padding: 0;
+}
 </style>
 
 ### 2018

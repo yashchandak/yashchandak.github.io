@@ -33,15 +33,21 @@ paper {
  color: #; 
  font-weight:bold;
 }
+
+p {
+    padding: 0;
+    margin: 0;
+}
 </style>
 
 
 <br>
 
-I'm a second year MS/PhD student at [University of Massachusetts, Amherst](https://www.umass.edu/) fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
+I'm a second year MS/PhD student at [University of Massachusetts Amherst](https://www.umass.edu/), fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
 My primary interest is in **continual learning**, a branch of Artificial Intelligence, which aims at teaching machines
 new concepts over time. My research is mostly at the intersection of reinforcement learning,
 optimization and machine learning. I enjoy reading and looking out for inspirations from neuroscience as well.
+<br><br>
 
 I completed my B.Tech in Computer Science at [VIT University](http://chennai.vit.ac.in/) in 2017, where [Prof. Nithya Darisini](https://www.researchgate.net/scientific-contributions/2046556969_PS_Nithya_Darisini) was my mentor. I was also fortunate to spend most of my senior year at [IIT-Madras](https://www.iitm.ac.in) under the guidance of
 [Prof. B. Ravindran](https://www.cse.iitm.ac.in/~ravi/). In my Junior year, I had great learning experiences at [Defence Research and Development Organization(IRDE, DRDO)](https://www.drdo.gov.in/drdo/labs1/IRDE/English/indexnew.jsp?pg=homepage.jsp)
@@ -66,7 +72,7 @@ Before that, I was a national level basketball player in India and used to play 
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
-     <td width="12%"  valign="top">
+     <td width="14%"  valign="top">
             <img src="/images/publications/dynamic_action.png" alt="dynamic_actions" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -79,7 +85,6 @@ Before that, I was a national level basketball player in India and used to play 
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
               (Under review)
-              <!-- [<a href="">Arxiv</a>, <a href="">Code</a>] -->
               <details>
                 <summary>Abstract</summary>            
                   <p class="message">
@@ -91,7 +96,7 @@ Before that, I was a national level basketball player in India and used to play 
    </tr>
 
    <tr>
-     <td width="12%"  valign="top">
+     <td width="14%"  valign="top">
             <img src="/images/publications/action_rep.png" alt="action_representations" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -104,7 +109,6 @@ Before that, I was a national level basketball player in India and used to play 
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
               (Under review)
-              <!-- [<a href="">Arxiv</a>, <a href="">Code</a>] -->
               <details>
                 <summary>Abstract</summary>            
                   <p class="message">
@@ -116,7 +120,7 @@ Before that, I was a national level basketball player in India and used to play 
    </tr>
 
    <tr>
-     <td width="12%"  valign="top">
+     <td width="14%"  valign="top">
             <img src="/images/publications/fgcn.png" alt="FGCN" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -130,9 +134,8 @@ Before that, I was a national level basketball player in India and used to play 
               <br>
               14th International Workshop on Machine Learning with Graphs, 24th ACM SIGKDD Conference on
 Knowledge Discovery and Data Mining (KDD 2018).
-              [<a href="https://arxiv.org/abs/1805.12528">Arxiv</a>, <a href="https://github.com/PriyeshV/HOPF">Code</a>] 
               <details>
-                <summary>Abstract</summary>            
+                <summary>Abstract | <a href="https://arxiv.org/abs/1805.12528">Arxiv</a> | <a href="https://github.com/PriyeshV/HOPF">Code</a></summary>            
                   <p class="message">
                      Semi-supervised node classification in attributed graphs, i.e., graphs with node features, involves learning to classify unlabeled nodes given a partially labeled graph. Label predictions are made by jointly modeling the node and its' neighborhood features. State-of-the-art models for node classification on such attributed graphs use differentiable recursive functions that enable aggregation and filtering of neighborhood information from multiple hops. In this work, we analyze the representation capacity of these models to regulate information from multiple hops independently. From our analysis, we conclude that these models despite being powerful, have limited representation capacity to capture multi-hop neighborhood information effectively. Further, we also propose a mathematically motivated, yet simple extension to existing graph convolutional networks (GCNs) which has improved representation capacity. We extensively evaluate the proposed model, F-GCN on eight popular datasets from different domains. F-GCN outperforms the state-of-the-art models for semi-supervised learning on six datasets while being extremely competitive on the other two. 
                   </p>
@@ -142,7 +145,7 @@ Knowledge Discovery and Data Mining (KDD 2018).
    </tr>
       
    <tr>
-     <td width="12%"  valign="top">
+     <td width="14%"  valign="top">
             <img src="/images/publications/hopf.png" alt="HOPF" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -156,9 +159,8 @@ Knowledge Discovery and Data Mining (KDD 2018).
               <br>
               Eighth International Workshop on Statistical Relational AI at the 27th International Joint Conference on
 Artificial Intelligence (IJCAI 2018).
-              [<a href="https://arxiv.org/abs/1805.12421">Arxiv</a>, <a href="https://github.com/PriyeshV/HOPF">Code</a>] 
               <details>
-                <summary>Abstract</summary>            
+                <summary>Abstract | <a href="https://arxiv.org/abs/1805.12421">Arxiv</a> | <a href="https://github.com/PriyeshV/HOPF">Code</a></summary>            
                   <p class="message">
                      Given a graph where every node has certain attributes associated with it and some nodes have labels associated with them, Collective Classification (CC) is the task of assigning labels to every unlabeled node using information from the node as well as its neighbors. It is often the case that a node is not only influenced by its immediate neighbors but also by higher order neighbors, multiple hops away. Recent state-of-the-art models for CC learn end-to-end differentiable variations of Weisfeiler-Lehman (WL) kernels to aggregate multi-hop neighborhood information. In this work, we propose a Higher Order Propagation Framework, HOPF, which provides an iterative inference mechanism for these powerful differentiable kernels. Such a combination of classical iterative inference mechanism with recent differentiable kernels allows the framework to learn graph convolutional filters that simultaneously exploit the attribute and label information available in the neighborhood. Further, these iterative differentiable kernels can scale to larger hops beyond the memory limitations of existing differentiable kernels. We also show that existing WL kernel-based models suffer from the problem of Node Information Morphing where the information of the node is morphed or overwhelmed by the information of its neighbors when considering multiple hops. To address this, we propose a specific instantiation of HOPF, called the NIP models, which preserves the node information at every propagation step. The iterative formulation of NIP models further helps in incorporating distant hop information concisely as summaries of the inferred labels. We do an extensive evaluation across 11 datasets from different domains. We show that existing CC models do not provide consistent performance across datasets, while the proposed NIP model with iterative inference is more robust.
                   </p>
@@ -174,7 +176,7 @@ Artificial Intelligence (IJCAI 2018).
 
 <table>
    <tr>
-     <td width="12%"  valign="top">
+     <td width="14%"  valign="top">
             <img src="/images/publications/human_machine.png" alt="Human-Machine" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -189,9 +191,8 @@ Artificial Intelligence (IJCAI 2018).
               <b>Others</b>
               <br>
               The thrid AAAI Conference on Human Computation and Crowdsourcing (wip) (HCOMP 2015).
-              [<a href="https://arxiv.org/pdf/1509.07543.pdf">Arxiv</a>] 
               <details>
-                <summary>Abstract</summary>            
+                <summary>Abstract | <a href="https://arxiv.org/pdf/1509.07543.pdf">Arxiv</a> </summary>            
                   <p class="message">
                      When crowdsourcing systems are used in combination with machine inference systems in the real world, they benefit the most when the machine system is deeply integrated with the crowd workers. However, if researchers wish to integrate the crowd with "off-the-shelf" machine classifiers, this deep integration is not always possible. This work explores two strategies to increase accuracy and decrease cost under this setting. First, we show that reordering tasks presented to the human can create a significant accuracy improvement. Further, we show that greedily choosing parameters to maximize machine accuracy is sub-optimal, and joint optimization of the combined system improves performance. 
                   </p>
@@ -221,7 +222,7 @@ Artificial Intelligence (IJCAI 2018).
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
-     <td width="7%"  valign="top">
+     <td width="9%"  valign="top">
             <img src="/images/talks/action_rep.png" alt="action_rep" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="middle" width="85%">
