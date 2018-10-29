@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-29T00:57:09-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yash Chandak</title><subtitle>ychandak@cs.umass.edu</subtitle><author><name>Yash Chandak</name></author><entry><title type="html">Hello World!</title><link href="http://localhost:4000/2012/02/07/example-content.html" rel="alternate" type="text/html" title="Hello World!" /><published>2012-02-07T00:00:00-05:00</published><updated>2012-02-07T00:00:00-05:00</updated><id>http://localhost:4000/2012/02/07/example-content</id><content type="html" xml:base="http://localhost:4000/2012/02/07/example-content.html">&lt;div class=&quot;message&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-29T11:59:28-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yash Chandak</title><subtitle>ychandak@cs.umass.edu</subtitle><author><name>Yash Chandak</name></author><entry><title type="html">Hello World!</title><link href="http://localhost:4000/2012/02/07/example-content.html" rel="alternate" type="text/html" title="Hello World!" /><published>2012-02-07T00:00:00-05:00</published><updated>2012-02-07T00:00:00-05:00</updated><id>http://localhost:4000/2012/02/07/example-content</id><content type="html" xml:base="http://localhost:4000/2012/02/07/example-content.html">&lt;div class=&quot;message&quot;&gt;
   This is a demo post.
 &lt;/div&gt;
 
@@ -51,7 +51,9 @@
 
 &lt;p&gt;Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/5555251.js?file=gist.md&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/5555251.js?file=gist.md&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.&lt;/p&gt;
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: homepage
 excerpt_separator:  <!--more-->
 ---
 
@@ -50,7 +50,7 @@ optimization and machine learning. I enjoy reading and looking out for inspirati
 <br><br>
 
 I completed my B.Tech in Computer Science at [VIT University](http://chennai.vit.ac.in/) in 2017, where [Prof. Nithya Darisini](https://www.researchgate.net/scientific-contributions/2046556969_PS_Nithya_Darisini) was my mentor. I was also fortunate to spend most of my senior year at [IIT-Madras](https://www.iitm.ac.in) under the guidance of
-[Prof. B. Ravindran](https://www.cse.iitm.ac.in/~ravi/). In my Junior year, I had great learning experiences at [Defence Research and Development Organization(IRDE, DRDO)](https://www.drdo.gov.in/drdo/labs1/IRDE/English/indexnew.jsp?pg=homepage.jsp)
+[Prof. B. Ravindran](https://www.cse.iitm.ac.in/~ravi/). In my junior year, I had great learning experiences at [Defence Research and Development Organization(IRDE, DRDO)](https://www.drdo.gov.in/drdo/labs1/IRDE/English/indexnew.jsp?pg=homepage.jsp)
 under Dr. J.P. Singh and later at [University of Technology, Troyes, France](http://www.utt.fr/en/index.html) under [Prof. Babiga Birregah](https://scholar.google.com/citations?user=qHEWWZ8AAAAJ&hl=en).
 During my sophomore days, I was introduced to machine learning research by
 [Prof. James Davis](https://users.soe.ucsc.edu/~davis/), UCSC, and [Rajan Vaish](https://stanford.edu/~rvaish/), Stanford, through their large-scale research initiative:
@@ -58,7 +58,7 @@ During my sophomore days, I was introduced to machine learning research by
 Before that, I was a national level basketball player in India and used to play all day everyday.
 
 
-<br>
+<br><br>
 ## Recent
 
 - Interned at Adobe Research under [Dr. Georgios Theocharous](https://research.adobe.com/person/georgios-theocharous/) during Summer 2018.  
