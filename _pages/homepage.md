@@ -230,7 +230,7 @@ Artificial Intelligence (IJCAI 2018).
             <b>Improving Generalization by Learning
  Action Representations for Reinforcement Learning.</b>
             <br>
-            <a href='http://www-all.cs.umass.edu/'>Autonomous Learning Lab</a>, UMass, 2018. [<a href='https://docs.google.com/presentation/d/1g8v-8Bje6WhUAjcZ4I46gFmoo5thAe4rautrQ3o0gMY/edit?usp=sharing'>Slides</a>]
+            <a href='http://www-all.cs.umass.edu/'>Autonomous Learning Lab</a>, UMass, 2018. 
           </p>  
      </td>
    </tr>
@@ -243,7 +243,7 @@ Artificial Intelligence (IJCAI 2018).
           <p>
             <b>Faster convergence for Q-Learning using Zap-Q.</b>
             <br>
-            <a href='http://www-all.cs.umass.edu/'>Autonomous Learning Lab</a>, UMass, 2017. [<a href='https://docs.google.com/presentation/d/1kczu1I8HDtOf6VI8rBHlJ9v4w2NDzFbBf8oqo9_iEBQ/edit?usp=sharing'>Slides</a>]
+            <a href='http://www-all.cs.umass.edu/'>Autonomous Learning Lab</a>, UMass, 2017. 
           </p>  
      </td>
    </tr>
@@ -256,7 +256,7 @@ Artificial Intelligence (IJCAI 2018).
           <p>
             <b>Life-long learning, overcoming catastrophic forgetting in Neural Netowrks.</b>
             <br>
-            <a href='http://rise.cse.iitm.ac.in/'>RISE lab</a>, IIT-Madras, 2017. [<a href='https://docs.google.com/presentation/d/1gcaM2Q6wfpQ4da8KTaCOFaEBpkjTyd_8XJHpygSLF58/edit?usp=sharing'>Slides</a>]
+            <a href='http://rise.cse.iitm.ac.in/'>RISE lab</a>, IIT-Madras, 2017. 
           </p>  
      </td>
    </tr>      
