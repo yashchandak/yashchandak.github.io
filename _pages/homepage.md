@@ -84,7 +84,7 @@ Before that, I was a national level basketball player in India and used to play 
               <a href='https://people.cs.umass.edu/~jekostas/jekostas.html'>James Kostas</a>, 
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
-              (Under review)
+              Continual Learning workshop at the Thirty-second Conference on Neural Information Processing Systems (NIPS 2018)
               <details>
                 <summary>Abstract</summary>            
                   <p class="message">
