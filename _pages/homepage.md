@@ -71,29 +71,6 @@ Before that, I was a national level basketball player in India and used to play 
 #### 2018
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-   <tr>
-     <td width="14%"  valign="top">
-            <img src="/images/publications/dynamic_action.png" alt="dynamic_actions" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
-     </td>
-     <td valign="top" width="85%">
-          <p>
-              <paper>Reinforcement Learning with a Dynamic Action Set</paper>
-              <br>
-              <b>Yash Chandak</b>, 
-              <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,   
-              <a href='https://people.cs.umass.edu/~jekostas/jekostas.html'>James Kostas</a>, 
-              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
-              <br>
-              Continual Learning workshop at the Thirty-second Conference on Neural Information Processing Systems (NIPS 2018)
-              <details>
-                <summary>Abstract</summary>            
-                  <p class="message">
-                    Reinforcement learning has been successfully applied to many sequential decision making problems, where the set of possible actions (possible decisions) is fixed. However, in many real-world settings, the set of possible actions can change over time.  We present a model-free method to continually adapt to a dynamic set of possible actions. We show how a policy can be decomposed into an internal policy that acts in a space of action representations and a reward-independent component that transforms these representations into actual actions.  These representations not only make the internal policy parameterization invariant to the cardinality of the action set, but also improve generalization by allowing the agent to infer the outcomes of actions similar to actions already taken. We provide an algorithm to autonomously adapt to this dynamic action set by exploiting structure in the space of actions using supervised learning while learning the internal policy using policy gradient.  The efficacy of the proposed method is demonstrated on large-scale real-world continual learning problems. 
-                  </p>
-              </details>
-          </p>  
-     </td>
-   </tr>
 
    <tr>
      <td width="14%"  valign="top">
@@ -113,6 +90,29 @@ Before that, I was a national level basketball player in India and used to play 
                 <summary>Abstract</summary>            
                   <p class="message">
                     Most  model-free  reinforcement  learning  methods  leverage state representations (embeddings) for generalization but either  ignore  structure  in  the  space  of  actions  or  assume the  structure  is  provided a  priori. We  show  how  a  policy can  be  decomposed  into  a  component  that  acts  in  a  lower-dimensional  space  of  action  representations  and  a  component that transforms these representations into actual actions. These representations help to improve generalization by allowing the agent to infer the outcomes of actions similar to actions already taken. We provide an algorithm, along with a  proof  of  its  convergence,  to  both  learn  and  use  these  action representations efficiently. The efficacy of the proposed method is demonstrated on large-scale real-world problems.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+   <tr>
+     <td width="14%"  valign="top">
+            <img src="/images/publications/dynamic_action.png" alt="dynamic_actions" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Reinforcement Learning with a Dynamic Action Set</paper>
+              <br>
+              <b>Yash Chandak</b>, 
+              <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,   
+              <a href='https://people.cs.umass.edu/~jekostas/jekostas.html'>James Kostas</a>, 
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <br>
+              Continual Learning workshop at the Thirty-second Conference on Neural Information Processing Systems (NIPS 2018)
+              <details>
+                <summary>Abstract</summary>            
+                  <p class="message">
+                    Reinforcement learning has been successfully applied to many sequential decision making problems, where the set of possible actions (possible decisions) is fixed. However, in many real-world settings, the set of possible actions can change over time.  We present a model-free method to continually adapt to a dynamic set of possible actions. We show how a policy can be decomposed into an internal policy that acts in a space of action representations and a reward-independent component that transforms these representations into actual actions.  These representations not only make the internal policy parameterization invariant to the cardinality of the action set, but also improve generalization by allowing the agent to infer the outcomes of actions similar to actions already taken. We provide an algorithm to autonomously adapt to this dynamic action set by exploiting structure in the space of actions using supervised learning while learning the internal policy using policy gradient.  The efficacy of the proposed method is demonstrated on large-scale real-world continual learning problems. 
                   </p>
               </details>
           </p>  
