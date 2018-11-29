@@ -53,8 +53,7 @@ I completed my B.Tech in Computer Science at [VIT University](http://chennai.vit
 [Prof. B. Ravindran](https://www.cse.iitm.ac.in/~ravi/). In my junior year, I had great learning experiences at the Indian [Defence Research and Development Organization(IRDE, DRDO)](https://www.drdo.gov.in/drdo/labs1/IRDE/English/indexnew.jsp?pg=homepage.jsp)
 under Dr. J.P. Singh and later at the [University of Technology, Troyes, France](http://www.utt.fr/en/index.html) under [Prof. Babiga Birregah](https://scholar.google.com/citations?user=qHEWWZ8AAAAJ&hl=en).
 During my sophomore days, I was introduced to machine learning research by
-[Prof. James Davis](https://users.soe.ucsc.edu/~davis/), UCSC, and [Rajan Vaish](http://www.rajanvaish.com), Stanford, through their large-scale research initiative:
-[Aspiring Researcher Challenge](https://aspiringresearchers.soe.ucsc.edu/).
+[Prof. James Davis](https://users.soe.ucsc.edu/~davis/) and [Rajan Vaish](http://www.rajanvaish.com) through [Aspiring Researcher Challenge](https://aspiringresearchers.soe.ucsc.edu/), a large-scale research initiative by professors from the Univ. of California and Stanford.
 Before that, I was a national level basketball player in India and used to play all day everyday.
 
 
