@@ -66,8 +66,7 @@ Before that, I was a national level basketball player in India and used to play 
 
 ## Publications
 
-
-#### 2018
+#### 2019
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
@@ -82,18 +81,25 @@ Before that, I was a national level basketball player in India and used to play 
               <b>Yash Chandak</b>, 
               <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,   
               <a href='https://people.cs.umass.edu/~jekostas/jekostas.html'>James Kostas</a>, 
+              <a href='https://people.cs.umass.edu/~sjordan/'>Scott Jordan</a>,              
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
-              (Under review)
+              Preprint
               <details>
-                <summary>Abstract</summary>            
+                <summary>Abstract | <a href="https://arxiv.org/abs/1902.00183">Arxiv</a> </summary>            
                   <p class="message">
-                    Most  model-free  reinforcement  learning  methods  leverage state representations (embeddings) for generalization but either  ignore  structure  in  the  space  of  actions  or  assume the  structure  is  provided a  priori. We  show  how  a  policy can  be  decomposed  into  a  component  that  acts  in  a  lower-dimensional  space  of  action  representations  and  a  component that transforms these representations into actual actions. These representations help to improve generalization by allowing the agent to infer the outcomes of actions similar to actions already taken. We provide an algorithm, along with a  proof  of  its  convergence,  to  both  learn  and  use  these  action representations efficiently. The efficacy of the proposed method is demonstrated on large-scale real-world problems.
+                    Most model-free reinforcement learning methods leverage state representations (embeddings) for generalization, but either ignore structure in the space of actions or assume the structure is provided a priori. We show how a policy can be decomposed into a component that acts in a low-dimensional space of action representations and a component that transforms these representations into actual actions. These representations improve generalization over large, finite action sets by allowing the agent to infer the outcomes of actions similar to actions already taken. We provide an algorithm to both learn and use action representations and provide conditions for its convergence. The efficacy of the proposed method is demonstrated on large-scale real-world problems. 
                   </p>
               </details>
           </p>  
      </td>
    </tr>
+   <tr>
+</table>
+
+#### 2018
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
      <td width="14%"  valign="top">
             <img src="/images/publications/dynamic_action.png" alt="dynamic_actions" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
