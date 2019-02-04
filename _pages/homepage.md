@@ -76,7 +76,7 @@ Before that, I was a national level basketball player in India and used to play 
      </td>
      <td valign="top" width="85%">
           <p>
-              <paper>Improving Generalization by Learning Action Representations for Reinforcement Learning</paper>
+              <paper>Learning Action Representations for Reinforcement Learning</paper>
               <br>
               <b>Yash Chandak</b>, 
               <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,   
