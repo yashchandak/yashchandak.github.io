@@ -94,7 +94,6 @@ Before that, I was a national level basketball player in India and used to play 
           </p>  
      </td>
    </tr>
-   <tr>
 </table>
 
 #### 2018
