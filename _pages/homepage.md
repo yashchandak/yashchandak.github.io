@@ -59,8 +59,8 @@ Before that, I was a national level basketball player in India and used to play 
 
 <br><br>
 ## Recent
-
-- Interned at Adobe Research under [Dr. Georgios Theocharous](https://research.adobe.com/person/georgios-theocharous/) during Summer 2018.  
+- Our paper on learning action representations got accepted at ICML'19!
+- I will be interning at Adobe Research under [Sridhar Mahadevan](https://people.cs.umass.edu/~mahadeva/Site/About_Me.html) and [Georgios Theocharous](https://research.adobe.com/person/georgios-theocharous/) during Summer 2019.  
 
 <br><br>
 
@@ -84,7 +84,7 @@ Before that, I was a national level basketball player in India and used to play 
               <a href='https://people.cs.umass.edu/~sjordan/'>Scott Jordan</a>,              
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
-              Preprint
+              Thirty-sixth International Conference on Machine Learning (ICML 2019)
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/1902.00183">Arxiv</a> </summary>            
                   <p class="message">
@@ -94,6 +94,31 @@ Before that, I was a national level basketball player in India and used to play 
           </p>  
      </td>
    </tr>
+   
+   <tr>
+     <td width="14%"  valign="top">
+            <img src="/images/publications/action_rep_2.png" alt="action_generalization" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Improving Generalization over Large Action Sets</paper>
+              <br>
+              <b>Yash Chandak</b>, 
+              <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,   
+              <a href='https://people.cs.umass.edu/~jekostas/jekostas.html'>James Kostas</a>, 
+              <a href='https://people.cs.umass.edu/~sjordan/'>Scott Jordan</a>,              
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <br>
+              <b>(Oral)</b> 4th Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM 2019)
+              <details>
+                <summary> Abstract </summary>            
+                  <p class="message">
+                    Most model-free reinforcement learning methods leverage state representations (embeddings) for generalization, but either ignore structure in the space of actions or assume the structure is provided a priori. We show how a policy can be decomposed into a component that acts in a low-dimensional space of action representations and a component that transforms these representations into actual actions. These representations improve generalization over large, finite action sets by allowing the agent to infer the outcomes of actions similar to actions already taken. We provide an algorithm to both learn and use action representations and provide conditions for its convergence. The efficacy of the proposed method is demonstrated on large-scale real-world problems. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>   
 </table>
 
 #### 2018
@@ -112,11 +137,11 @@ Before that, I was a national level basketball player in India and used to play 
               <a href='https://people.cs.umass.edu/~jekostas/jekostas.html'>James Kostas</a>, 
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
-              Continual Learning workshop at the Thirty-second Conference on Neural Information Processing Systems (NIPS 2018)
+              Continual Learning workshop at the Thirty-second Conference on Neural Information Processing Systems (NeurIPS 2018)
               <details>
                 <summary>Abstract</summary>            
                   <p class="message">
-                    Reinforcement learning has been successfully applied to many sequential decision making problems, where the set of possible actions (possible decisions) is fixed. However, in many real-world settings, the set of possible actions can change over time.  We present a model-free method to continually adapt to a dynamic set of possible actions. We show how a policy can be decomposed into an internal policy that acts in a space of action representations and a reward-independent component that transforms these representations into actual actions.  These representations not only make the internal policy parameterization invariant to the cardinality of the action set, but also improve generalization by allowing the agent to infer the outcomes of actions similar to actions already taken. We provide an algorithm to autonomously adapt to this dynamic action set by exploiting structure in the space of actions using supervised learning while learning the internal policy using policy gradient.  The efficacy of the proposed method is demonstrated on large-scale real-world continual learning problems. 
+                    Reinforcement learning has been successfully applied to many sequential decision making problems, where the set of possible actions (possible decisions) is fixed. However, in many real-world settings, the set of possible actions can change over time.  We present a model-free method to continually adapt to a dynamic set of possible actions. We show how using action representations can allow policy parameterization to be invariant to the cardinality of the action set. We provide an algorithm to autonomously adapt to this dynamic action set by exploiting structure in the space of actions. The efficacy of the proposed method is demonstrated on large-scale real-world continual learning problems. 
                   </p>
               </details>
           </p>  
@@ -210,6 +235,7 @@ Artificial Intelligence (IJCAI 2018).
 
 ## Courses
 
+- [CS 690OP: Optimization in Computer Science](https://optimizationincomputerscience.wordpress.com/)
 - [CS 689: Machine Learning](http://openscholar.cs.umass.edu/marlin/classes/compsci-689-machine-learning) 
 - [CS 650: Applied Information Theory](https://people.cs.umass.edu/~arya/courses/650/CS650-2016.html)
 - [CS 611: Advanced Algorithms](https://people.cs.umass.edu/~ramesh/Site/TEACHING.html)
@@ -221,10 +247,20 @@ Artificial Intelligence (IJCAI 2018).
 <br><br>
 ## Lab Talks
 
-
-
-
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+     <tr>
+     <td width="9%"  valign="top">
+            <img src="/images/talks/ope.png" alt="ope" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="middle" width="85%">
+          <p>
+            <b>Data efficient off-policy evaluation and doubly robust estimators.</b>
+            <br>
+            <a href='http://www-all.cs.umass.edu/'>Autonomous Learning Lab</a>, UMass, 2019. 
+          </p>  
+     </td>
+   </tr>
+  
    <tr>
      <td width="9%"  valign="top">
             <img src="/images/talks/action_rep.png" alt="action_rep" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
