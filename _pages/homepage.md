@@ -250,7 +250,7 @@ Artificial Intelligence (IJCAI 2018).
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
      <tr>
      <td width="9%"  valign="top">
-            <img src="/images/talks/ope.png" alt="ope" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/talks/ope.jpg" alt="ope" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="middle" width="85%">
           <p>
