@@ -254,7 +254,7 @@ Artificial Intelligence (IJCAI 2018).
      </td>
      <td valign="middle" width="85%">
           <p>
-            <b>Data efficient off-policy evaluation and doubly robust estimators.</b>
+            <b>Data Efficient Off-Policy Evaluation and Doubly Robust Estimators.</b>
             <br>
             <a href='http://www-all.cs.umass.edu/'>Autonomous Learning Lab</a>, UMass, 2019. 
           </p>  
