@@ -69,6 +69,53 @@ Before that, I was a national level basketball player in India and used to play 
 #### 2019
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+   <tr>
+     <td width="14%"  valign="top">
+            <img src="/images/publications/LAICA.png" alt="SAS" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Lifelong Learning with a Changing Action Set</paper>
+              <br>
+              <b>Yash Chandak</b>, 
+              <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,   
+              <a href='https://scholar.google.com/citations?user=clEBNJAAAAAJ&hl=en'>Chris Nota</a>, 
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <br>
+              (Preprint)
+              <details>
+                <summary>Abstract | <a href="https://arxiv.org/abs/1906.01770">Arxiv</a> </summary>            
+                  <p class="message">
+                    In many real-world sequential decision making problems, the number of available actions (decisions) can vary over time. While problems like catastrophic forgetting, changing transition dynamics, changing rewards functions, etc. have been well-studied in the lifelong learning literature, the setting where the action set changes remains unaddressed. In this paper, we present an algorithm that autonomously adapts to an action set whose size changes over time. To tackle this open problem, we break it into two problems that can be solved iteratively: inferring the underlying, unknown, structure in the space of actions and optimizing a policy that leverages this structure. We demonstrate the efficiency of this approach on large-scale real-world lifelong learning problems. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+  
+   <tr>
+     <td width="14%"  valign="top">
+            <img src="/images/publications/SAS.png" alt="SAS" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Reinforcement Learning When All Actions are Not Always Available</paper>
+              <br>
+              <b>Yash Chandak</b>, 
+              <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,   
+              <a href='https://bmetevier.github.io/'>Blossom Metevier</a>, 
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <br>
+              (Preprint)
+              <details>
+                <summary>Abstract | <a href="https://arxiv.org/abs/1906.01772">Arxiv</a> </summary>            
+                  <p class="message">
+                   The Markov decision process (MDP) formulation used to model many real-world sequential decision making problems does not capture the setting where the set of available decisions (actions) at each time step is stochastic. Recently, the stochastic action set Markov decision process (SAS-MDP) formulation has been proposed, which captures the concept of a stochastic action set. In this paper we argue that existing RL algorithms for SAS-MDPs suffer from divergence issues, and present new algorithms for SAS-MDPs that incorporate variance reduction techniques unique to this setting, and provide conditions for their convergence. We conclude with experiments that demonstrate the practicality of our approaches using several tasks inspired by real-life use cases wherein the action set is stochastic. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
 
    <tr>
      <td width="14%"  valign="top">
