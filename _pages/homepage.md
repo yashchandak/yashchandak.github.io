@@ -92,8 +92,8 @@ Before that, I was a national level basketball player in India and used to play 
           </p>  
      </td>
    </tr>
-  
-   <tr>
+
+  <tr>
      <td width="14%"  valign="top">
             <img src="/images/publications/SAS.png" alt="SAS" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
@@ -116,6 +116,33 @@ Before that, I was a national level basketball player in India and used to play 
           </p>  
      </td>
    </tr>
+   
+   <tr>
+     <td width="14%"  valign="top">
+            <img src="/images/publications/bellman_optimal.png" alt="Bellman" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Classical Policy Gradient: Preserving Bellman’s Principle of Optimality</paper>
+              <br>
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
+              <a href='https://people.cs.umass.edu/~sjordan/'>Scott Jordan</a>,                
+              <b>Yash Chandak</b>,    
+              <a href='https://scholar.google.com/citations?user=clEBNJAAAAAJ&hl=en'>Chris Nota</a>, 
+              <a href='https://people.cs.umass.edu/~jekostas/jekostas.html'>James Kostas</a>, 
+              <br>
+             Technical Report.
+              <details>
+                <summary>Abstract | <a href="https://arxiv.org/abs/1906.03063">Arxiv</a> </summary>            
+                  <p class="message">
+                    We propose a new objective function for finite-horizon episodic Markov decision processes that better captures Bellman's principle of optimality, and provide an expression for the gradient of the objective.  
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+
+
 
    <tr>
      <td width="14%"  valign="top">
