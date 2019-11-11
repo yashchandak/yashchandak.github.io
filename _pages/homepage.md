@@ -43,7 +43,7 @@ p {
 
 <br>
 
-I'm a second year MS/PhD student at the [University of Massachusetts Amherst](https://www.umass.edu/). I am also a member of the [Autonomous Learning Lab (ALL)](http://www-all.cs.umass.edu/) and am fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
+I'm a third year MS/PhD student at the [University of Massachusetts Amherst](https://www.umass.edu/). I am also a member of the [Autonomous Learning Lab (ALL)](http://www-all.cs.umass.edu/) and am fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
 My primary interest is in **continual learning**, a branch of Artificial Intelligence, which aims at teaching machines
 new concepts over time. My research is mostly at the intersection of reinforcement learning,
 optimization, and machine learning. I enjoy reading and looking out for inspirations from neuroscience as well.
