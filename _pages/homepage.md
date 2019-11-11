@@ -117,11 +117,9 @@ Before that, I was a national level basketball player in India and used to play 
           </p>  
      </td>
    </tr>
-   
-   <tr>
-     <td width="14%"  valign="top">
-            <img src="/images/publications/bellman_optimal.png" alt="Bellman" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
-     </td>
+
+</table>   
+
 
 
 
