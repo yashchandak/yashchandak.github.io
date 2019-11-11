@@ -83,7 +83,7 @@ Before that, I was a national level basketball player in India and used to play 
               <a href='https://scholar.google.com/citations?user=clEBNJAAAAAJ&hl=en'>Chris Nota</a>, 
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
-              Thirty-fourth Conference on Artifical Intelligence (AAAI 2020)
+              <b>(Oral)</b> Thirty-fourth Conference on Artifical Intelligence (AAAI 2020)
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/1906.01770">Arxiv</a> </summary>            
                   <p class="message">
