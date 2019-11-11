@@ -59,6 +59,7 @@ Before that, I was a national level basketball player in India and used to play 
 
 <br><br>
 ## Recent
+- Our papers on (a) lifelong learning with a changing action set, and (b) RL when all actions are not always available, got accepted at AAAI'20!  
 - Our paper on learning action representations got accepted at ICML'19!
 - I will be interning at Adobe Research under [Sridhar Mahadevan](https://people.cs.umass.edu/~mahadeva/Site/About_Me.html) and [Georgios Theocharous](https://research.adobe.com/person/georgios-theocharous/) during Summer 2019.  
 
@@ -66,7 +67,7 @@ Before that, I was a national level basketball player in India and used to play 
 
 ## Publications
 
-#### 2019
+#### 2020
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
@@ -82,7 +83,7 @@ Before that, I was a national level basketball player in India and used to play 
               <a href='https://scholar.google.com/citations?user=clEBNJAAAAAJ&hl=en'>Chris Nota</a>, 
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
-              (Preprint)
+              Thirty-fourth Conference on Artifical Intelligence (AAAI 2020)
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/1906.01770">Arxiv</a> </summary>            
                   <p class="message">
@@ -106,7 +107,7 @@ Before that, I was a national level basketball player in India and used to play 
               <a href='https://bmetevier.github.io/'>Blossom Metevier</a>, 
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
-              (Preprint)
+              Thirty-fourth Conference on Artifical Intelligence (AAAI 2020)
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/1906.01772">Arxiv</a> </summary>            
                   <p class="message">
@@ -121,29 +122,15 @@ Before that, I was a national level basketball player in India and used to play 
      <td width="14%"  valign="top">
             <img src="/images/publications/bellman_optimal.png" alt="Bellman" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
-     <td valign="top" width="85%">
-          <p>
-              <paper>Classical Policy Gradient: Preserving Bellman’s Principle of Optimality</paper>
-              <br>
-              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
-              <a href='https://people.cs.umass.edu/~sjordan/'>Scott Jordan</a>,                
-              <b>Yash Chandak</b>,    
-              <a href='https://scholar.google.com/citations?user=clEBNJAAAAAJ&hl=en'>Chris Nota</a>, 
-              <a href='https://people.cs.umass.edu/~jekostas/jekostas.html'>James Kostas</a>, 
-              <br>
-             Technical Report.
-              <details>
-                <summary>Abstract | <a href="https://arxiv.org/abs/1906.03063">Arxiv</a> </summary>            
-                  <p class="message">
-                    We propose a new objective function for finite-horizon episodic Markov decision processes that better captures Bellman's principle of optimality, and provide an expression for the gradient of the objective.  
-                  </p>
-              </details>
-          </p>  
-     </td>
-   </tr>
 
 
 
+  
+
+#### 2019
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  
    <tr>
      <td width="14%"  valign="top">
             <img src="/images/publications/action_rep.png" alt="action_representations" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
@@ -192,7 +179,34 @@ Before that, I was a national level basketball player in India and used to play 
               </details>
           </p>  
      </td>
-   </tr>   
+   </tr>  
+   
+  <tr>
+     <td width="14%"  valign="top">
+            <img src="/images/publications/bellman_optimal.png" alt="Bellman" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Classical Policy Gradient: Preserving Bellman’s Principle of Optimality</paper>
+              <br>
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
+              <a href='https://people.cs.umass.edu/~sjordan/'>Scott Jordan</a>,                
+              <b>Yash Chandak</b>,    
+              <a href='https://scholar.google.com/citations?user=clEBNJAAAAAJ&hl=en'>Chris Nota</a>, 
+              <a href='https://people.cs.umass.edu/~jekostas/jekostas.html'>James Kostas</a>, 
+              <br>
+             Technical Report.
+              <details>
+                <summary>Abstract | <a href="https://arxiv.org/abs/1906.03063">Arxiv</a> </summary>            
+                  <p class="message">
+                    We propose a new objective function for finite-horizon episodic Markov decision processes that better captures Bellman's principle of optimality, and provide an expression for the gradient of the objective.  
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+
+
 </table>
 
 #### 2018
