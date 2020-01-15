@@ -59,6 +59,7 @@ Before that, I was a national level basketball player in India and used to play 
 
 <br><br>
 ## Recent
+- Received Outstanding Student Paper Honorable Mention by AAAI'20 for our paper on Lifelong Learning with a Changing Action Set.
 - Our papers on (a) lifelong learning with a changing action set, and (b) RL when all actions are not always available, got accepted at AAAI'20!  
 - Our paper on learning action representations got accepted at ICML'19!
 - I will be interning at Adobe Research under [Sridhar Mahadevan](https://people.cs.umass.edu/~mahadeva/Site/About_Me.html) and [Georgios Theocharous](https://research.adobe.com/person/georgios-theocharous/) during Summer 2019.  
@@ -84,6 +85,8 @@ Before that, I was a national level basketball player in India and used to play 
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
               <b>(Oral)</b> Thirty-fourth Conference on Artificial Intelligence (AAAI 2020)
+              <br>
+              <b>Outstanding Student Paper Honorable Mention.</b>
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/1906.01770">Arxiv</a> </summary>            
                   <p class="message">
