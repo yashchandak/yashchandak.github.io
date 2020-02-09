@@ -86,7 +86,7 @@ Before that, I was a national level basketball player in India and used to play 
               <br>
               <b>(Oral)</b> Thirty-fourth Conference on Artificial Intelligence (AAAI 2020)
               <br>
-              <b>Outstanding Student Paper Honorable Mention.</b>
+              <b> :star: Outstanding Student Paper Honorable Mention. </b>
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/1906.01770">Arxiv</a> </summary>            
                   <p class="message">
