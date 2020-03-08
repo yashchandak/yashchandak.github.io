@@ -1,7 +1,7 @@
 ---
 permalink: "/about/"
 layout: page
-title: About_2
+title: About Me
 sidebar_link: true
 ---
 
