@@ -2,7 +2,7 @@
 permalink: "/about/"
 layout: page
 title: About_2
-sidebar_link: True
+sidebar_link: true
 ---
 
 <br>
