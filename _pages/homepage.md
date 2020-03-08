@@ -59,6 +59,7 @@ Before that, I was a national level basketball player in India and used to play 
 
 <br><br>
 ## Recent
+- I will be at [RLAI](http://rlai.ualberta.ca/), [University of ALberta](https://www.ualberta.ca/computing-science/index.html), as a visiting student working with [Prof. Martha White](https://webdocs.cs.ualberta.ca/~whitem/) during summer of 2020.
 - Received Outstanding Student Paper Honorable Mention by AAAI'20 for our paper on Lifelong Learning with a Changing Action Set.
 - Our papers on (a) lifelong learning with a changing action set, and (b) RL when all actions are not always available, got accepted at AAAI'20!  
 - Our paper on learning action representations got accepted at ICML'19!
