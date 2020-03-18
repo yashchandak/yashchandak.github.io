@@ -319,5 +319,5 @@ Artificial Intelligence (IJCAI 2018).
 ## Service
 
 - Reviewer for [ICML](https://icml.cc/) (2020, 2019)
-- Reviewer for [NeurIPS](https://nips.cc/) (2019)
+- Reviewer for [NeurIPS](https://nips.cc/) (2020, 2019)
 
