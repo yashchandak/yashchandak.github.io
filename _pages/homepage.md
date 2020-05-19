@@ -65,7 +65,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
-     <td width="14%"  valign="top">
+     <td width="14%"  valign="middle">
             <img src="/images/publications/prognosticator.png" alt="Future" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -92,7 +92,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 
    
    <tr>
-     <td width="14%"  valign="top">
+     <td width="14%"  valign="middle">
             <img src="/images/publications/LAICA.png" alt="SAS" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -118,7 +118,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
    </tr>
 
   <tr>
-     <td width="14%"  valign="top">
+     <td width="14%"  valign="middle">
             <img src="/images/publications/SAS.jpg" alt="SAS" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -153,7 +153,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
   
    <tr>
-     <td width="14%"  valign="top">
+     <td width="14%"  valign="middle">
             <img src="/images/publications/action_rep.png" alt="action_representations" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -178,7 +178,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
    </tr>
    
    <tr>
-     <td width="14%"  valign="top">
+     <td width="14%"  valign="middle">
             <img src="/images/publications/action_rep_2.png" alt="action_generalization" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -203,7 +203,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
    </tr>  
    
   <tr>
-     <td width="14%"  valign="top">
+     <td width="14%"  valign="middle">
             <img src="/images/publications/bellman_optimal.png" alt="Bellman" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -234,7 +234,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
-     <td width="14%"  valign="top">
+     <td width="14%"  valign="middle">
             <img src="/images/publications/dynamic_action.png" alt="dynamic_actions" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -258,7 +258,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
    </tr>
 
    <tr>
-     <td width="14%"  valign="top">
+     <td width="14%"  valign="middle">
             <img src="/images/publications/fgcn.png" alt="FGCN" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -283,7 +283,7 @@ Knowledge Discovery and Data Mining (KDD 2018).
    </tr>
       
    <tr>
-     <td width="14%"  valign="top">
+     <td width="14%"  valign="middle">
             <img src="/images/publications/hopf.png" alt="HOPF" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -314,7 +314,7 @@ Artificial Intelligence (IJCAI 2018).
 
 <table>
    <tr>
-     <td width="14%"  valign="top">
+     <td width="14%"  valign="middle">
             <img src="/images/publications/human_machine.png" alt="Human-Machine" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
