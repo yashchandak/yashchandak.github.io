@@ -66,7 +66,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
      <td width="14%"  valign="top">
-            <img src="/images/publications/prognosticator.png" alt="Future" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/prognosticator.png" alt="Future" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -93,7 +93,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
    
    <tr>
      <td width="14%"  valign="top">
-            <img src="/images/publications/LAICA.png" alt="SAS" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/LAICA.png" alt="SAS" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -119,7 +119,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 
   <tr>
      <td width="14%"  valign="top">
-            <img src="/images/publications/SAS.jpg" alt="SAS" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/SAS.jpg" alt="SAS" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -154,7 +154,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
   
    <tr>
      <td width="14%"  valign="top">
-            <img src="/images/publications/action_rep.png" alt="action_representations" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/action_rep.png" alt="action_representations" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -204,7 +204,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
    
   <tr>
      <td width="14%"  valign="top">
-            <img src="/images/publications/bellman_optimal.png" alt="Bellman" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/bellman_optimal.png" alt="Bellman" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -235,7 +235,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
      <td width="14%"  valign="top">
-            <img src="/images/publications/dynamic_action.png" alt="dynamic_actions" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/dynamic_action.png" alt="dynamic_actions" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -259,7 +259,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 
    <tr>
      <td width="14%"  valign="top">
-            <img src="/images/publications/fgcn.png" alt="FGCN" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/fgcn.png" alt="FGCN" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -284,7 +284,7 @@ Knowledge Discovery and Data Mining (KDD 2018).
       
    <tr>
      <td width="14%"  valign="top">
-            <img src="/images/publications/hopf.png" alt="HOPF" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/hopf.png" alt="HOPF" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -315,7 +315,7 @@ Artificial Intelligence (IJCAI 2018).
 <table>
    <tr>
      <td width="14%"  valign="top">
-            <img src="/images/publications/human_machine.png" alt="Human-Machine" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/human_machine.png" alt="Human-Machine" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
