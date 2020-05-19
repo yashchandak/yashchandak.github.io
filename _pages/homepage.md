@@ -66,6 +66,33 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
      <td width="14%"  valign="top">
+            <img src="/images/publications/prognosticator.png" alt="Future" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Optimizing for the Future in Non-Stationary MDPs</paper>
+              <br>
+              <b>Yash Chandak</b>, 
+              <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,   
+              <a href='https://scholar.google.com/citations?user=yK56jugAAAAJ&hl=en'>Shiv Shankar</a>,  
+              <a href='https://people.cs.umass.edu/~mahadeva/Site/About_Me.html'>Sridhar Mahadevan</a>,  
+              <a href='https://webdocs.cs.ualberta.ca/~whitem/'>Martha White</a>, 
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <br>
+              Preprint
+              <details>
+                <summary>Abstract | <a href="https://arxiv.org/abs/2005.08158">Arxiv</a> </summary>            
+                  <p class="message">
+                    Most reinforcement learning methods are based upon the key assumption that the transition dynamics and reward functions are fixed, that is, the underlying Markov decision process (MDP) is stationary. However, in many practical real-world applications, this assumption is often violated. We discuss how current methods can have inherent limitations for non-stationary MDPs, and therefore searching for a policy that is good for the future, unknown MDP, requires rethinking the optimization paradigm. To address this problem, we develop a method that builds upon ideas from both counter-factual reasoning and curve-fitting to proactively search for a good future policy, without ever modeling the underlying non-stationarity. Interestingly, we observe that minimizing performance over some of the data from past episodes might be beneficial when searching for a policy that maximizes future performance. The effectiveness of the proposed method is demonstrated on problems motivated by real-world applications. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+
+   
+   <tr>
+     <td width="14%"  valign="top">
             <img src="/images/publications/LAICA.png" alt="SAS" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
