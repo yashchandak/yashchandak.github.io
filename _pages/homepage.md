@@ -93,7 +93,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 
    <tr>
      <td width="14%"  valign="middle">
-            <img src="/images/publications/eval.png" alt="eval" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/evalrldm.png" alt="eval" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -225,7 +225,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
    
    <tr>
      <td width="14%"  valign="middle">
-            <img src="/images/publications/evalrldm.png" alt="eval" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/eval.png" alt="eval" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
