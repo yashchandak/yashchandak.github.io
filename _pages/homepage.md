@@ -52,6 +52,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 
 <br><br>
 ## Recent
+- Our papers on (a) Optmizing for the future in non-stationary MDPs, and (b) Evaluating the performance of RL algorithms, got accepted at ICML'20!
 - Received Outstanding Student Paper Honorable Mention by AAAI'20 for our paper on Lifelong Learning with a Changing Action Set.
 - Our papers on (a) lifelong learning with a changing action set, and (b) RL when all actions are not always available, got accepted at AAAI'20!  
 - Our paper on learning action representations got accepted at ICML'19!
@@ -79,7 +80,7 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
               <a href='https://webdocs.cs.ualberta.ca/~whitem/'>Martha White</a>, 
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
-              Preprint
+              Thirty-seventh International Conference on Machine Learning (ICML 2020)
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/2005.08158">Arxiv</a> </summary>            
                   <p class="message">
@@ -90,7 +91,33 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
      </td>
    </tr>
 
-   
+   <tr>
+     <td width="14%"  valign="middle">
+            <img src="/images/publications/eval.png" alt="eval" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Evaluating the Performance of Reinforcement Learning Algorithms</paper>
+              <br>
+              <a href='https://people.cs.umass.edu/~sjordan/'>Scott Jordan</a>,
+              <b>Yash Chandak</b>,    
+              <a href='https://people.cs.umass.edu/~dcohen/'>Daniel Cohen</a>,  
+              <a href='https://people.cs.umass.edu/~mengxuezhang/'>Mengxue Zhang</a>,  
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <br>
+              Thirty-seventh International Conference on Machine Learning (ICML 2020)
+              <details>
+                <summary>Abstract  </summary>            
+                  <p class="message">
+                    Performance evaluations are critical for quantifying algorithmic advances in reinforcement learning. Recent reproducibility analyses have shown that reported performance results are often inconsistent and difficult to replicate. In this work, we argue that the inconsistency of performance stems from the use of flawed evaluation metrics. Taking a step towards ensuring that reported results are consistent, we propose a new comprehensive evaluation methodology for reinforcement learning algorithms that produces reliable measurements of performance both on a single environment and when aggregated across environments. We demonstrate this method by evaluating a broad class of reinforcement learning algorithms on common benchmark tasks. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+
+
+
    <tr>
      <td width="14%"  valign="middle">
             <img src="/images/publications/LAICA.png" alt="SAS" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
@@ -192,15 +219,28 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
               <b>(Oral)</b> 4th Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM 2019)
-              <details>
-                <summary> Abstract </summary>            
-                  <p class="message">
-                    Most model-free reinforcement learning methods leverage state representations (embeddings) for generalization, but either ignore structure in the space of actions or assume the structure is provided a priori. We show how a policy can be decomposed into a component that acts in a low-dimensional space of action representations and a component that transforms these representations into actual actions. These representations improve generalization over large, finite action sets by allowing the agent to infer the outcomes of actions similar to actions already taken. We provide an algorithm to both learn and use action representations and provide conditions for its convergence. The efficacy of the proposed method is demonstrated on large-scale real-world problems. 
-                  </p>
-              </details>
           </p>  
      </td>
    </tr>  
+   
+   <tr>
+     <td width="14%"  valign="middle">
+            <img src="/images/publications/evalrldm.png" alt="eval" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Evaluating Reinforcement learning Algorithms Using Cumulative Distributions of Performance</paper>
+              <br>
+              <a href='https://people.cs.umass.edu/~sjordan/'>Scott Jordan</a>,
+              <b>Yash Chandak</b>,    
+              <a href='https://people.cs.umass.edu/~mengxuezhang/'>Mengxue Zhang</a>,  
+              <a href='https://people.cs.umass.edu/~dcohen/'>Daniel Cohen</a>,  
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <br>
+              4th Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM 2019)
+          </p>  
+     </td>
+   </tr>
    
   <tr>
      <td width="14%"  valign="middle">
@@ -247,12 +287,6 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
               Continual Learning workshop at the Thirty-second Conference on Neural Information Processing Systems (NeurIPS 2018)
-              <details>
-                <summary>Abstract</summary>            
-                  <p class="message">
-                    Reinforcement learning has been successfully applied to many sequential decision making problems, where the set of possible actions (possible decisions) is fixed. However, in many real-world settings, the set of possible actions can change over time.  We present a model-free method to continually adapt to a dynamic set of possible actions. We show how using action representations can allow policy parameterization to be invariant to the cardinality of the action set. We provide an algorithm to autonomously adapt to this dynamic action set by exploiting structure in the space of actions. The efficacy of the proposed method is demonstrated on large-scale real-world continual learning problems. 
-                  </p>
-              </details>
           </p>  
      </td>
    </tr>
