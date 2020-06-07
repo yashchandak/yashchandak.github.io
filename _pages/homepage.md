@@ -75,9 +75,9 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
               <br>
               <b>Yash Chandak</b>, 
               <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,   
-              <a href='https://scholar.google.com/citations?user=yK56jugAAAAJ&hl=en'>Shiv Shankar</a>,  
+              <a href='https://scholar.google.com/citations?user=yK56jugAAAAJ&hl=en'>Shiv Shankar</a>,
+              <a href='https://webdocs.cs.ualberta.ca/~whitem/'>Martha White</a>,   
               <a href='https://people.cs.umass.edu/~mahadeva/Site/About_Me.html'>Sridhar Mahadevan</a>,  
-              <a href='https://webdocs.cs.ualberta.ca/~whitem/'>Martha White</a>, 
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
               Thirty-seventh International Conference on Machine Learning (ICML 2020)
