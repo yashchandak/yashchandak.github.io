@@ -206,7 +206,7 @@ new concepts over time. My research is mostly at the intersection of reinforceme
               <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,  
               <b>Yash Chandak</b>,  
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
-              <a href='https://research.monash.edu/en/persons/frits-de-nijs'>Frits de Nijs Metevier</a>, 
+              <a href='https://research.monash.edu/en/persons/frits-de-nijs'>Frits de Nijs</a>, 
               <br>
               Technical Report
               <details>
