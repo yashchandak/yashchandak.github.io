@@ -43,15 +43,15 @@ p {
 
 <br>
 
-I'm a third year MS/PhD student at the [University of Massachusetts](https://www.umass.edu/). I am also a member of the [Autonomous Learning Lab (ALL)](http://www-all.cs.umass.edu/) and am fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
+I'm a PhD candidate at the [University of Massachusetts](https://www.umass.edu/). I am also a member of the [Autonomous Learning Lab (ALL)](http://www-all.cs.umass.edu/) and am fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
 My primary interest is in **continual learning**, a branch of Artificial Intelligence, which aims at teaching machines
-new concepts over time. My research is mostly at the intersection of reinforcement learning,
-optimization, and machine learning. I enjoy reading and looking out for inspirations from neuroscience as well.
+new concepts over time. My research is mostly at the intersection of reinforcement learning and machine learning, with a focus on challenges of real-world applications. I enjoy reading and looking out for inspirations from neuroscience as well.
 <br><br>
 
 
 <br><br>
 ## Recent
+- Our paper on ensuring safe policy improvment for non-stationary MDPs got accepted at NeurIPS'20!
 - Our papers on (a) Optmizing for the future in non-stationary MDPs, and (b) Evaluating the performance of RL algorithms, got accepted at ICML'20!
 - Received Outstanding Student Paper Honorable Mention by AAAI'20 for our paper on Lifelong Learning with a Changing Action Set.
 - Our papers on (a) lifelong learning with a changing action set, and (b) RL when all actions are not always available, got accepted at AAAI'20!  
@@ -66,6 +66,31 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
+     <td width="14%"  valign="middle">
+            <img src="/images/publications/SPIN.png" alt="SPIN" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Towards Safe Policy Improvement for Non-Stationary MDPs</paper>
+              <br>
+              <b>Yash Chandak</b>,
+              <a href='https://people.cs.umass.edu/~sjordan/'>Scott Jordan</a>,
+              <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,   
+              <a href='https://webdocs.cs.ualberta.ca/~whitem/'>Martha White</a>,   
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <br>
+              Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2020)
+              <details>
+                <summary>Abstract | </summary>            
+                  <p class="message">
+                    Many real-world sequential decision-making problems involve critical systems that present both human-life and financial risks. While several works in the past have proposed methods that are safe for deployment, they assume that the underlying problem is stationary. However, many real-world problems of interest exhibit non-stationarity, and when stakes are high, the cost associated with a false stationarity assumption may be unacceptable. Addressing safety in the presence of non-stationarity remains an open question in the literature. We present a type of Seldonian algorithm (Thomas et al., 2019), taking the first steps towards ensuring safety, with high confidence, for smoothly varying non-stationary decision problems, through a synthesis of model-free reinforcement learning algorithms with methods from time-series analysis.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+
+<tr>
      <td width="14%"  valign="middle">
             <img src="/images/publications/prognosticator.png" alt="Future" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
@@ -162,6 +187,32 @@ optimization, and machine learning. I enjoy reading and looking out for inspirat
                 <summary>Abstract | <a href="https://arxiv.org/abs/1906.01772">Arxiv</a> </summary>            
                   <p class="message">
                    The Markov decision process (MDP) formulation used to model many real-world sequential decision making problems does not capture the setting where the set of available decisions (actions) at each time step is stochastic. Recently, the stochastic action set Markov decision process (SAS-MDP) formulation has been proposed, which captures the concept of a stochastic action set. In this paper we argue that existing RL algorithms for SAS-MDPs suffer from divergence issues, and present new algorithms for SAS-MDPs that incorporate variance reduction techniques unique to this setting, and provide conditions for their convergence. We conclude with experiments that demonstrate the practicality of our approaches using several tasks inspired by real-life use cases wherein the action set is stochastic. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+
+
+
+  <tr>
+     <td width="14%"  valign="middle">
+            <img src="/images/publications/StrategicReco.png" alt="Reco" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Reinforcement Learning for Strategic Recommendations</paper>
+              <br>            
+              <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>,  
+              <b>Yash Chandak</b>,  
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <a href='https://research.monash.edu/en/persons/frits-de-nijs'>Frits de Nijs Metevier</a>, 
+              <br>
+              Technical Report
+              <details>
+                <summary>Abstract | <a href="https://arxiv.org/abs/2009.07346">Arxiv</a> </summary>            
+                  <p class="message">
+                   TStrategic recommendations (SR) refer to the problem where an intelligent agent observes the sequential behaviors and activities of users and decides when and how to interact with them to optimize some long-term objectives, both for the user and the business. These systems are in their infancy in the industry and in need of practical solutions to some fundamental research challenges. At Adobe research, we have been implementing such systems for various use-cases, including points of interest recommendations, tutorial recommendations, next step guidance in multi-media editing software, and ad recommendation for optimizing lifetime value. There are many research challenges when building these systems, such as modeling the sequential behavior of users, deciding when to intervene and offer recommendations without annoying the user, evaluating policies offline with high confidence, safe deployment, non-stationarity, building systems from passive data that do not contain past recommendations, resource constraint optimization in multi-user systems, scaling to large and dynamic actions spaces, and handling and incorporating human cognitive biases. In this paper we cover various use-cases and research challenges we solved to make these systems practical.  
                   </p>
               </details>
           </p>  
