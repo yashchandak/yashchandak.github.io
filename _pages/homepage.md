@@ -79,7 +79,7 @@ new concepts over time. My research is mostly at the intersection of reinforceme
               <a href='https://webdocs.cs.ualberta.ca/~whitem/'>Martha White</a>,   
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
-              Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2020)
+              <b>(Spotlight)</b> Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2020)
               <details>
                 <summary>Abstract | </summary>            
                   <p class="message">
