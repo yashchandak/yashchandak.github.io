@@ -81,7 +81,7 @@ new concepts over time. My research is mostly at the intersection of reinforceme
               <br>
               <b>(Spotlight)</b> Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2020)
               <details>
-                <summary>Abstract | </summary>            
+                <summary>Abstract | <a href="https://arxiv.org/abs/2010.12645">Arxiv</a> </summary>            
                   <p class="message">
                     Many real-world sequential decision-making problems involve critical systems that present both human-life and financial risks. While several works in the past have proposed methods that are safe for deployment, they assume that the underlying problem is stationary. However, many real-world problems of interest exhibit non-stationarity, and when stakes are high, the cost associated with a false stationarity assumption may be unacceptable. Addressing safety in the presence of non-stationarity remains an open question in the literature. We present a type of Seldonian algorithm (Thomas et al., 2019), taking the first steps towards ensuring safety, with high confidence, for smoothly varying non-stationary decision problems, through a synthesis of model-free reinforcement learning algorithms with methods from time-series analysis.
                   </p>
