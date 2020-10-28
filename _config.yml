@@ -6,20 +6,20 @@ encoding:         utf-8
 # Setup
 title:            Yash Chandak
 tagline:          'Personal Webpage'
-description:      'ychandak@cs.umass.edu'
+description:      'y[lastname]@cs.umass.edu'
 url:              https://yashchandak.github.io/yashchandak
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
-email:            y<lastname>@cs.umass.edu
+email:            y[lastname]@cs.umass.edu
 author:
   name:           'Yash Chandak'
   url:            yashchandak.github.io
 
-paginate:         1
-paginate_path:    '/blog/'
+paginate:         5
+paginate_path:    '/blog/page:num/'
                   # Or '/blog/page:num' if you want to move your index pages
 
 plugins:
@@ -29,12 +29,15 @@ plugins:
 
 # Custom vars
 version:            3.4.1
-sidebar_home_link:  false
-sidebar_blog_link:  false # '/blog'   # By default, your home page is your blog
+sidebar_home_link:  true
+sidebar_blog_link:  '/blog/'     # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
-sidebar_about_link: false #'/about.html'
+sidebar_about_link: '/about.html'
+
+# Avoid MM/DD/YYYY format for blog post links
+#permalink: /:title.html
 
 github:
   repo:             https://github.com/yashchandak
@@ -48,6 +51,12 @@ scholar:            https://scholar.google.com/citations?user=AsgUcSEAAAAJ&hl=en
 include: ['_pages']
 
 google_analytics:   UA-128250681-1
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: yashchandak
 
 ## Jekyll-scholar settings
 #plugins: ['jekyll/scholar']

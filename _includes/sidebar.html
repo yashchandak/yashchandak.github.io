@@ -1,5 +1,6 @@
 <div id="sidebar">
   <center>
+
   <header>
     <img src="/images/dp.jpg" alt="">
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
@@ -14,10 +15,16 @@
 
   </header>
 
-  <p> <br> <br> <br> </p>
+  <p>
+    <br><br><br>
+
 
   {% include sidebar-nav-links.html %}
-  <p> <br> </p>
+
+  <p>
+    <br>
+  </p>
+
   <!-- {% if site.version %}
     <span class="site-version">Currently v{{ site.version }}</span>
   {% endif %} -->

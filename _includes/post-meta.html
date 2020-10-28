@@ -1,10 +1,5 @@
 <div class="post-meta">
-  {% comment %}
-  {% if post.title != 'Hi!' %}
-    {{ <span class="post-date">{{ include.post.date | date_to_string }}</span> }}
-  {% endif %}
-  {% endcomment %}
-
+  <span class="post-date">{{ include.post.date | date_to_string }}</span>
   <span class="post-categories">
     {% for category in include.post.categories %}
       &bull;
@@ -23,8 +18,8 @@
       {% endfor %}
 
       {% if category_page %}
-        <a href="{{ site.baseurl }}{{ category_page.url }}">
-          {{ category }}
+        <a href="{{ category_page.url | relative_url }}">
+          {{ category_page.title | default: category_page.category }}
         </a>
       {% else %}
         {{ category }}

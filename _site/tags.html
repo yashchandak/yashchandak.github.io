@@ -32,6 +32,13 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
 
   <!-- Additional head bits without overriding original head -->
+
+
+  <!-- Mathjax Support -->
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
 </head>
 
 
@@ -39,6 +46,7 @@
 
     <div id="sidebar">
   <center>
+
   <header>
     <img src="/images/dp.jpg" alt="">
     <div class="site-title">
@@ -52,17 +60,69 @@
         Yash Chandak
       </a>
     </div>
-    <p class="lead">ychandak@cs.umass.edu</p>
+    <p class="lead">y[lastname]@cs.umass.edu</p>
 
   </header>
 
-  <p> <br> <br> <br> </p>
+  <p>
+    <br><br><br>
+
 
   <nav id="sidebar-nav-links">
   
+    <a class="home-link "
+        href="/">Home</a>
+  
+  
+    <a class="page-link "
+	href="/blog/">Blog</a>
   
 
   
+
+  
+
+
+  
+    
+  
+
+  
+    
+      <a class="page-link "
+          href="/about/">About Me</a>
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+      <a class="page-link "
+          href="/publication/">Publications</a>
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
 
   
 
@@ -79,56 +139,6 @@
     
   
 
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-
-  
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
   
 
   
@@ -153,11 +163,15 @@
 
 
   <!-- Optional additional links to insert in sidebar nav -->
-<a href="/docs/resume.pdf">CV/Resume</a>
+<!-- <a href="/docs/resume.pdf">CV/Resume</a> -->
 
 </nav>
 
-  <p> <br> </p>
+
+  <p>
+    <br>
+  </p>
+
   <!-- 
     <span class="site-version">Currently v3.4.1</span>
    -->
@@ -262,7 +276,7 @@
 </nav>
  </center>
   <p style="font-size:80%;">
-  (Site last updated: Oct, 2018)
+  (Site last updated: Oct, 2020)
   <br />
   <a href="https://github.com/fongandrew/hydeout">Theme by Hydeout</a>
 </p>
@@ -278,18 +292,160 @@
   <!-- See https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html -->
 <!-- With added pipe to handle lack of sort_natural -->
 
-<!-- site_tags:  -->
+<!-- site_tags: timeseries|timeseries,nonstationary|nonstationary,reinforcement|reinforcement,safety|safety,bootstrap|bootstrap -->
 
-<!-- tag_words:  -->
+<!-- tag_words: bootstrap|bootstrapnonstationary|nonstationaryreinforcement|reinforcementsafety|safetytimeseries|timeseries -->
 
 <div id="tags-page">
   <div class="tags-list">
+    
+    
+    <a href="#bootstrap" class="tag-link">
+      <span class="tag-name">bootstrap</span>
+      <span class="tag-count">1</span>
+    </a>
+    
+    
+    <a href="#nonstationary" class="tag-link">
+      <span class="tag-name">nonstationary</span>
+      <span class="tag-count">2</span>
+    </a>
+    
+    
+    <a href="#reinforcement" class="tag-link">
+      <span class="tag-name">reinforcement</span>
+      <span class="tag-count">2</span>
+    </a>
+    
+    
+    <a href="#safety" class="tag-link">
+      <span class="tag-name">safety</span>
+      <span class="tag-count">1</span>
+    </a>
+    
+    
+    <a href="#timeseries" class="tag-link">
+      <span class="tag-name">timeseries</span>
+      <span class="tag-count">2</span>
+    </a>
     
   </div>
 
   <hr/>
 
   <div class="posts-by-tag">
+    
+    
+    <div id="bootstrap" class="posts-for-tag">
+      <h2>bootstrap</h2>
+      <ul class="posts-list">
+        
+          <li>
+            <h3>
+              <a href="/blog/spin">
+                Towards Safe Policy Improvement for Non-Stationary MDPs
+                <small>19 Oct 2020</small>
+              </a>
+            </h3>
+          </li>
+        
+      </ul>
+    </div>
+    
+    
+    <div id="nonstationary" class="posts-for-tag">
+      <h2>nonstationary</h2>
+      <ul class="posts-list">
+        
+          <li>
+            <h3>
+              <a href="/blog/spin">
+                Towards Safe Policy Improvement for Non-Stationary MDPs
+                <small>19 Oct 2020</small>
+              </a>
+            </h3>
+          </li>
+        
+          <li>
+            <h3>
+              <a href="/blog/optimizing_future_NSMDP">
+                Optimizing for the Future in Non-Stationary MDPs
+                <small>19 Aug 2020</small>
+              </a>
+            </h3>
+          </li>
+        
+      </ul>
+    </div>
+    
+    
+    <div id="reinforcement" class="posts-for-tag">
+      <h2>reinforcement</h2>
+      <ul class="posts-list">
+        
+          <li>
+            <h3>
+              <a href="/blog/spin">
+                Towards Safe Policy Improvement for Non-Stationary MDPs
+                <small>19 Oct 2020</small>
+              </a>
+            </h3>
+          </li>
+        
+          <li>
+            <h3>
+              <a href="/blog/optimizing_future_NSMDP">
+                Optimizing for the Future in Non-Stationary MDPs
+                <small>19 Aug 2020</small>
+              </a>
+            </h3>
+          </li>
+        
+      </ul>
+    </div>
+    
+    
+    <div id="safety" class="posts-for-tag">
+      <h2>safety</h2>
+      <ul class="posts-list">
+        
+          <li>
+            <h3>
+              <a href="/blog/spin">
+                Towards Safe Policy Improvement for Non-Stationary MDPs
+                <small>19 Oct 2020</small>
+              </a>
+            </h3>
+          </li>
+        
+      </ul>
+    </div>
+    
+    
+    <div id="timeseries" class="posts-for-tag">
+      <h2>timeseries</h2>
+      <ul class="posts-list">
+        
+          <li>
+            <h3>
+              <a href="/blog/spin">
+                Towards Safe Policy Improvement for Non-Stationary MDPs
+                <small>19 Oct 2020</small>
+              </a>
+            </h3>
+          </li>
+        
+          <li>
+            <h3>
+              <a href="/blog/optimizing_future_NSMDP">
+                Optimizing for the Future in Non-Stationary MDPs
+                <small>19 Aug 2020</small>
+              </a>
+            </h3>
+          </li>
+        
+      </ul>
+    </div>
     
   </div>
 </div>

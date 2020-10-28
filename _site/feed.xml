@@ -1,4 +1,184 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-29T19:54:35-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yash Chandak</title><subtitle>ychandak@cs.umass.edu</subtitle><author><name>Yash Chandak</name></author><entry><title type="html">Hello World!</title><link href="http://localhost:4000/2012/02/07/example-content.html" rel="alternate" type="text/html" title="Hello World!" /><published>2012-02-07T00:00:00-05:00</published><updated>2012-02-07T00:00:00-05:00</updated><id>http://localhost:4000/2012/02/07/example-content</id><content type="html" xml:base="http://localhost:4000/2012/02/07/example-content.html">&lt;div class=&quot;message&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-27T20:33:36-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yash Chandak</title><subtitle>y[lastname]@cs.umass.edu</subtitle><author><name>Yash Chandak</name></author><entry><title type="html">Towards Safe Policy Improvement for Non-Stationary MDPs</title><link href="http://localhost:4000/blog/spin" rel="alternate" type="text/html" title="Towards Safe Policy Improvement for Non-Stationary MDPs" /><published>2020-10-19T00:00:00-04:00</published><updated>2020-10-19T00:00:00-04:00</updated><id>http://localhost:4000/blog/SPIN</id><content type="html" xml:base="http://localhost:4000/blog/spin">&lt;div class=&quot;message&quot;&gt;
+ This post is based on a NeurIPS 2020 paper that I worked on with &lt;a href=&quot;&quot;&gt; Scott Jordan&lt;/a&gt;, &lt;a href=&quot;https://research.adobe.com/person/georgios-theocharous/&quot;&gt; Georgios Theocharous&lt;/a&gt;, &lt;a href=&quot;https://webdocs.cs.ualberta.ca/~whitem/&quot;&gt;Martha White&lt;/a&gt;, and &lt;a href=&quot;https://people.cs.umass.edu/~pthomas/&quot;&gt;Philip Thomas&lt;/a&gt;. Here are the links for the &lt;a href=&quot;https://arxiv.org/abs/2010.12645&quot;&gt; paper&lt;/a&gt; and the &lt;a href=&quot;https://github.com/ScottJordan/SafePolicyImprovementNonstationary&quot;&gt;code&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&quot;motivation-and-probelm&quot;&gt;Motivation and probelm&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Example scenarios&lt;/li&gt;
+  &lt;li&gt;Ask the two main questions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;forecasting&quot;&gt;Forecasting&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Compare stationary and non-stationary (Two new images)&lt;/li&gt;
+  &lt;li&gt;Generlizing thes tatioanry setting&lt;/li&gt;
+  &lt;li&gt;Raise the question that will lead to off-policy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+ &lt;img src=&quot;/images/blog/spin/SafeNSRLidea.png&quot; alt=&quot;idea&quot; style=&quot;width: 65%; border-radius:0%&quot; /&gt;
+ &lt;/p&gt;
+
+&lt;h2 id=&quot;overall-methodology&quot;&gt;Overall methodology&lt;/h2&gt;
+
+&lt;p&gt;something something&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+     &lt;img src=&quot;/images/blog/spin/SafeNSRL.png&quot; alt=&quot;seldonian&quot; style=&quot;vertical-align:middle; width: 65%; margin:0px 10px; border-radius:0%&quot; /&gt;
+     &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Forecasting (add image)&lt;/li&gt;
+  &lt;li&gt;Gradient computation&lt;/li&gt;
+  &lt;li&gt;benefits&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;searching-for-a-candidate-policy&quot;&gt;Searching for a candidate policy&lt;/h2&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+     &lt;img src=&quot;/images/blog/spin/diffLB.png&quot; alt=&quot;candidate&quot; style=&quot;vertical-align:middle; width: 70%; margin:0px 10px; border-radius:0%&quot; /&gt;
+     &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Discuss&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;empirical-performance&quot;&gt;Empirical performance&lt;/h2&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+ &lt;img src=&quot;/images/blog/spin/results.png&quot; alt=&quot;results&quot; style=&quot;vertical-align:middle; width: 60%; margin:0px 10px; border-radius:0%&quot; /&gt;
+ &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Plots and results&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;open-questions&quot;&gt;Open questions&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Discuss variance reduction briefly&lt;/li&gt;
+  &lt;li&gt;Better off-policy methods OPE&lt;/li&gt;
+  &lt;li&gt;Better Time-series methods&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]&gt;&lt;/script&gt;</content><author><name>Yash Chandak</name></author><category term="timeseries" /><category term="nonstationary" /><category term="reinforcement" /><category term="safety" /><category term="bootstrap" /><summary type="html">How do we create model-free algorithms that can search for a good policy in a non-stationary MDP?</summary></entry><entry><title type="html">Optimizing for the Future in Non-Stationary MDPs</title><link href="http://localhost:4000/blog/optimizing_future_NSMDP" rel="alternate" type="text/html" title="Optimizing for the Future in Non-Stationary MDPs" /><published>2020-08-19T00:00:00-04:00</published><updated>2020-08-19T00:00:00-04:00</updated><id>http://localhost:4000/blog/OptFuture</id><content type="html" xml:base="http://localhost:4000/blog/optimizing_future_NSMDP">&lt;div class=&quot;message&quot;&gt;
+  This post is based on an ICML 2020 paper that I worked on with &lt;a href=&quot;https://research.adobe.com/person/georgios-theocharous/&quot;&gt; Georgios Theocharous &lt;/a&gt;, &lt;a href=&quot;https://scholar.google.com/citations?user=yK56jugAAAAJ&amp;amp;hl=en&quot;&gt;Shiv Shankar&lt;/a&gt;, &lt;a href=&quot;https://webdocs.cs.ualberta.ca/~whitem/&quot;&gt;Martha White&lt;/a&gt;, &lt;a href=&quot;https://people.cs.umass.edu/~mahadeva/Site/About_Me.html&quot;&gt;Sridhar Mahadevan&lt;/a&gt;, and &lt;a href=&quot;https://people.cs.umass.edu/~pthomas/&quot;&gt;Philip Thomas&lt;/a&gt;. Here are the links for the &lt;a href=&quot;https://arxiv.org/abs/2005.08158&quot;&gt; paper &lt;/a&gt;  and the &lt;a href=&quot;https://github.com/yashchandak/OptFuture_NSMDP&quot;&gt; code&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;p&gt;How do we create model-free algorithms that can search for a good policy in a non-stationary MDP?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Example scenarios&lt;/li&gt;
+  &lt;li&gt;Ask the two main questions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-time-series-perspective&quot;&gt;A time-series perspective&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Compare stationary and non-stationary (Two new images)&lt;/li&gt;
+  &lt;li&gt;Generlizing thes tatioanry setting&lt;/li&gt;
+  &lt;li&gt;Raise the question that will lead to off-policy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+ &lt;img src=&quot;/images/blog/optfuture/Eval.png&quot; alt=&quot;eval&quot; style=&quot;width: 30%; border-radius:0%&quot; /&gt;
+ &lt;/p&gt;
+
+&lt;h2 id=&quot;optimizing-the-future-performance&quot;&gt;Optimizing the future performance&lt;/h2&gt;
+
+&lt;p&gt;something something&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+     &lt;img src=&quot;/images/blog/optfuture/idea.png&quot; alt=&quot;idea&quot; style=&quot;vertical-align:middle; width: 30%; margin:0px 10px; border-radius:0%&quot; /&gt;
+     &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Forecasting (add image)&lt;/li&gt;
+  &lt;li&gt;Least-squares regression as a differntiable operation&lt;/li&gt;
+  &lt;li&gt;Generalizes stationary setting&lt;/li&gt;
+  &lt;li&gt;Gradient computation&lt;/li&gt;
+  &lt;li&gt;benefits&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;an-intriguing-behavior&quot;&gt;An intriguing behavior&lt;/h2&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+     &lt;img src=&quot;/images/blog/optfuture/weights.png&quot; alt=&quot;idea&quot; style=&quot;vertical-align:middle; width: 30%; margin:0px 10px; border-radius:0%&quot; /&gt;
+     &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Discuss&lt;/li&gt;
+  &lt;li&gt;How do we mitigate variance?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;empirical-performance&quot;&gt;Empirical performance&lt;/h2&gt;
+
+&lt;p&gt;&lt;img align=&quot;left&quot; src=&quot;/images/blog/optfuture/NS_Reco_speed.png&quot; alt=&quot;reacher&quot; style=&quot;width: 30%; margin:0px 10px; border-radius:0%&quot; /&gt;
+ &lt;img align=&quot;left&quot; src=&quot;/images/blog/optfuture/NS_Reacher_speed.png&quot; alt=&quot;reacher&quot; style=&quot;width: 30%; margin:0px 10px; border-radius:0%&quot; /&gt;      &lt;img src=&quot;/images/blog/optfuture/NS_SimGlucose-v0_speed.png&quot; alt=&quot;reacher&quot; style=&quot;width: 30%; margin:0px 10px; border-radius:0%&quot; /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/images/blog/optfuture/legend.png&quot; alt=&quot;reacher&quot; style=&quot;width: 30%; margin:0px 10px; border-radius:0%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Plots and results&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;open-questions&quot;&gt;Open questions&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Discuss variance reduction briefly&lt;/li&gt;
+  &lt;li&gt;Better off-policy methods OPE&lt;/li&gt;
+  &lt;li&gt;Better Time-series methods&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]&gt;&lt;/script&gt;</content><author><name>Yash Chandak</name></author><category term="timeseries" /><category term="nonstationary" /><category term="reinforcement" /><summary type="html">How do we create model-free algorithms that can search for a good policy in a non-stationary MDP?</summary></entry><entry><title type="html">Hello World!</title><link href="http://localhost:4000/blog/2020/07/10/example.html" rel="alternate" type="text/html" title="Hello World!" /><published>2020-07-10T00:00:00-04:00</published><updated>2020-07-10T00:00:00-04:00</updated><id>http://localhost:4000/blog/2020/07/10/example</id><content type="html" xml:base="http://localhost:4000/blog/2020/07/10/example.html">&lt;div class=&quot;message&quot;&gt;
   This is a demo post.
 &lt;/div&gt;
 
@@ -51,8 +231,7 @@
 
 &lt;p&gt;Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.&lt;/p&gt;
 
-&lt;noscript&gt;&lt;pre&gt;400: Invalid request
-&lt;/pre&gt;&lt;/noscript&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
 &lt;script src=&quot;https://gist.github.com/5555251.js?file=gist.md&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.&lt;/p&gt;
@@ -140,4 +319,4 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;</content><author><name>Yash Chandak</name></author><summary type="html">This is a demo post. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Inline HTML elements HTML defines a long list of available inline tags, a complete list of which can be found on the Mozilla Developer Network. To bold text, use &amp;lt;strong&amp;gt;. To italicize text, use &amp;lt;em&amp;gt;. Abbreviations, like HTML should use &amp;lt;abbr&amp;gt;, with an optional title attribute for the full phrase. Citations, like — Mark otto, should use &amp;lt;cite&amp;gt;. Deleted text should use &amp;lt;del&amp;gt; and inserted text should use &amp;lt;ins&amp;gt;. Superscript text uses &amp;lt;sup&amp;gt; and subscript text uses &amp;lt;sub&amp;gt;. Most of these elements are styled by browsers with few modifications on our part. Heading Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Code Cum sociis natoque penatibus et magnis dis code element montes, nascetur ridiculus mus. // Example can be run directly in your JavaScript console // Create a function that takes two arguments and returns the sum of those arguments var adder = new Function(&quot;a&quot;, &quot;b&quot;, &quot;return a + b&quot;); // Call the function adder(2, 6); // &amp;gt; 8 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa. Gists via GitHub Pages Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. 400: Invalid request Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Lists Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. HyperText Markup Language (HTML) The language used to describe and define the content of a Web page Cascading Style Sheets (CSS) Used to describe the appearance of Web content JavaScript (JS) The programming language used to build advanced Web sites and applications Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Images Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at. Tables Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Name Upvotes Downvotes Totals 21 23 Alice 10 11 Bob 4 3 Charlie 7 9 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Want to see something else added? Open an issue.</summary></entry></feed>
+&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;</content><author><name>Yash Chandak</name></author><summary type="html">short summary</summary></entry></feed>
