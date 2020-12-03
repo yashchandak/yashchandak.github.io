@@ -102,3 +102,6 @@ button, input[type="submit"] {
     box-shadow: $default-box-shadow;
   }
 }
+
+// For adding colors https://stackoverflow.com/questions/35465557/how-to-apply-color-in-markdown
+em { color: red }

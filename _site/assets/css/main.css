@@ -78,6 +78,9 @@ button, input[type="submit"] {
     color: white;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); }
 
+em {
+  color: red; }
+
 h1, h2, h3, h4, h5, h6, .site-title {
   margin-bottom: 0.5rem;
   font-weight: 600;

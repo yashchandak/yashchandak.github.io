@@ -34,6 +34,13 @@ paper {
  font-weight:bold;
 }
 
+a[href='red'] {
+    color: red;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
 </style>
 
 
@@ -46,11 +53,11 @@ new concepts over time. My research is mostly at the intersection of reinforceme
 
 
 ## Recent
-- Our paper on ensuring safe policy improvment for non-stationary MDPs got accepted at NeurIPS'20!
+- Our paper on providing high-confidence off-policy variance estimates got accepted at AAAI'21!
+- Our paper on ensuring safe policy improvement for non-stationary MDPs got accepted at NeurIPS'20!
 - Our papers on (a) Optmizing for the future in non-stationary MDPs, and (b) Evaluating the performance of RL algorithms, got accepted at ICML'20!
 - Received Outstanding Student Paper Honorable Mention by AAAI'20 for our paper on Lifelong Learning with a Changing Action Set.
 - Our papers on (a) lifelong learning with a changing action set, and (b) RL when all actions are not always available, got accepted at AAAI'20!  
-- Our paper on learning action representations got accepted at ICML'19!
 - I will be interning at Adobe Research under [Sridhar Mahadevan](https://people.cs.umass.edu/~mahadeva/Site/About_Me.html) and [Georgios Theocharous](https://research.adobe.com/person/georgios-theocharous/) during Summer 2019.  
 
 <br>
@@ -78,7 +85,7 @@ Click [here](/publication) for all the publications.
               <br>
               <b>(Spotlight)</b> Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2020)
               <details>
-                <summary>Abstract | <a href="https://arxiv.org/abs/2010.12645">Arxiv</a> | <a href="/blog/optimizing_future_NSMDP">Blogpost</a> | <a href="https://github.com/ScottJordan/SafePolicyImprovementNonstationary">Code</a> | <a href="https://icml.cc/virtual/2020/poster/6316">Video</a>  </summary>            
+                <summary>Abstract | <a href="https://arxiv.org/abs/2010.12645">Arxiv</a> | <a href="/blog/spin">Blogpost</a> | <a href="https://github.com/ScottJordan/SafePolicyImprovementNonstationary">Code</a> | <a href="https://nips.cc/virtual/2020/public/poster_680390c55bbd9ce416d1d69a9ab4760d.html">Video</a>  </summary>            
                   <p class="message">
                     Many real-world sequential decision-making problems involve critical systems that present both human-life and financial risks. While several works in the past have proposed methods that are safe for deployment, they assume that the underlying problem is stationary. However, many real-world problems of interest exhibit non-stationarity, and when stakes are high, the cost associated with a false stationarity assumption may be unacceptable. Addressing safety in the presence of non-stationarity remains an open question in the literature. We present a type of Seldonian algorithm (Thomas et al., 2019), taking the first steps towards ensuring safety, with high confidence, for smoothly varying non-stationary decision problems, through a synthesis of model-free reinforcement learning algorithms with methods from time-series analysis.
                   </p>
@@ -105,7 +112,7 @@ Click [here](/publication) for all the publications.
               <br>
               Thirty-seventh International Conference on Machine Learning (ICML 2020)
               <details>
-                <summary>Abstract | <a href="https://arxiv.org/abs/2005.08158">Arxiv</a> | <a href="/blog/optimizing_future_NSMDP">Blogpost</a> | <a href="https://github.com/yashchandak/OptFuture_NSMDP">Code</a> | <a href="https://icml.cc/virtual/2020/poster/6316">Video</a> </summary>            
+                <summary>Abstract | <a href="https://arxiv.org/abs/2005.08158">Arxiv</a> | <a href="/blog/prognosticator">Blogpost</a> | <a href="https://github.com/yashchandak/OptFuture_NSMDP">Code</a> | <a href="https://icml.cc/virtual/2020/poster/6316">Video</a> </summary>            
                   <p class="message">
                     Most reinforcement learning methods are based upon the key assumption that the transition dynamics and reward functions are fixed, that is, the underlying Markov decision process is stationary. However, in many real-world applications, this assumption is violated, and using existing algorithms may result in a performance lag. To proactively search for a good future policy, we present a policy gradient algorithm that maximizes a forecast of future performance. This forecast is obtained by fitting a curve to the counter-factual estimates of policy performance over time, without explicitly modeling the underlying non-stationarity. The resulting algorithm amounts to a non-uniform reweighting of past data, and we observe that minimizing performance over some of the data from past episodes can be beneficial when searching for a policy that maximizes future performance. We show that our algorithm, called Prognosticator, is more robust to non-stationarity than two online adaptation techniques, on three simulated problems motivated by real-world applications. 
                   </p>
@@ -128,9 +135,10 @@ Click [here](/publication) for all the publications.
               <a href='https://scholar.google.com/citations?user=clEBNJAAAAAJ&hl=en'>Chris Nota</a>, 
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
-              <b>(Oral)</b> Thirty-fourth Conference on Artificial Intelligence (AAAI 2020)
+              <b>(Oral)</b> Thirty-fourth AAAI Conference on Artificial Intelligence (AAAI 2020)
               <br>
-              <b> Outstanding Student Paper Honorable Mention. </b>
+              <font color='red'>Outstanding Student Paper Honorable Mention.</font>
+              <a href="red">Outstanding Student Paper Honorable Mention.</a>
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/1906.01770">Arxiv</a> | <a href="https://github.com/yashchandak/lifelong_changing_actions">Code</a> </summary>             
                   <p class="message">
@@ -146,5 +154,6 @@ Click [here](/publication) for all the publications.
 </table>
 
 <br>
+
 
 
