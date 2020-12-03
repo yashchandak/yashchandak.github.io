@@ -7,7 +7,8 @@
         - https://devhints.io/jekyll
     - Some additional tidbits
         - https://mademistakes.com/articles/using-jekyll-2016/
-
+    - Markdwon syntax guide
+        - https://www.markdownguide.org/basic-syntax/
 
 
 # Main folders
