@@ -34,13 +34,6 @@ paper {
  font-weight:bold;
 }
 
-a[href='red'] {
-    color: red;
-    pointer-events: none;
-    cursor: default;
-    text-decoration: none;
-}
-
 </style>
 
 
@@ -138,7 +131,6 @@ Click [here](/publication) for all the publications.
               <b>(Oral)</b> Thirty-fourth AAAI Conference on Artificial Intelligence (AAAI 2020)
               <br>
               <font color='red'>Outstanding Student Paper Honorable Mention.</font>
-              <a href="red">Outstanding Student Paper Honorable Mention.</a>
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/1906.01770">Arxiv</a> | <a href="https://github.com/yashchandak/lifelong_changing_actions">Code</a> </summary>             
                   <p class="message">
