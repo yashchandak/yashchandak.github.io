@@ -68,6 +68,7 @@ paper {
 </table>
 
 <br>
+
 #### 2020
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
@@ -254,7 +255,7 @@ paper {
               <br>
               Thirty-sixth International Conference on Machine Learning (ICML 2019)
               <details>
-                <summary>Abstract | <a href="https://arxiv.org/abs/1902.00183">Arxiv</a>  | <a href="https://github.com/yashchandak/action_representations">Code</a>  | <a href="https://slideslive.com/38917406/reinforcement-learning-theory?ref=speaker-18061-latest">Video</a> </summary>            
+                <summary>Abstract | <a href="https://arxiv.org/abs/1902.00183">Arxiv</a>  | <a href="https://slideslive.com/38917406/reinforcement-learning-theory?ref=speaker-18061-latest">Video</a> </summary>            
                   <p class="message">
                     Most model-free reinforcement learning methods leverage state representations (embeddings) for generalization, but either ignore structure in the space of actions or assume the structure is provided a priori. We show how a policy can be decomposed into a component that acts in a low-dimensional space of action representations and a component that transforms these representations into actual actions. These representations improve generalization over large, finite action sets by allowing the agent to infer the outcomes of actions similar to actions already taken. We provide an algorithm to both learn and use action representations and provide conditions for its convergence. The efficacy of the proposed method is demonstrated on large-scale real-world problems. 
                   </p>
