@@ -3,6 +3,7 @@ permalink: "/about/"
 layout: page
 title: About Me
 sidebar_link: true
+order: 4
 ---
 
 <style>
