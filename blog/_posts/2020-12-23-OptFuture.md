@@ -16,7 +16,7 @@ excerpt: "How do we create model-free algorithms that can search for a good poli
 </div>
 
 
-Reinforcement learning algorithms typically assume that the reward function and the transition dynamics are fixed, that is the underlying MDP is *stationary*. This assumption is often violated in many practical problems of interest. For example, consider an automated medical care system. Over time human physiology changes leading to a change in the impact of a medication. Similarly, consider an robotics system. Over time, motors gradually suffer from wear and tear, leading to increased friction. Further, in almost all human-computer interaction applications, e.g., dialogue systems, recommedner systems, online marketing, etc., human behavior gradually changes over time. In such scenarios, if the automated system is not adapted to take such changes into account then the system might quickly become sub-optimal.  This raises our main question:
+Reinforcement learning algorithms typically assume that the reward function and the transition dynamics are fixed, that is the underlying MDP is *stationary*. This assumption is so deeply rooted within the current methods that it is not even explicitly mentioned. However, this assumption is often violated in many practical problems of interest. For example, consider an automated medical care system. Over time, human physiology changes leading to a change in the impact of a medication on a patient. Similarly, consider a robotics system. Over time, motors gradually suffer from wear and tear, leading to increased friction. Further, in almost all human-computer interaction applications, e.g., dialogue systems, recommedner systems, online marketing, etc., human behavior gradually changes over time. In such scenarios, if the automated system is not adapted to take such changes into account then the system might quickly become sub-optimal.  This raises our main question:
  
  > How do we build systems that *proactively* search for a policy that will be good for the future MDP?
 
@@ -35,7 +35,7 @@ However, our method is designed for environments where changes are smooth and gr
 ## A time-series perspective    
 
 
-It would have been ideal if we had some samples from the future MDP, so that we could search for a policy $$\pi$$ beforehand, which would be good for the MDP the agent faces when deployed. However, getting even a single data sample from future MDP is impossible. All that we can expect is some data collected using a behavior policy $$\beta$$ for the MDPs the agent interacted with in the past episodes. 
+In the non-stationary setting, it would have been ideal if we had some samples from the future MDP so that we could search for a policy $$\pi$$ beforehand, which would be good for the MDP the agent faces when deployed. However, getting even a single data sample from the future MDP is impossible. All that we can expect is some data collected using a behavior policy $$\beta$$ for the MDPs the agent had interacted with in the past episodes. 
   Therefore, to estimate the future performance of a policy $$\pi$$ we use an indirect procedure by first asking a counter-factual question:  
   > What would have been $$\pi$$'s performances, if we had executed $$\pi$$ in the past episodes?
   
@@ -53,7 +53,7 @@ It would have been ideal if we had some samples from the future MDP, so that we 
  
  > If $$\pi$$'s performance in the past episodes are known, can we forecast $$\pi$$'s future performance?
  
- Indeed, since $$\forall i, \,\, \hat J_i(\pi)$$ is an unbiased estimates of $$\pi$$'s counter-factual performance, these estimates can be analyzed to understand how $$\pi$$'s performance has been changing due to the underlying non-stationarity. Therefore, a simple curve-fitting can now be performed on the counter-factual performance estimates to reveal the performance trend over time, using which we can forecast the future performance for $$\pi$$. 
+ Indeed, since $$\forall i, \,\, \hat J_i(\pi)$$ is an unbiased estimates of $$\pi$$'s performance, these estimates can be analyzed to understand how $$\pi$$'s performance has been changing due to the underlying non-stationarity. Therefore, a simple curve-fitting can now be performed on the counter-factual performance estimates to reveal the performance trend over time. Using this analysis we can then forecast the future performance for $$\pi$$. 
   
 
 
@@ -68,7 +68,7 @@ $$\begin{align}
     \hat J_{k+1}(\theta) :=  \Psi (\hat J_1(\pi), \hat J_2(\pi), ...., \hat J_k(\pi)). \label{eqn:forecaster}
 \end{align}$$
 
-Here is a simple example using least-squares regression. Let $$X := [1, 2, ..., k]^\top \in \mathbb{R}^{k \times 1}$$ and $$ Y := [\hat J_1(\pi), \hat J_2(\pi), \hat J_2(\pi), ..., \hat J_k(\pi)]^\top  \in \mathbb{R}^{k \times 1}$$, where $$k$$ is the number for the last episode observed. Since performance trends need not be linear, let $$\phi(x) \in \mathbb{R}^{1 \times d}$$ denote a $$d$$-dimensional basis function (e.g., Fourier basis) for encoding the time index, and $$\Phi$$ be the corresponding basis matrix, such that non-linear performance trends can be captured. Then an estimate of $$\pi$$'s performance can be estiamted as
+Here is a simple example using least-squares regression. Let $$X := [1, 2, ..., k]^\top \in \mathbb{R}^{k \times 1}$$ and $$ Y := [\hat J_1(\pi), \hat J_2(\pi), \hat J_2(\pi), ..., \hat J_k(\pi)]^\top  \in \mathbb{R}^{k \times 1}$$, where $$k$$ is the number for the last episode observed. Since performance trends need not be linear, let $$\phi(x) \in \mathbb{R}^{1 \times d}$$ denote a $$d$$-dimensional basis function (e.g., Fourier basis) for encoding the time index, and $$\Phi$$ be the corresponding basis matrix, such that non-linear performance trends can be captured. Then an estimate of $$\pi$$'s future performance can be obtained as
 
 $$
 \begin{align}
@@ -99,7 +99,7 @@ $$
 \end{align}
 $$
 
-This decomposition has an elegant intuitive interpretation. The terms assigned to $$(a)$$ correspond to how the future prediction would change as a function of past outcomes, and the terms in $$(b)$$ indicate how the past outcomes would change due to changes in the parameters of the policy $$\pi^\theta$$. Here, term (b) can be obtained using standard off-policy gradient estimators and term (a) can be obtained as the following, 
+This decomposition has an elegant and intuitive interpretation. The terms assigned to $$(a)$$ correspond to how the future prediction would change as a function of past outcomes, and the terms in $$(b)$$ indicate how the past outcomes would change due to changes in the parameters of the policy $$\pi_\theta$$. Here, term (b) can be obtained using standard off-policy gradient estimators and term (a) can be obtained as the following, 
 
 \begin{align}
     \frac{\partial \hat J_{k+1}(\theta)}{\partial \hat J_i(\theta)}  &= \frac{\partial \phi(k+1)(\Phi^\top  \Phi)^{-1}\Phi^\top  Y}{\partial Y_i} \\
@@ -119,21 +119,21 @@ In the equation for the total derivative above, notice that as the scalar term (
      </p>
      
   
- Perhaps intriguingly, when an identity basis or Fourier basis is used for $$\phi$$, we notice perhaps an occurrence of negative weights, suggesting that the optimization procedure should move towards a policy that had *lower* performance in some of the past episodes!
+ Perhaps intriguingly, when an identity basis or Fourier basis is used for $$\phi$$, we notice  an occurrence of negative weights, suggesting that the optimization procedure should move towards a policy that had *lower* performance in some of the past episodes!
    
    <br>
    
    While this negative weighting seems unusual at first glance, it has an simple interpretation in hindsight.  Consider the image on the right above. 
 Despite having lower estimates of return everywhere, $$\pi_2$$'s rising trend suggests that it might have higher performance in the future, that is, $$J_{k+1}(\pi_2) > J_{k+1}(\pi_1)$$.
 However, existing online learning methods like follow-the-leader maximize performance on all the past data uniformly (i.e., the green curve in the left image which gives equal weight to each episode). 
-Similarly, the exponential weights (red curve) are representative of approaches that only optimize using data from recent episodes and discard previous data.
-Either of these methods that use only *non-negative* weights cannot capture the trend to forecast $$J_{k+1}(\pi_2) > J_{k+1}(\pi_1)$$.
+Similarly, the exponential weights (red curve in the left image) are representative of approaches that only optimize using data from recent episodes and discard previous data.
+It can be checked that either of these methods that use only *non-negative* weights cannot capture the trend to forecast $$J_{k+1}(\pi_2) > J_{k+1}(\pi_1)$$.
 
 <br> 
-In comparison, the weights obtained when using the identity basis would facilitate *minimization* of performances in the distant past and maximization of performance in the recent past.
+In comparison, the weights obtained when using the identity basis (orange curve in the left image) would facilitate *minimization* of performances in the distant past and maximization of performance in the recent past.
 Intuitively, this means that it moves towards a policy whose performance is on a *linear rise*, as it expects that policy to have better performance in the future. Fourier basis further extends this idea while removing the restriction on the trend to be linear. 
 Observe the alternating sign of weights in the figure above when using the Fourier basis.
-This suggests that the optimization procedure will take into account the *sequential differences* in performances over the past, thereby favoring the policy that has shown the most performance increments in the past. Further, these weights are obtained automatically as a by-product of regression.
+This suggests that the optimization procedure will take into account the *sequential differences* in performances over the past, thereby favoring the policy that has shown the most performance increments in the past. Further, these weights are obtained automatically as a by-product of regression!
    
 
 
@@ -141,7 +141,7 @@ This suggests that the optimization procedure will take into account the *sequen
 
 - One of the key drawbacks of using importance sampling is the variance resulting due to it. To mitigate variance, a popular method in stationary setting is to use weighted importance sampling (WIS). We show in our paper, that the idea of WIS can also be extended to non-stationary settings to significantly reduce variance. We encourage interested readers to check out more details and empirical results in the [paper](https://arxiv.org/abs/2005.08158).
 
-- There have been several recent works in RL that provide better off-policy estimates, and at the same time, there is an extensive literature on analyzing non-stationary time-series data. We hope that our framework can bring these two communities closer.
+- There have been several recent works in RL that provide better off-policy estimates, and at the same time, there is an extensive literature on analyzing non-stationary time-series data. While we took the preliminary steps in this framework to bring these two communities closer, we believe there is a lot more that can be done here.
 
 - In another [blogpost](/blog/spin), I discuss our NeurIPS 2020 work that takes an initial step towards further bridging ideas from the time-series literature to provide safe policy-improvement in non-stationary MDPs.
 
