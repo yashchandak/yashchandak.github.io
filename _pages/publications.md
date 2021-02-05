@@ -57,7 +57,7 @@ paper {
               <br>
               Thirty-fifth AAAI Conference on Artificial Intelligence (AAAI 2021)
               <details>
-                <summary>Abstract </summary>            
+                <summary>Abstract  | <a href="https://arxiv.org/abs/2101.09847">Arxiv</a> </summary>            
                   <p class="message">
                    Many sequential decision-making systems leverage data collected using prior policies to propose a new policy. In critical applications, it is important that high-confidence guarantees on the new policy's behavior are provided before deployment, to ensure that the policy will behave as desired. Prior works have studied high-confidence off-policy estimation of the \emph{expected} return, however, high-confidence off-policy estimation of the \emph{variance} of returns can be equally critical for high-risk applications. In this paper, we tackle the previously open problem of estimating and bounding, with high confidence, the variance of returns from off-policy data.
                   </p>
