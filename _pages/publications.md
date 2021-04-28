@@ -43,7 +43,31 @@ paper {
 #### 2021
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-   <tr>
+<tr>
+     <td width="14%"  valign="middle">
+            <img src="/images/publications/web_UnO.png" alt="UnO" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Universal Off-Policy Evaluation</paper>
+              <br>
+              <b>Yash Chandak</b>,  
+              <a href='https://www.cs.utexas.edu/~sniekum/'>Scott Niekum</a>,
+              <a href='https://people.cs.umass.edu/~bsilva/'>Bruno Castro da Silva</a>,
+              <a href='https://people.cs.umass.edu/~elm/'>Erik Learned-Miller</a>,
+              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>,
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <br>
+              <details>
+                <summary>Abstract  | <a href="https://arxiv.org/abs/2104.12820">Arxiv</a> </summary>            
+                  <p class="message">
+                   When faced with sequential decision-making problems, it is often useful to be able to predict what would happen if decisions were made using a new policy. Those predictions must often be based on data collected under some previously used decision-making rule. Many previous methods enable such off-policy (or counterfactual) estimation of the expected value of a performance measure called the return. In this paper, we take the first steps towards a universal off-policy estimator (UnO) -- one that provides off-policy estimates and high-confidence bounds for any parameter of the return distribution. We use UnO for estimating and simultaneously bounding the mean, variance, quantiles/median, inter-quantile range, CVaR, and the entire cumulative distribution of returns. Finally, we also discuss Uno's applicability in various settings, including fully observable, partially observable (i.e., with unobserved confounders), Markovian, non-Markovian, stationary, smoothly non-stationary, and discrete distribution shifts. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+<tr>
      <td width="14%"  valign="middle">
             <img src="/images/publications/HCOVE.png" alt="SPIN" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
