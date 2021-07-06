@@ -112,8 +112,7 @@ paper {
               <a href='https://www.linkedin.com/in/vishalrohra1/'>Vishal Rohra</a>, 
               <a href='https://www.linkedin.com/in/soundararajansrinivasan/'>Soundar Srinivasan</a>, 
               <a href='https://sites.google.com/view/sajjadriaj/'>H M Sajjad Hossain</a>^, 
-              <b>Yash Chandak</b>^
-              <br>
+              <b>Yash Chandak</b>^.
             *Equal contribution, ^Equal advising
             <br>
               HumanAI workshop @ Thirty-eighth International Conference on Machine Learning (ICML 2021)
