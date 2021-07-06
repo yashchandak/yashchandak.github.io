@@ -67,8 +67,69 @@ paper {
           </p>  
      </td>
    </tr>
+  
+  
 <tr>
-     <td width="14%"  valign="middle">
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_HCGA.png" alt="HCGA" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>High Confidence Generalization for Reinforcement Learning</paper>
+              <br> 
+              <a href='https://people.cs.umass.edu/~jekostas/jekostas.html'>James Kostas</a>, 
+              <b>Yash Chandak</b>,  
+              <a href='https://people.cs.umass.edu/~sjordan/'>Scott Jordan</a>,
+              <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>, 
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <br>
+              Thirty-eighth International Conference on Machine Learning (ICML 2021)
+              <details>
+                <summary>Abstract  </summary>            
+                  <p class="message">
+                   We present several classes of reinforcement learn-ing algorithms that safely generalize toMarkovdecision processes(MDPs) not seen during train-ing.  Specifically, we study the setting in whichsome set of MDPs is accessible for training. Forvarious definitions of safety, our algorithms giveprobabilistic guarantees that agents can safely gen-eralize to MDPs that are sampled from the samedistribution but are not necessarily in the train-ing set.   These algorithms are a type ofSeldo-nianalgorithm (Thomas et al., 2019), which is aclass of machine learning algorithms that returnmodels with probabilistic safety guarantees foruser-specified definitions of safety. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+  
+<tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_SharedAutonomy.png" alt="HumanAI" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Intervention Aware Shared Autonomy</paper>
+              <br> 
+              <a href='https://scholar.google.com/citations?user=-ccuMB4AAAAJ&hl=zh-CN'>Weihao Tan</a>*, 
+              <a href='http://davidkoleczek.me/'>David Koleczek</a>*, 
+              <a href='https://scholar.google.com/citations?user=FzRyPc0AAAAJ&hl=en'>Siddhant Pradhan</a>*, 
+              <a href='http://ds.cs.umass.edu/nicholas-perello'>Nicholas Perello</a>, 
+              <a href='https://www.linkedin.com/in/vivekchettiar/'>Vivek Chettiar</a>, 
+              <a href='https://yashchandak.github.io/publication/'>Nan Ma</a>, 
+              <a href='https://www.linkedin.com/in/aaslesha-rajaram/'>Aaslesha Rajaram</a>, 
+              <a href='https://www.linkedin.com/in/vishalrohra1/'>Vishal Rohra</a>, 
+              <a href='https://www.linkedin.com/in/soundararajansrinivasan/'>Soundar Srinivasan</a>, 
+              <a href='https://sites.google.com/view/sajjadriaj/'>H M Sajjad Hossain</a>^, 
+              <b>Yash Chandak</b>^
+              <br>
+            *Equal contribution, ^Equal advising
+            <br>
+              HumanAI workshop @ Thirty-eighth International Conference on Machine Learning (ICML 2021)
+              <details>
+                <summary>Abstract </summary>            
+                  <p class="message">
+                  Shared  autonomy  refers  to  approaches  for  en-abling an autonomous agent to collaborate witha human with the aim of improving human per-formance.  However, besides improving perfor-mance, it may often be beneficial that the agentconcurrently accounts for preserving the user’sexperience or satisfaction of collaboration. In or-der to address this additional goal, we examineapproaches for improving the user experience byconstraining the number of interventions by theautonomous agent. We propose two model-freereinforcement learning methods that can accountfor both hard and soft constraints on the numberof interventions. We show that not only does ourmethod outperform the existing baseline, but alsoeliminates the need to manually tune an arbitraryhyperparameter for controlling the level of assis-tance.  We also provide an in-depth analysis ofintervention scenarios in order to further illumi-nate system understanding.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+  
+  
+<tr>
+  <td width="14%"  valign="middle">
             <img src="/images/publications/HCOVE.png" alt="SPIN" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
@@ -90,6 +151,9 @@ paper {
      </td>
    </tr>
 
+  
+  
+  
 </table>
 
 <br>
