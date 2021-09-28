@@ -79,7 +79,7 @@ paper {
               <br>
               <a href='https://yashchandak.github.io/publication/'>Christina Yuan</a>,
               <b>Yash Chandak</b>,  
-              <a href='https://scholar.google.com/citations?user=PZPaJJ0AAAAJ&hl=en'>Steve Giguere</a>,
+              <a href='https://scholar.google.com/citations?user=PZPaJJ0AAAAJ&hl=en'>Stephen Giguere</a>,
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
               <a href='https://www.cs.utexas.edu/~sniekum/'>Scott Niekum</a>
               <br>
