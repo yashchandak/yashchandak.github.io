@@ -58,10 +58,36 @@ paper {
               <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>,
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
+             Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS 2021)
               <details>
                 <summary>Abstract  | <a href="https://arxiv.org/abs/2104.12820">Arxiv</a> </summary>            
                   <p class="message">
                    When faced with sequential decision-making problems, it is often useful to be able to predict what would happen if decisions were made using a new policy. Those predictions must often be based on data collected under some previously used decision-making rule. Many previous methods enable such off-policy (or counterfactual) estimation of the expected value of a performance measure called the return. In this paper, we take the first steps towards a universal off-policy estimator (UnO) -- one that provides off-policy estimates and high-confidence bounds for any parameter of the return distribution. We use UnO for estimating and simultaneously bounding the mean, variance, quantiles/median, inter-quantile range, CVaR, and the entire cumulative distribution of returns. Finally, we also discuss Uno's applicability in various settings, including fully observable, partially observable (i.e., with unobserved confounders), Markovian, non-Markovian, stationary, smoothly non-stationary, and discrete distribution shifts. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+ 
+  <tr>
+     <td width="14%"  valign="middle">
+            <img src="/images/publications/web_SOPE.png" alt="SOPE" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>SOPE: Spectrum of Off-Policy Estimators</paper>
+              <br>
+              <a href='https://yashchandak.github.io/publication/'>Christina Yuan</a>,
+              <b>Yash Chandak</b>,  
+              <a href='https://scholar.google.com/citations?user=PZPaJJ0AAAAJ&hl=en'>Steve Giguere</a>,
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
+              <a href='https://www.cs.utexas.edu/~sniekum/'>Scott Niekum</a>
+              <br>
+             Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS 2021)
+              <details>
+                <summary>Abstract </summary>            
+                  <p class="message">
+                   Many sequential decision making problems are high-stakes and require off-policy evaluation (OPE) of a new policy using historical data collected using some other policy. One of the most common OPE technique that provides unbiased estimates is trajectory based importance sampling (IS). However, due to the high variance of trajectory IS estimates, importance sampling methods based on stationary distributions (SIS) have recently been adopted. Unfortunately, while SIS often provides lower variance estimates, estimating the stationary distribution ratios can be challenging and lead to biased estimates. In this paper, we present a new perspective on this bias-variance trade-off and show the existence of a spectrum of estimators whose endpoints are SIS and IS, respectively. We then show that estimators in this spectrum allow us to trade-off between the bias and variance of IS and SIS and can achieve lower mean-squared error than both IS and SIS.
                   </p>
               </details>
           </p>  
@@ -85,7 +111,7 @@ paper {
               <br>
               Thirty-eighth International Conference on Machine Learning (ICML 2021)
               <details>
-                <summary>Abstract  </summary>            
+                <summary>Abstract |  <a href="https://proceedings.mlr.press/v139/kostas21a.html">pdf</a>  </summary>            
                   <p class="message">
                    We present several classes of reinforcement learn-ing algorithms that safely generalize toMarkovdecision processes(MDPs) not seen during train-ing.  Specifically, we study the setting in whichsome set of MDPs is accessible for training. Forvarious definitions of safety, our algorithms giveprobabilistic guarantees that agents can safely gen-eralize to MDPs that are sampled from the samedistribution but are not necessarily in the train-ing set.   These algorithms are a type ofSeldo-nianalgorithm (Thomas et al., 2019), which is aclass of machine learning algorithms that returnmodels with probabilistic safety guarantees foruser-specified definitions of safety. 
                   </p>
@@ -117,7 +143,7 @@ paper {
             <br>
               HumanAI workshop @ Thirty-eighth International Conference on Machine Learning (ICML 2021)
               <details>
-                <summary>Abstract </summary>            
+                <summary>Abstract |  <a href="https://all.cs.umass.edu/pubs/2021/Tan%20et%20al%20-%20Intervention%20Aware%20Shared%20Autonomy.pdf">pdf</a>  </summary>            
                   <p class="message">
                   Shared  autonomy  refers  to  approaches  for  en-abling an autonomous agent to collaborate witha human with the aim of improving human per-formance.  However, besides improving perfor-mance, it may often be beneficial that the agentconcurrently accounts for preserving the user’sexperience or satisfaction of collaboration. In or-der to address this additional goal, we examineapproaches for improving the user experience byconstraining the number of interventions by theautonomous agent. We propose two model-freereinforcement learning methods that can accountfor both hard and soft constraints on the numberof interventions. We show that not only does ourmethod outperform the existing baseline, but alsoeliminates the need to manually tune an arbitraryhyperparameter for controlling the level of assis-tance.  We also provide an in-depth analysis ofintervention scenarios in order to further illumi-nate system understanding.
                   </p>
