@@ -45,14 +45,10 @@ My primary interest is in **continual learning**, a branch of Artificial Intelli
 
 
 ## Recent
-- Our papers on (a) Universal off-Policy evaluation, and (b) SOPE: Spectrum of off-policy estimators, got accepted at NeurIPS'21!
-- Our paper on providing high confidence generalization for reinforcement learning got accepted at ICML'21! 
-- Our paper on providing high-confidence off-policy variance estimates got accepted at AAAI'21!
-- Our paper on ensuring safe policy improvement for non-stationary MDPs got accepted at NeurIPS'20!
-- Our papers on (a) Optmizing for the future in non-stationary MDPs, and (b) Evaluating the performance of RL algorithms, got accepted at ICML'20!
-- Received Outstanding Student Paper Honorable Mention by AAAI'20 for our paper on Lifelong Learning with a Changing Action Set.
-- Our papers on (a) lifelong learning with a changing action set, and (b) RL when all actions are not always available, got accepted at AAAI'20!   
-
+- Outstanding Reviewer at NeurIPS'21 and Top Reviewer at ICML'21.
+- Our papers on (a) Universal off-Policy evaluation, and (b) SOPE: Spectrum of off-policy estimators, got accepted at NeurIPS'21.
+- Our paper on providing high confidence generalization for reinforcement learning got accepted at ICML'21. 
+- Our paper on providing high-confidence off-policy variance estimates got accepted at AAAI'21.
 <br>
 
 ## Selected Publications
