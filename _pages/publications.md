@@ -109,7 +109,7 @@ paper {
               <a href='https://pages.cs.wisc.edu/~jphanna/'>Josiah Hanna</a>,
               <a href='https://marek.petrik.us/'>Marek Petrik</a>
               <br>
-             SafeRl workshop @ Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS 2021)
+             SafeRL workshop @ Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS 2021)
               <details>
                 <summary>Abstract   </summary>            
                   <p class="message">
