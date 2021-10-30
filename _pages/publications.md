@@ -94,7 +94,34 @@ paper {
      </td>
    </tr>
   
-  
+ <tr>
+     <td width="14%"  valign="middle">
+            <img src="/images/publications/web_CVaR_BPG.png" alt="Risk_BPG" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Behavior Policy Search for Risk Estimators in Reinforcement Learning
+</paper>
+              <br>
+              <a href='https://elitalobo.github.io/'>Elita Lobo</a>,
+              <b>Yash Chandak</b>,  
+              <a href='https://scholar.google.com/citations?user=j54RzcEAAAAJ&hl=en'>Dharmashankar Subramanian</a>,
+              <a href='https://pages.cs.wisc.edu/~jphanna/'>Josiah Hanna</a>,
+              <a href='https://marek.petrik.us/'>Marek Petrik</a>
+              <br>
+             SafeRl workshop @ Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS 2021)
+              <details>
+                <summary>Abstract  | <a href="https://arxiv.org/abs/2104.12820">Arxiv</a> </summary>            
+                  <p class="message">
+                   In real-world sequential decision problems, exploration is expensive, and the risk of expert decision policies must be evaluated from limited data. In this setting, Monte Carlo (MC) risk estimators are typically used to estimate the risk of decision policies. While these estimators have the desired low bias property, they often suffer from large variance. In this paper, we consider the problem of minimizing the asymptotic mean squared error and hence variance of MC risk estimators. 
+We show that by carefully choosing the data sampling policy (\emph{behavior policy}), we can obtain low variance estimates of the risk of any given decision policy.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+ 
+ 
 <tr>
        <td width="14%"  valign="middle">
             <img src="/images/publications/web_HCGA.png" alt="HCGA" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
