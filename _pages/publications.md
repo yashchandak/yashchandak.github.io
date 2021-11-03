@@ -60,7 +60,7 @@ paper {
               <br>
              Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS 2021)
               <details>
-                <summary>Abstract  | <a href="https://arxiv.org/abs/2104.12820">Arxiv</a> </summary>            
+                <summary>Abstract  | <a href="https://arxiv.org/abs/2104.12820">Arxiv</a> |  <a href="https://github.com/yashchandak/UnO">Code</a> </summary>            
                   <p class="message">
                    When faced with sequential decision-making problems, it is often useful to be able to predict what would happen if decisions were made using a new policy. Those predictions must often be based on data collected under some previously used decision-making rule. Many previous methods enable such off-policy (or counterfactual) estimation of the expected value of a performance measure called the return. In this paper, we take the first steps towards a universal off-policy estimator (UnO) -- one that provides off-policy estimates and high-confidence bounds for any parameter of the return distribution. We use UnO for estimating and simultaneously bounding the mean, variance, quantiles/median, inter-quantile range, CVaR, and the entire cumulative distribution of returns. Finally, we also discuss Uno's applicability in various settings, including fully observable, partially observable (i.e., with unobserved confounders), Markovian, non-Markovian, stationary, smoothly non-stationary, and discrete distribution shifts. 
                   </p>
@@ -194,7 +194,7 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
               <br>
               Thirty-fifth AAAI Conference on Artificial Intelligence (AAAI 2021)
               <details>
-                <summary>Abstract  | <a href="https://arxiv.org/abs/2101.09847">Arxiv</a> </summary>            
+                <summary>Abstract  | <a href="https://arxiv.org/abs/2101.09847">Arxiv</a> |  <a href="https://github.com/yashchandak/UnO">Code</a> </summary>            
                   <p class="message">
                    Many sequential decision-making systems leverage data collected using prior policies to propose a new policy. In critical applications, it is important that high-confidence guarantees on the new policy's behavior are provided before deployment, to ensure that the policy will behave as desired. Prior works have studied high-confidence off-policy estimation of the \emph{expected} return, however, high-confidence off-policy estimation of the \emph{variance} of returns can be equally critical for high-risk applications. In this paper, we tackle the previously open problem of estimating and bounding, with high confidence, the variance of returns from off-policy data.
                   </p>
