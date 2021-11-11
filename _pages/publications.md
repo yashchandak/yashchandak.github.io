@@ -85,7 +85,7 @@ paper {
               <br>
              Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS 2021)
               <details>
-                <summary>Abstract </summary>            
+                <summary>Abstract | <a href="https://arxiv.org/abs/2111.03936">Arxiv</a>  </summary>            
                   <p class="message">
                    Many sequential decision making problems are high-stakes and require off-policy evaluation (OPE) of a new policy using historical data collected using some other policy. One of the most common OPE technique that provides unbiased estimates is trajectory based importance sampling (IS). However, due to the high variance of trajectory IS estimates, importance sampling methods based on stationary distributions (SIS) have recently been adopted. Unfortunately, while SIS often provides lower variance estimates, estimating the stationary distribution ratios can be challenging and lead to biased estimates. In this paper, we present a new perspective on this bias-variance trade-off and show the existence of a spectrum of estimators whose endpoints are SIS and IS, respectively. We then show that estimators in this spectrum allow us to trade-off between the bias and variance of IS and SIS and can achieve lower mean-squared error than both IS and SIS.
                   </p>
