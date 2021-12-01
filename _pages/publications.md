@@ -514,6 +514,7 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
 </table>
 
 <br>
+
 #### 2018
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
@@ -588,6 +589,7 @@ Artificial Intelligence (IJCAI 2018).
 </table>
 
 <br>
+
 #### 2015
 
 
