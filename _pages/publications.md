@@ -39,6 +39,48 @@ paper {
 
 
 </style>
+#### 2022
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  
+<tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_SharedAutonomy.png" alt="HumanAI" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>On Optimizing Interventions in Shared Autonomy</paper>
+              <br> 
+              <a href='https://scholar.google.com/citations?user=-ccuMB4AAAAJ&hl=zh-CN'>Weihao Tan</a>*, 
+              <a href='http://davidkoleczek.me/'>David Koleczek</a>*, 
+              <a href='https://scholar.google.com/citations?user=FzRyPc0AAAAJ&hl=en'>Siddhant Pradhan</a>*, 
+              <a href='http://ds.cs.umass.edu/nicholas-perello'>Nicholas Perello</a>, 
+              <a href='https://www.linkedin.com/in/vivekchettiar/'>Vivek Chettiar</a>, 
+              <a href='https://yashchandak.github.io/publication/'>Nan Ma</a>, 
+              <a href='https://www.linkedin.com/in/aaslesha-rajaram/'>Aaslesha Rajaram</a>, 
+              <a href='https://www.linkedin.com/in/vishalrohra1/'>Vishal Rohra</a>, 
+              <a href='https://www.linkedin.com/in/soundararajansrinivasan/'>Soundar Srinivasan</a>, 
+              <a href='https://sites.google.com/view/sajjadriaj/'>H M Sajjad Hossain</a>^, 
+              <b>Yash Chandak</b>^.
+            *Equal contribution, ^Equal advising
+            <br>
+              Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI 2022)
+              <details>
+                <summary>Abstract |  <a href="https://all.cs.umass.edu/pubs/2021/Tan%20et%20al%20-%20Intervention%20Aware%20Shared%20Autonomy.pdf">pdf</a>  </summary>            
+                  <p class="message">
+                  Shared autonomy refers to approaches for enabling an autonomous agent to collaborate with a human with the aim of improving human performance. However, besides improving performance, it may often also be beneficial that the agent concurrently accounts for preserving the user’s experience or satisfaction of collaboration. In order to address this additional goal, we examine approaches for improving the user experience by constraining the number of interventions by the autonomous agent. We propose two model-free reinforcement learning methods that can account for both hard and soft constraints on the number of interventions. We show that not only does our method outperform the existing baseline, but also eliminates the need to manually tune a black-box hyperparameter for controlling the level of assistance. We also provide an in-depth analysis of intervention scenarios in order to further illuminate system understanding.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr>
+  
+  
+  
+</table>
+
+<br>
+
 
 #### 2021
 
