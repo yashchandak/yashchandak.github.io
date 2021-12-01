@@ -153,7 +153,7 @@ paper {
               <br>
              SafeRL workshop @ Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS 2021)
               <details>
-                <summary>Abstract   </summary>            
+                <summary>Abstract | <a href="https://drive.google.com/file/d/1CVrXb7-exxJDSG3Ee2SxtezdtY79G8Nq/view">pdf</a>   </summary>            
                   <p class="message">
                    In real-world sequential decision problems, exploration is expensive, and the risk of expert decision policies must be evaluated from limited data. In this setting, Monte Carlo (MC) risk estimators are typically used to estimate the risk of decision policies. While these estimators have the desired low bias property, they often suffer from large variance. In this paper, we consider the problem of minimizing the asymptotic mean squared error and hence variance of MC risk estimators. 
 We show that by carefully choosing the data sampling policy (\emph{behavior policy}), we can obtain low variance estimates of the risk of any given decision policy.
