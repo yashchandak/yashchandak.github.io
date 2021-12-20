@@ -66,7 +66,7 @@ paper {
             <br>
               Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI 2022)
               <details>
-                <summary>Abstract  </summary>            
+                <summary>Abstract  | <a href="https://arxiv.org/pdf/2112.09169.pdf">Arxiv</a>  </summary>            
                   <p class="message">
                   Shared autonomy refers to approaches for enabling an autonomous agent to collaborate with a human with the aim of improving human performance. However, besides improving performance, it may often also be beneficial that the agent concurrently accounts for preserving the user’s experience or satisfaction of collaboration. In order to address this additional goal, we examine approaches for improving the user experience by constraining the number of interventions by the autonomous agent. We propose two model-free reinforcement learning methods that can account for both hard and soft constraints on the number of interventions. We show that not only does our method outperform the existing baseline, but also eliminates the need to manually tune a black-box hyperparameter for controlling the level of assistance. We also provide an in-depth analysis of intervention scenarios in order to further illuminate system understanding.
                   </p>
