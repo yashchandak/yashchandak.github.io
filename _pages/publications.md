@@ -75,8 +75,30 @@ paper {
      </td>
    </tr>
   
-  
-  
+   <tr>
+     <td width="14%"  valign="middle">
+            <img src="/images/publications/hopf.png" alt="HOPF" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Scaling Graph Propagation Kernels for Predictive Learning</paper>
+              <br>
+              <a href='https://priyeshv.github.io/'>Priyesh Vijayan</a>
+              <b>Yash Chandak</b>, 
+              <a href='https://www.cse.iitm.ac.in/~miteshk/'>Mitesh Khapra</a>,  
+              <a href='http://web.cse.ohio-state.edu/~parthasarathy.2/'>Srinivasan Parthasarathy</a>,    
+              <a href='https://www.cse.iitm.ac.in/~ravi/'>Balaraman Ravindran</a>
+              <br>
+              Frontiers in Big Data, section Data Mining and Management (Frontiers 2022).
+              <details>
+                <summary>Abstract </summary>            
+                  <p class="message">
+                     Given a graph where every node has certain attributes associated with it and some nodes have labels associated with them, Collective Classification (CC) is the task of assigning labels to every unlabeled node using information from the node as well as its neighbors. It is often the case that a node is not only influenced by its immediate neighbors but also by higher order neighbors, multiple hops away. Recent state-of-the-art models for CC learn end-to-end differentiable variations of Weisfeiler-Lehman (WL) kernels to aggregate multi-hop neighborhood information. In this work, we propose a Higher Order Propagation Framework, HOPF, which provides an iterative inference mechanism for these powerful differentiable kernels. Such a combination of classical iterative inference mechanism with recent differentiable kernels allows the framework to learn graph convolutional filters that simultaneously exploit the attribute and label information available in the neighborhood. Further, these iterative differentiable kernels can scale to larger hops beyond the memory limitations of existing differentiable kernels. We also show that existing WL kernel-based models suffer from the problem of Node Information Morphing where the information of the node is morphed or overwhelmed by the information of its neighbors when considering multiple hops. To address this, we propose a specific instantiation of HOPF, called the NIP models, which preserves the node information at every propagation step. The iterative formulation of NIP models further helps in incorporating distant hop information concisely as summaries of the inferred labels. We do an extensive evaluation across 11 datasets from different domains. We show that existing CC models do not provide consistent performance across datasets, while the proposed NIP model with iterative inference is more robust.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr>  
 </table>
 
 <br>
@@ -547,6 +569,7 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
               <a href='https://priyeshv.github.io/'>Priyesh Vijayan</a>
               <b>Yash Chandak</b>, 
               <a href='https://www.cse.iitm.ac.in/~miteshk/'>Mitesh Khapra</a>,   
+              <a href='http://web.cse.ohio-state.edu/~parthasarathy.2/'>Srinivasan Parthasarathy</a>, 
               <a href='https://www.cse.iitm.ac.in/~ravi/'>Balaraman Ravindran</a>
               <br>
               14th International Workshop on Machine Learning with Graphs, 24th ACM SIGKDD Conference on
@@ -571,7 +594,8 @@ Knowledge Discovery and Data Mining (KDD 2018).
               <br>
               <a href='https://priyeshv.github.io/'>Priyesh Vijayan</a>
               <b>Yash Chandak</b>, 
-              <a href='https://www.cse.iitm.ac.in/~miteshk/'>Mitesh Khapra</a>,   
+              <a href='https://www.cse.iitm.ac.in/~miteshk/'>Mitesh Khapra</a>,  
+              <a href='http://web.cse.ohio-state.edu/~parthasarathy.2/'>Srinivasan Parthasarathy</a>,    
               <a href='https://www.cse.iitm.ac.in/~ravi/'>Balaraman Ravindran</a>
               <br>
               Eighth International Workshop on Statistical Relational AI at the 27th International Joint Conference on
