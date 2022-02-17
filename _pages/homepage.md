@@ -45,7 +45,7 @@ My primary interest is in **continual learning**, a branch of Artificial Intelli
 
 
 ## Recent
-- I will be working with [Diana Borsa](https://scholar.google.co.uk/citations?view_op=list_works&hl=en&hl=en&user=LK_CV24AAAAJ&sortby=pubdate&alert_preview_top_rm=2) and [Remi Munos](http://chercheurs.lille.inria.fr/~munos/) at DeepMind for my Summer'22 internship. 
+- I will be interning at DeepMind London from May. 
 - Outstanding Reviewer at NeurIPS'21 and Top Reviewer at ICML'21.
 - Our papers on (a) Universal off-Policy evaluation, and (b) SOPE: Spectrum of off-policy estimators, got accepted at NeurIPS'21.
 - Our paper on providing high confidence generalization for reinforcement learning got accepted at ICML'21. 
