@@ -52,7 +52,7 @@ My primary interest is in **continual learning**, a branch of Artificial Intelli
 - Our papers on (a) Universal off-Policy evaluation, and (b) SOPE: Spectrum of off-policy estimators, got accepted at NeurIPS'21.
 - Our paper on providing high confidence generalization for reinforcement learning got accepted at ICML'21. 
 - Our paper on providing high-confidence off-policy variance estimates got accepted at AAAI'21.
-<br>
+<br><br>
 
 ## Selected Publications
 Click [here](/publication) for all the publications.
