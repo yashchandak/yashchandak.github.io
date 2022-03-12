@@ -39,6 +39,8 @@ paper {
 
 <br>
 
+<img align="right" width=150px src="/images/dp.jpg">
+
 I'm a PhD candidate at the [University of Massachusetts](https://www.umass.edu/). I am also a member of the [Autonomous Learning Lab (ALL)](http://www-all.cs.umass.edu/) and am fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
 My primary interest is in **continual learning**, a branch of Artificial Intelligence, which aims at teaching machines how to adapt to changing scenarios and acquire new concepts over time. My research is mostly at the intersection of reinforcement learning and machine learning, with a focus on challenges of real-world applications. I enjoy reading and looking out for inspirations from neuroscience as well.
 <br><br>
