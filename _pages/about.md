@@ -61,6 +61,7 @@ Before that, I was a national level basketball player in India and used to play 
 ## Service
 
 - [JMLR](https://www.jmlr.org/): Reviewer (2021-22)
+- [MLJ](https://www.springer.com/journal/10994): Reviewer (2022)
 - [ICML](https://icml.cc/): Reviewer (2019-22)
 - [NeurIPS](https://nips.cc/): Reviewer (2019-21)
 - [ICLR](https://iclr.cc/): Reviewer (2022)
