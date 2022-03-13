@@ -16,7 +16,7 @@ table {
 
 td,
 th {
-  padding: .25rem .5rem;
+  padding: 1rem .25rem;
   border: 0px solid $border-color;
 }
 
