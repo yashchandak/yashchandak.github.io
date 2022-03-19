@@ -60,11 +60,11 @@ Before that, I was a national level basketball player in India and used to play 
 
 ## Service
 
-- [JMLR](https://www.jmlr.org/): Reviewer (2021-22)
-- [MLJ](https://www.springer.com/journal/10994): Reviewer (2022)
-- [ICML](https://icml.cc/): Reviewer (2019-22)
-- [NeurIPS](https://nips.cc/): Reviewer (2019-21)
-- [ICLR](https://iclr.cc/): Reviewer (2022)
+### Journals
+Reviewer: [JMLR](https://www.jmlr.org/) (2021-22), [MLJ](https://www.springer.com/journal/10994) (2022)
+
+### Conferences
+Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-21), [ICLR](https://iclr.cc/) (2022), [TMLR](https://www.jmlr.org/tmlr/) (2022), [CoLLAs](https://lifelong-ml.cc/call) (2022)  
 
 <br><br>
 
