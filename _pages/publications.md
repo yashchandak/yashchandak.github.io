@@ -42,6 +42,33 @@ paper {
 #### 2022
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+ 
+<tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_sharedCOMDP.png" alt="COMDP" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>A Generalized Learning Rule for Asynchronous Coagent Networks</paper>
+              <br>  
+              <a href='https://people.cs.umass.edu/~jekostas/jekostas.html'>James Kostas</a>, 
+              <a href='https://people.cs.umass.edu/~sjordan/'>Scott Jordan</a>,  
+              <b>Yash Chandak</b>, 
+              <a href='https://research.adobe.com/person/georgios-theocharous/'>Georgios Theocharous</a>, 
+              <a href='https://dhawgupta.github.io/'>Dhawal Gupta</a>,              
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+            <br>
+            5th Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM 2022)
+              <details>
+                <summary>Abstract  </summary>            
+                  <p class="message">
+                  Coagent networks for reinforcement learning (RL) (Thomas and Barto, 2011) provide a framework for deriving principled learning rules for stochastic neural networks in the RL setting. Previous work provided generalized coagent learning rules for the asynchronous setting (Kostas et al., 2020) and for the setting in which network parameters are shared (Zini et al., 2020). This work provides a generalized theorem that can be used to obtain learning rules for the combination of those cases; that is, the case where an asynchronous coagent network uses shared parameters. This work also provides a discussion of recent, ongoing, and future work.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr> 
   
 <tr>
        <td width="14%"  valign="middle">
@@ -123,6 +150,8 @@ paper {
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
               <br>
              Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS 2021)
+            <br>
+            <b>(Oral)</b> 5th Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM 2022)
               <details>
                 <summary>Abstract  | <a href="https://arxiv.org/abs/2104.12820">Arxiv</a> |  <a href="https://github.com/yashchandak/UnO">Code</a> </summary>            
                   <p class="message">
@@ -148,6 +177,8 @@ paper {
               <a href='https://www.cs.utexas.edu/~sniekum/'>Scott Niekum</a>
               <br>
              Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS 2021)
+            <br> 
+            5th Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM 2022)
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/2111.03936">Arxiv</a> |  <a href="https://github.com/Pearl-UTexas/SOPE">Code</a> </summary>            
                   <p class="message">
