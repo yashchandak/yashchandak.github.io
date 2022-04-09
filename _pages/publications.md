@@ -153,7 +153,7 @@ paper {
             <br>
             <b>(Oral)</b> 5th Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM 2022)
               <details>
-                <summary>Abstract  | <a href="https://arxiv.org/abs/2104.12820">Arxiv</a> |  <a href="https://github.com/yashchandak/UnO">Code</a> </summary>            
+                <summary>Abstract  | <a href="https://arxiv.org/abs/2104.12820">Arxiv</a> |  <a href="https://github.com/yashchandak/UnO">Code</a>   | <a href="https://slideslive.com/38967385/universal-offpolicy-evaluation?ref=search-presentations-high+confidence">Video</a> | <a href="https://slideslive.com/38972013/advances-in-highconfidence-offpolicy-evaluation?ref=search-presentations-high+confidence">Tutorial</a>  </summary>            
                   <p class="message">
                    When faced with sequential decision-making problems, it is often useful to be able to predict what would happen if decisions were made using a new policy. Those predictions must often be based on data collected under some previously used decision-making rule. Many previous methods enable such off-policy (or counterfactual) estimation of the expected value of a performance measure called the return. In this paper, we take the first steps towards a universal off-policy estimator (UnO) -- one that provides off-policy estimates and high-confidence bounds for any parameter of the return distribution. We use UnO for estimating and simultaneously bounding the mean, variance, quantiles/median, inter-quantile range, CVaR, and the entire cumulative distribution of returns. Finally, we also discuss Uno's applicability in various settings, including fully observable, partially observable (i.e., with unobserved confounders), Markovian, non-Markovian, stationary, smoothly non-stationary, and discrete distribution shifts. 
                   </p>
@@ -180,7 +180,7 @@ paper {
             <br> 
             5th Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM 2022)
               <details>
-                <summary>Abstract | <a href="https://arxiv.org/abs/2111.03936">Arxiv</a> |  <a href="https://github.com/Pearl-UTexas/SOPE">Code</a> </summary>            
+                <summary>Abstract | <a href="https://arxiv.org/abs/2111.03936">Arxiv</a> |  <a href="https://github.com/Pearl-UTexas/SOPE">Code</a>  | <a href="https://slideslive.com/38969055/sope-spectrum-of-offpolicy-estimators?ref=search-presentations-SOPE">Video</a> </summary>            
                   <p class="message">
                    Many sequential decision making problems are high-stakes and require off-policy evaluation (OPE) of a new policy using historical data collected using some other policy. One of the most common OPE technique that provides unbiased estimates is trajectory based importance sampling (IS). However, due to the high variance of trajectory IS estimates, importance sampling methods based on stationary distributions (SIS) have recently been adopted. Unfortunately, while SIS often provides lower variance estimates, estimating the stationary distribution ratios can be challenging and lead to biased estimates. In this paper, we present a new perspective on this bias-variance trade-off and show the existence of a spectrum of estimators whose endpoints are SIS and IS, respectively. We then show that estimators in this spectrum allow us to trade-off between the bias and variance of IS and SIS and can achieve lower mean-squared error than both IS and SIS.
                   </p>
@@ -233,7 +233,7 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
               <br>
               Thirty-eighth International Conference on Machine Learning (ICML 2021)
               <details>
-                <summary>Abstract |  <a href="https://proceedings.mlr.press/v139/kostas21a.html">pdf</a>  </summary>            
+                <summary>Abstract |  <a href="https://proceedings.mlr.press/v139/kostas21a.html">pdf</a>  | <a href="https://slideslive.com/38959096/high-confidence-generalization-for-reinforcement-learning?ref=search-presentations-high+confidence">Video</a>  </summary>            
                   <p class="message">
                    We present several classes of reinforcement learn-ing algorithms that safely generalize toMarkovdecision processes(MDPs) not seen during train-ing.  Specifically, we study the setting in whichsome set of MDPs is accessible for training. Forvarious definitions of safety, our algorithms giveprobabilistic guarantees that agents can safely gen-eralize to MDPs that are sampled from the samedistribution but are not necessarily in the train-ing set.   These algorithms are a type ofSeldo-nianalgorithm (Thomas et al., 2019), which is aclass of machine learning algorithms that returnmodels with probabilistic safety guarantees foruser-specified definitions of safety. 
                   </p>
