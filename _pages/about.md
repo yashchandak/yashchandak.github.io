@@ -75,6 +75,21 @@ Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
    <tr>
+    <td width="5%"  valign="middle"> <b>2022</b>
+    </td>
+     <td width="7%"  valign="middle">
+            <img src="/images/aboutme/dm_logo.png" alt="DM" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="middle" width="80%">
+          <p>
+              <b>Intern at </b> <a href="https://www.deepmind.com/">Google DeepMind, London</a>.
+              <br>
+              Advised by <a href="https://scholar.google.co.uk/citations?user=LK_CV24AAAAJ&hl=en">Dr. Diana Borsa</a> and <a href="http://researchers.lille.inria.fr/munos/">Prof. Remi Munos</a>.
+          </p>  
+     </td>
+   </tr>
+
+   <tr>
     <td width="5%"  valign="middle"> <b>2020</b>
     </td>
      <td width="7%"  valign="middle">
@@ -97,7 +112,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-
      </td>
      <td valign="middle" width="80%">
           <p>
-              <b>Intern at </b> <a href="https://www.cics.umass.edu/">Adobe Research, San Jose</a>.
+              <b>Intern at </b> <a href="https://research.adobe.com/">Adobe Research, San Jose</a>.
               <br>
               Advised by <a href="https://research.adobe.com/person/georgios-theocharous/">Dr. Georgios Theocharous</a> and <a href="https://people.cs.umass.edu/~mahadeva/Site/About_Me.html">Prof. Sridhar Mahadevan</a>.
           </p>  
@@ -113,7 +128,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-
      </td>
      <td valign="middle" width="80%">
           <p>
-              <b>Intern at </b> <a href="https://www.cics.umass.edu/">Adobe Research, San Jose</a>.
+              <b>Intern at </b> <a href="https://research.adobe.com/">Adobe Research, San Jose</a>.
               <br>
               Advised by <a href="https://research.adobe.com/person/georgios-theocharous/">Dr. Georgios Theocharous</a>.
           </p>  
