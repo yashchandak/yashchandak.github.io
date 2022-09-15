@@ -146,7 +146,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-
           <p>
               <b>Intern at </b> <a href="https://research.adobe.com/">Adobe Research, San Jose</a>.
               <br>
-              Advised by <a href="https://research.adobe.com/person/georgios-theocharous/">Dr. Georgios Theocharous</a> and <a href="https://people.cs.umass.edu/~mahadeva/Site/About_Me.html">Prof. Sridhar Mahadevan</a>.
+              Advised by <a href="https://research.adobe.com/person/georgios-theocharous/">Georgios Theocharous</a> and <a href="https://people.cs.umass.edu/~mahadeva/Site/About_Me.html">Prof. Sridhar Mahadevan</a>.
           </p>  
      </td>
    </tr>
@@ -162,7 +162,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-
           <p>
               <b>Intern at </b> <a href="https://research.adobe.com/">Adobe Research, San Jose</a>.
               <br>
-              Advised by <a href="https://research.adobe.com/person/georgios-theocharous/">Dr. Georgios Theocharous</a>.
+              Advised by <a href="https://research.adobe.com/person/georgios-theocharous/">Georgios Theocharous</a>.
           </p>  
      </td>
    </tr>
@@ -222,7 +222,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-
           <p>
               <b>Intern at the </b> <a href="https://www.drdo.gov.in/drdo/labs1/IRDE/English/indexnew.jsp?pg=homepage.jsp">Defence Research & Development Organisation (IRDE, DRDO)</a>.
               <br>
-              Advised by <a href=""> Dr. J.P. Singh</a>.
+              Advised by <a href=""> J.P. Singh</a>.
           </p>  
      </td>
    </tr>
@@ -239,7 +239,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-
           <p>
               <b>Part of </b> <a href="https://aspiringresearchers.soe.ucsc.edu/">The Aspiring Researcher Challenge</a><b>, an initiative by professors from University of California and Stanford.</b>
               <br>
-              Advised by <a href="https://users.soe.ucsc.edu/~davis/"> Prof. James Davis</a> and <a href="http://www.rajanvaish.com/"> Dr. Rajan Vaish</a>.
+              Advised by <a href="https://users.soe.ucsc.edu/~davis/"> Prof. James Davis</a> and <a href="http://www.rajanvaish.com/">  Rajan Vaish</a>.
           </p>  
      </td>
    </tr>
