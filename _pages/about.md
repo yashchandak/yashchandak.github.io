@@ -78,13 +78,42 @@ Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-
     <td width="5%"  valign="middle"> <b>2022</b>
     </td>
      <td width="7%"  valign="middle">
+            <img src="/images/aboutme/stanford.png" alt="stanford" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="middle" width="80%">
+          <p>
+              <b>Postdoc at </b> <a href="https://www.cics.umass.edu/">Stanford University</a>.
+              <br>
+              Advised by <a href="https://cs.stanford.edu/people/ebrun/">Prof. Emma Brunskill</a>.
+          </p>  
+     </td>
+   </tr>
+  
+   <tr>
+    <td width="5%"  valign="middle"> <b>2022</b>
+    </td>
+     <td width="7%"  valign="middle">
+            <img src="/images/aboutme/umass.png" alt="umass" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="middle" width="80%">
+          <p>
+              <b>Received PhD in Computer Science from the </b> <a href="https://www.cics.umass.edu/">University of Massachusetts Amherst</a>.
+              <br>
+              Advised by <a href="https://people.cs.umass.edu/~pthomas/">Prof. Philip Thomas</a>.
+          </p>  
+     </td>
+   </tr>
+   <tr>
+    <td width="5%"  valign="middle"> <b>2022</b>
+    </td>
+     <td width="7%"  valign="middle">
             <img src="/images/aboutme/dm_logo.png" alt="DM" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="middle" width="80%">
           <p>
               <b>Intern at </b> <a href="https://www.deepmind.com/">Google DeepMind, London</a>.
               <br>
-              Advised by <a href="https://scholar.google.co.uk/citations?user=LK_CV24AAAAJ&hl=en">Dr. Diana Borsa</a> and <a href="http://researchers.lille.inria.fr/munos/">Prof. Remi Munos</a>.
+              Advised by <a href="https://scholar.google.co.uk/citations?user=LK_CV24AAAAJ&hl=en">Diana Borsa</a>, <a href="https://scholar.google.com/citations?user=AlTQrFcAAAAJ&hl=en">Mohammad Gheshlaghi Azar</a>, <a href="https://willdabney.com/">Will Dabney</a>, and <a href="http://researchers.lille.inria.fr/munos/">Prof. Remi Munos</a>.
           </p>  
      </td>
    </tr>
