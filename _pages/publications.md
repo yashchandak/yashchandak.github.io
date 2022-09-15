@@ -43,6 +43,112 @@ paper {
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
+<tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_thesis.png" alt="Thesis" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Reinforcement Learning for Non-stationary Problems</paper>
+              <br>  
+              <b>Yash Chandak</b>
+            <br>
+           PhD Thesis, School of Computer Science, University of Massachusetts, September 2022.
+              <details>
+                <summary>Abstract  </summary>            
+                  <p class="message">
+                  Reinforcement learning (RL) has emerged as a general-purpose technique for
+addressing problems involving sequential decision-making. However, most RL methods
+are based upon the fundamental assumption that the transition dynamics and reward
+functions are fixed, that is, the underlying Markov decision process is stationary.
+This limits the applicability of such RL methods because real-world problems are
+often subject to changes due to external factors (passive non-stationarity), or changes
+induced by interactions with the system itself (active non-stationarity), or both
+(hybrid non-stationarity). For example, personalized automated healthcare systems
+and other automated human-computer interaction systems need to constantly account
+for changes in human behavior and interests that occur over time. Further, when the
+stakes associated with financial risks or human life are high, the cost associated with a false stationarity assumption may be unacceptable. In this work, we address several
+challenges underlying (off-policy) policy evaluation, improvement, and safety amidst
+such non-stationarities. Our approach merges ideas from reinforcement learning,
+counterfactual reasoning, and time-series analysis.
+                    
+                    When the stationarity assumption is violated, using existing algorithms may result
+in a performance lag and false safety guarantees. This raises the question: how can we
+use historical data to optimize for future scenarios? To address this challenges in the
+presence of passive non-stationarity, we show how future performance of a policy can
+be evaluated using a forecast obtained by fitting a curve to counter-factual estimates
+of policy performances over time, without ever directly modeling the underlying
+non-stationarity. We show that this approach further enables policy improvement to
+proactively search for a good future policy by leveraging a policy gradient algorithm
+that maximizes a forecast of future performance. Building upon these advances, we
+present a Seldonian algorithm that provides the first steps towards ensuring safety,
+with high confidence, for smoothly-varying non-stationary decision problems.
+                    
+                    The presence of active and hybrid non-stationarity pose additional challenges by
+exposing a completely new feedback loop that allows an agent to potentially control
+the non-stationary aspects of the environment. This makes the outcomes of future
+decisions dependent on all of the past interactions, thereby resulting in effectively a
+single lifelong sequence of decisions. We propose a method that provides the first steps
+towards a general procedure for on-policy and off-policy evaluation amidst structured
+changes due to active, passive, or hybrid non-stationarity.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr> 
+  
+   
+<tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_activeNSDP.png" alt="activeNSDP" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Off-Policy Evaluation for Action-Dependent Non-stationary Environments</paper>
+              <br>  
+              <b>Yash Chandak</b>,    
+              <a href='https://scholar.google.com/citations?user=yK56jugAAAAJ&hl=en'>Shiv Shankar</a>,
+              <a href='https://scholar.google.com/citations?user=M2aMMxQAAAAJ&hl=en'>Nathaniel D. Bastian</a>,
+              <a href='https://people.cs.umass.edu/~bsilva/'>Bruno Castro da Silva</a>,
+              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>,
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
+            <br>
+       Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS 2022)
+              <details>
+                <summary>Abstract  </summary>            
+                  <p class="message">
+                  Methods for sequential decision-making are often built upon a foundational assumption that the underlying decision process is stationary. This limits the application of such methods because real-world problems are often subject to changes due to external factors (\textit{passive} non-stationarity), changes induced by interactions with the system itself (\textit{active} non-stationarity), or both (\textit{hybrid} non-stationarity). In this work, we take the first steps towards the fundamental challenge of on-policy and off-policy evaluation amidst structured changes due to active, passive, or hybrid non-stationarity. Towards this goal, we make a \textit{higher-order stationarity} assumption such that non-stationarity results in changes over time, but the way changes happen is fixed. We propose, OPEN, an algorithm that uses a double application of counterfactual reasoning and a novel importance-weighted instrument-variable regression to obtain both a lower bias and a lower variance estimate of the structure in the changes of a policy's past performances. Finally, we show promising results on how OPEN can be used to predict future performances for several domains inspired by real-world applications that exhibit non-stationarity.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr> 
+
+<tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_FDRO.png" alt="FDRO" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Factored DRO: Factored Distributionally Robust Policies for Contextual Bandits</paper>
+              <br>  
+              <a href='https://tongmu.github.io/'>Tong Mu</a>,
+              <b>Yash Chandak</b>,    
+              <a href='https://thashim.github.io/'>Tatsunori Hashimoto</a>,
+              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>
+            <br>
+       Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS 2022)
+              <details>
+                <summary>Abstract  </summary>            
+                  <p class="message">
+                 While there has been extensive work on learning from offline data for contextual multi-armed bandit settings, existing methods typically assume there is no environment shift: that the learned policy will operate in the same environmental process as that of data collection. However, this assumption may overly limit the use of these methods for many practical situations where there may be distribution shifts. In this work we propose Factored Distributionally Robust Optimization (Factored-DRO), which is able to separately handle distribution shifts in the context distribution and shifts in the reward generating process. Prior work that either ignores potential shifts in the context, or considers them jointly, can lead to performance that is too conservative and does not consider context shift at all, especially under certain forms of reward feedback. Our Factored-DRO objective mitigates this by considering the shifts separately, and our proposed estimators are consistent and converge asymptotically. We also introduce a practical algorithm and demonstrate promising empirical results in environments based on real-world datasets, such as voting outcomes and scene classification.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr> 
+
+  
  
 <tr>
        <td width="14%"  valign="middle">
