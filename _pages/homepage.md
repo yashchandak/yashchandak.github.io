@@ -41,17 +41,20 @@ paper {
 
 <!--<img align="left" width=150px src="/images/dp.jpg"> -->
 
-I'm a PhD candidate at the [University of Massachusetts](https://www.umass.edu/). I am also a member of the [Autonomous Learning Lab (ALL)](http://www-all.cs.umass.edu/) and am fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
-My research interests are mostly at the intersection of reinforcement learning and machine learning, specifically on the sub-topics related to continual learning, non-stationarity, safety, off-policy data, and other challenges stemming from real-world applications. I enjoy reading and looking out for inspirations from neuroscience as well.
+I will be starting my postdoc with [Prof. Emma Brunskill](https://cs.stanford.edu/people/ebrun/) at Stanford University. My research interests are mostly at the intersection of reinforcement learning and machine learning, specifically on the sub-topics related to continual learning, non-stationarity, safety, off-policy data, and other challenges stemming from real-world applications in education and healthcare.
+
+I received my PhD at the [University of Massachusetts](https://www.umass.edu/), where I was a member of the [Autonomous Learning Lab (ALL)](http://www-all.cs.umass.edu/) and was fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
+
 <br><br>
 
 
 ## Recent
+
+- Our papers on (a) Off-Policy evaluation for action-dependent non-stationary environments, and (b) Factored distributionally robust policies for contextual bandits, got accepted at NeurIPS'22.
+- PhD done. Graduated! Thanks to Phil for being both a mentor and an advisor!
+- RLDM 2022 best paper award for our work on universal off-policy evaluation.
 - I will be interning at DeepMind London from May. 
 - Outstanding Reviewer at NeurIPS'21 and Top Reviewer at ICML'21.
-- Our papers on (a) Universal off-Policy evaluation, and (b) SOPE: Spectrum of off-policy estimators, got accepted at NeurIPS'21.
-- Our paper on providing high confidence generalization for reinforcement learning got accepted at ICML'21. 
-- Our paper on providing high-confidence off-policy variance estimates got accepted at AAAI'21.
 <br><br>
 
 ## Selected Publications
