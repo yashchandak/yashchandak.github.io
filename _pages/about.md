@@ -38,7 +38,7 @@ tbody tr:nth-child(odd) th {
 
 <br>
 
-I will be starting my postdoc with [Prof. Emma Brunskill](https://cs.stanford.edu/people/ebrun/) at Stanford University. My research interests are mostly at the intersection of reinforcement learning and machine learning, specifically on the sub-topics related to continual learning, non-stationarity, safety, off-policy data, and other challenges stemming from real-world applications in education and healthcare.
+I will be starting my work as a postdoc for [Prof. Emma Brunskill](https://cs.stanford.edu/people/ebrun/) at Stanford University. My research interests are mostly at the intersection of reinforcement learning and machine learning, specifically on the sub-topics related to continual learning, non-stationarity, safety, off-policy data, and other challenges stemming from real-world applications in education and healthcare.
 
 <br>
 I received my PhD at the [University of Massachusetts](https://www.umass.edu/), where I was a member of the [Autonomous Learning Lab (ALL)](http://www-all.cs.umass.edu/) and was fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
@@ -90,7 +90,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-
      </td>
      <td valign="middle" width="80%">
           <p>
-              <b>Received PhD in Computer Science from the </b> <a href="https://www.cics.umass.edu/">University of Massachusetts Amherst</a>.
+              <b>Completed my PhD in Computer Science from the </b> <a href="https://www.cics.umass.edu/">University of Massachusetts Amherst</a>.
               <br>
               Advised by <a href="https://people.cs.umass.edu/~pthomas/">Prof. Philip Thomas</a>.
           </p>  
@@ -119,7 +119,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-
      </td>
      <td valign="middle" width="80%">
           <p>
-              <b>Received Master's in Computer Science (with Distinction) from the </b> <a href="https://www.cics.umass.edu/">University of Massachusetts Amherst</a>.
+              <b>Completed my Master's in Computer Science (with Distinction) from the </b> <a href="https://www.cics.umass.edu/">University of Massachusetts Amherst</a>.
               <br>
               Advised by <a href="https://people.cs.umass.edu/~pthomas/">Prof. Philip Thomas</a>.
           </p>  
@@ -165,7 +165,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-
      </td>
      <td valign="middle" width="80%">
           <p>
-              <b>Graduated with Bachelor's in Computer Science from the </b> <a href="https://chennai.vit.ac.in/">Vellore Institute of Technology, Chennai</a>.
+              <b>Completed my Bachelor's in Computer Science from the </b> <a href="https://chennai.vit.ac.in/">Vellore Institute of Technology, Chennai</a>.
               <br>
               Advised by <a href="https://www.researchgate.net/scientific-contributions/2046556969_PS_Nithya_Darisini">Prof. Nithya Darisini</a>.
           </p>  
