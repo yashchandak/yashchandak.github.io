@@ -67,7 +67,7 @@ Before that, I was a national level basketball player in India and used to play 
 Reviewer: [JMLR](https://www.jmlr.org/) (2021-22), [MLJ](https://www.springer.com/journal/10994) (2022)
 
 ### Conferences
-Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-21), [ICLR](https://iclr.cc/) (2022), [TMLR](https://www.jmlr.org/tmlr/) (2022), [CoLLAs](https://lifelong-ml.cc/) (2022)  
+Reviewer: [ICML](https://icml.cc/) (2019-22), [NeurIPS](https://nips.cc/) (2019-22), [ICLR](https://iclr.cc/) (2022), [TMLR](https://www.jmlr.org/tmlr/) (2022), [CoLLAs](https://lifelong-ml.cc/) (2022)  
 
 <br><br>
 
