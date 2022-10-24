@@ -152,6 +152,31 @@ changes due to active, passive, or hybrid non-stationarity.
  
 <tr>
        <td width="14%"  valign="middle">
+            <img src="/images/publications/web_GG.png" alt="GG" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Optimization using Parallel Gradient Evaluations on Multiple Parameters</paper>
+              <br>  
+              <b>Yash Chandak</b>,    
+              <a href='https://scholar.google.com/citations?user=yK56jugAAAAJ&hl=en'>Shiv Shankar</a>,
+              <a href='https://sites.google.com/view/gvenkata/home'>Venkata Gandikota</a>,
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
+              <a href='https://mazumdar.ucsd.edu/'>Arya Mazumdar</a>,
+            <br>
+       OPT workshop @ Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS 2022)
+              <details>
+                <summary>Abstract  </summary>            
+                  <p class="message">
+                 We propose a first-order method for convex optimization, where instead of being restricted to the gradient from a single parameter, gradients from multiple parameters can be used during each step of gradient descent. This setup is particularly useful when a few processors are available that can be used in parallel for optimization. Our method uses gradients from multiple parameters in synergy to update these parameters together towards the optima. While doing so, it is ensured that the computational and memory complexity is of the same order as that of gradient descent. Empirical results demonstrate that even using gradients from as low as \textit{two} parameters, our method can often obtain significant acceleration and provide robustness to hyper-parameter settings. We remark that the primary goal of this work is less theoretical, and is instead aimed at exploring the understudied case of using multiple gradients during each step of optimization.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr> 
+
+<tr>
+       <td width="14%"  valign="middle">
             <img src="/images/publications/web_sharedCOMDP.png" alt="COMDP" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
