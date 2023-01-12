@@ -6,7 +6,7 @@ encoding:         utf-8
 # Setup
 title:            Yash Chandak
 tagline:          'Personal Webpage'
-description:      'y[lastname]@cs.umass.edu'
+description:      'y[lastname]@stanford.edu'
 url:              https://yashchandak.github.io/yashchandak
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
