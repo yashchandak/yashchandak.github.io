@@ -55,7 +55,7 @@ in Nonstationary Environments</paper>
               <a href='https://vincentliu3.github.io/'>Vincent Liu</a>,
               <b>Yash Chandak</b>,    
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
-              <a href='https://webdocs.cs.ualberta.ca/~whitem/'>Martha White</a>.
+              <a href='https://webdocs.cs.ualberta.ca/~whitem/'>Martha White</a>
             <br>
           26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)
               <details>
@@ -77,7 +77,7 @@ addressing problemIn this work, we consider the off-policy policy evaluation pro
           <p>
               <paper>Understanding Self-Predictive Learning for Reinforcement Learning</paper>
               <br>  
-              <a href='https://robintyh1.github.io/'>Yunhao Tang </a>,
+              <a href='https://robintyh1.github.io/'>Yunhao Tang</a>,
               <a href='https://scholar.google.com/citations?user=fxr_9oQAAAAJ&hl=en/'>Zhaohan Daniel Guo</a>,
               <a href='https://dblp.org/pid/200/8842.html'>Pierre Harvey Richemond </a>,
               <a href='https://scholar.google.com/citations?user=WpAH4iUAAAAJ&hl=en'> Bernardo  ́Avila Pires</a>,
@@ -92,7 +92,7 @@ addressing problemIn this work, we consider the off-policy policy evaluation pro
               <a href='https://willdabney.com/'>Will Dabney</a>,
               <a href='https://scholar.google.fr/citations?user=fqxNUREAAAAJ&hl=fr'>Bilal Piot</a>,
               <a href='https://scholar.google.it/citations?user=R7c1UMMAAAAJ&hl=it'>Daniele Calandriello</a>,
-              <a href='https://misovalko.github.io/'>Michal Valko </a>,
+              <a href='https://misovalko.github.io/'>Michal Valko </a>
             <br>
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/2212.03319">Arxiv</a> </summary>            
@@ -183,7 +183,7 @@ changes due to active, passive, or hybrid non-stationarity.
               <a href='https://scholar.google.com/citations?user=M2aMMxQAAAAJ&hl=en'>Nathaniel D. Bastian</a>,
               <a href='https://people.cs.umass.edu/~bsilva/'>Bruno Castro da Silva</a>,
               <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>,
-              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
             <br>
        Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS 2022)
               <details>
@@ -234,7 +234,7 @@ changes due to active, passive, or hybrid non-stationarity.
               <a href='https://scholar.google.com/citations?user=yK56jugAAAAJ&hl=en'>Shiv Shankar</a>,
               <a href='https://sites.google.com/view/gvenkata/home'>Venkata Gandikota</a>,
               <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
-              <a href='https://mazumdar.ucsd.edu/'>Arya Mazumdar</a>,
+              <a href='https://mazumdar.ucsd.edu/'>Arya Mazumdar</a>
             <br>
        OPT workshop @ Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS 2022)
               <details>
@@ -291,7 +291,7 @@ changes due to active, passive, or hybrid non-stationarity.
               <a href='https://www.linkedin.com/in/vishalrohra1/'>Vishal Rohra</a>, 
               <a href='https://www.linkedin.com/in/soundararajansrinivasan/'>Soundar Srinivasan</a>, 
               <a href='https://sites.google.com/view/sajjadriaj/'>H M Sajjad Hossain</a>^, 
-              <b>Yash Chandak</b>^.
+              <b>Yash Chandak</b>^
             *Equal contribution, ^Equal advising
             <br>
               Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI 2022)
