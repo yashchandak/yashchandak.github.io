@@ -39,6 +39,78 @@ paper {
 
 
 </style>
+#### 2023
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+<tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_SSOPE.png" alt="SSOPE" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Asymptotically Unbiased Off-Policy Policy Evaluation when Reusing Old Data
+in Nonstationary Environments</paper>
+              <br>  
+              <a href='https://vincentliu3.github.io/'>Vincent Liu</a>,
+              <b>Yash Chandak</b>,    
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
+              <a href='https://webdocs.cs.ualberta.ca/~whitem/'>Martha White</a>.
+            <br>
+          26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)
+              <details>
+                <summary>Abstract  </summary>            
+                  <p class="message">
+                  Reinforcement learning (RL) has emerged as a general-purpose technique for
+addressing problemIn this work, we consider the off-policy policy evaluation problem for contextual bandits and finite horizon reinforcement learning in the nonstationary setting. Reusing old data is critical for policy evaluation, but existing estimators that reuse old data introduce large bias such that we can not obtain a valid confidence interval. Inspired from a related field called survey sampling, we introduce a variant of the doubly robust (DR) estimator, called the regression-assisted DR estimator, that can incorporate the past data without introducing a large bias. The estimator unifies several existing off-policy policy evaluation methods and improves on them with the use of auxiliary information and a regression approach. We prove that the new estimator is asymptotically unbiased, and provide a consistent variance estimator to a construct a large sample confidence interval. Finally, we empirically show that the new estimator improves estimation for the current and future policy values, and provides a tight and valid interval estimation in several nonstationary recommendation environments. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr> 
+  
+  <tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_BYOLtheory.png" alt="BYOL" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Understanding Self-Predictive Learning for Reinforcement Learning</paper>
+              <br>  
+              <a href='https://robintyh1.github.io/'>Yunhao Tang </a>,
+              <a href='https://scholar.google.com/citations?user=fxr_9oQAAAAJ&hl=en/'>Zhaohan Daniel Guo</a>,
+              <a href='https://dblp.org/pid/200/8842.html'>Pierre Harvey Richemond </a>,
+              <a href='https://scholar.google.com/citations?user=WpAH4iUAAAAJ&hl=en'> Bernardo  ́Avila Pires</a>,
+              <b>Yash Chandak</b>,    
+              <a href='http://chercheurs.lille.inria.fr/~munos/'>Remi Munos</a>,
+              <a href='https://sites.google.com/view/markrowland'>Mark Rowland</a>,
+              <a href='https://scholar.google.com/citations?user=AlTQrFcAAAAJ&hl=en'>Mohammad Gheshlaghi Azar</a>,
+              <a href='https://scholar.google.com/citations?user=3geG4OkAAAAJ&hl=en'>Charline Le Lan</a>,
+              <a href='https://clarelyle.com/'>Clare Lyle</a>,
+              <a href='https://dblp.org/pid/72/251-1.html'>Andras Gyorgy</a>,
+              <a href='https://scholar.google.com/citations?user=polyCecAAAAJ&hl=en'>Shantanu Thakoor</a>,
+              <a href='https://willdabney.com/'>Will Dabney</a>,
+              <a href='https://scholar.google.fr/citations?user=fqxNUREAAAAJ&hl=fr'>Bilal Piot</a>,
+              <a href='https://scholar.google.it/citations?user=R7c1UMMAAAAJ&hl=it'>Daniele Calandriello</a>,
+              <a href='https://misovalko.github.io/'>Michal Valko </a>,
+            <br>
+              <details>
+                <summary>Abstract | <a href="https://arxiv.org/abs/2212.03319">Arxiv</a> </summary>            
+                  <p class="message">
+                  We study the learning dynamics of self-predictive learning for reinforcement learning, a family of algorithms that learn representations by minimizing the prediction error of their own future latent representations.
+    Despite its recent empirical success, such algorithms have an apparent defect: trivial representations (such as constants) minimize the prediction error, yet it is obviously undesirable to converge to such solutions.
+    %\berna{Not only undesirable, but rarely observed in practice.}
+    Our central insight is that careful designs of the optimization dynamics are critical to learning meaningful representations. We identify that a faster paced optimization of the predictor and semi-gradient updates on the representation, are crucial to preventing the representation collapse. Then in an idealized setup, we show self-predictive learning dynamics carries out spectral decomposition on the state transition matrix, effectively capturing information of the transition dynamics. Building on the theoretical insights, we propose bidirectional self-predictive learning, a novel self-predictive algorithm that learns two representations simultaneously. We examine the robustness of our theoretical insights with a number of small-scale experiments and showcase the promise of the novel representation learning algorithm with large-scale experiments.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr> 
+  
+  </table>
+
+<br>
+
 #### 2022
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
