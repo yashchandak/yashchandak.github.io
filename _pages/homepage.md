@@ -41,7 +41,7 @@ paper {
 
 <!--<img align="left" width=150px src="/images/dp.jpg"> -->
 
-I work as a postdoc for [Prof. Emma Brunskill](https://cs.stanford.edu/people/ebrun/) at Stanford University. My research interests are mostly at the intersection of reinforcement learning and machine learning, specifically on the sub-topics related to continual learning, non-stationarity, safety, off-policy data, and other challenges stemming from real-world applications in education and healthcare.
+I work as a postdoc for [Prof. Emma Brunskill](https://cs.stanford.edu/people/ebrun/) at [Stanford University](https://www.stanford.edu/). My research interests are mostly at the intersection of reinforcement learning and machine learning, specifically on the sub-topics related to continual learning, non-stationarity, safety, off-policy data, and other challenges stemming from real-world applications in education and healthcare.
 
 <br>
 I received my PhD at the [University of Massachusetts](https://www.umass.edu/), where I was a member of the [Autonomous Learning Lab (ALL)](http://www-all.cs.umass.edu/) and was fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
@@ -64,6 +64,33 @@ Click [here](/publication) for all the publications.
 <br>
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+     
+<tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_activeNSDP.png" alt="activeNSDP" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Off-Policy Evaluation for Action-Dependent Non-stationary Environments</paper>
+              <br>  
+              <b>Yash Chandak</b>,    
+              <a href='https://scholar.google.com/citations?user=yK56jugAAAAJ&hl=en'>Shiv Shankar</a>,
+              <a href='https://scholar.google.com/citations?user=M2aMMxQAAAAJ&hl=en'>Nathaniel D. Bastian</a>,
+              <a href='https://people.cs.umass.edu/~bsilva/'>Bruno Castro da Silva</a>,
+              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>,
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+            <br>
+       Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS 2022)
+              <details>
+                <summary>Abstract  |  <a href="https://arxiv.org/abs/2301.10330">Arxiv</a> |  <a href="https://github.com/yashchandak/activeNS">Code</a> | <a href="https://nips.cc/virtual/2022/poster/54093">Video</a>   </summary>            
+                  <p class="message">
+                  Methods for sequential decision-making are often built upon a foundational assumption that the underlying decision process is stationary. This limits the application of such methods because real-world problems are often subject to changes due to external factors (\textit{passive} non-stationarity), changes induced by interactions with the system itself (\textit{active} non-stationarity), or both (\textit{hybrid} non-stationarity). In this work, we take the first steps towards the fundamental challenge of on-policy and off-policy evaluation amidst structured changes due to active, passive, or hybrid non-stationarity. Towards this goal, we make a \textit{higher-order stationarity} assumption such that non-stationarity results in changes over time, but the way changes happen is fixed. We propose, OPEN, an algorithm that uses a double application of counterfactual reasoning and a novel importance-weighted instrument-variable regression to obtain both a lower bias and a lower variance estimate of the structure in the changes of a policy's past performances. Finally, we show promising results on how OPEN can be used to predict future performances for several domains inspired by real-world applications that exhibit non-stationarity.
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr> 
+
 <tr>
      <td width="14%"  valign="middle">
             <img src="/images/publications/web_UnO.png" alt="UnO" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
