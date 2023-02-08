@@ -238,7 +238,7 @@ changes due to active, passive, or hybrid non-stationarity.
             <br>
        OPT workshop @ Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS 2022)
               <details>
-                <summary>Abstract  |  <a href="https://openreview.net/forum?id=weWbPUIMSq">Paper</a>   </summary>            
+                <summary>Abstract  |  <a href="https://arxiv.org/abs/2302.03161">Arxiv</a>   </summary>            
                   <p class="message">
                  We propose a first-order method for convex optimization, where instead of being restricted to the gradient from a single parameter, gradients from multiple parameters can be used during each step of gradient descent. This setup is particularly useful when a few processors are available that can be used in parallel for optimization. Our method uses gradients from multiple parameters in synergy to update these parameters together towards the optima. While doing so, it is ensured that the computational and memory complexity is of the same order as that of gradient descent. Empirical results demonstrate that even using gradients from as low as \textit{two} parameters, our method can often obtain significant acceleration and provide robustness to hyper-parameter settings. We remark that the primary goal of this work is less theoretical, and is instead aimed at exploring the understudied case of using multiple gradients during each step of optimization.
                   </p>
