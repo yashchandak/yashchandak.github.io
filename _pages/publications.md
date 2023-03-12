@@ -127,7 +127,7 @@ addressing problemIn this work, we consider the off-policy policy evaluation pro
             <br>
            PhD Thesis, School of Computer Science, University of Massachusetts, September 2022.
               <details>
-                <summary>Abstract  </summary>            
+                <summary>Abstract | <a href="/docs/PhD_Thesis_Yash-1.pdf">Pdf</a> </summary>            
                   <p class="message">
                   Reinforcement learning (RL) has emerged as a general-purpose technique for
 addressing problems involving sequential decision-making. However, most RL methods
