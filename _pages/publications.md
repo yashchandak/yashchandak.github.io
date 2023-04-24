@@ -43,26 +43,28 @@ paper {
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-<tr>
+  
+  <tr>
        <td width="14%"  valign="middle">
-            <img src="/images/publications/web_SSOPE.png" alt="SSOPE" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/web_DeREX.png" alt="DeREX" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
-              <paper>Asymptotically Unbiased Off-Policy Policy Evaluation when Reusing Old Data
-in Nonstationary Environments</paper>
+              <paper>Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition</paper>
               <br>  
-              <a href='https://vincentliu3.github.io/'>Vincent Liu</a>,
               <b>Yash Chandak</b>,    
-              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
-              <a href='https://webdocs.cs.ualberta.ca/~whitem/'>Martha White</a>
+              <a href='https://scholar.google.com/citations?user=polyCecAAAAJ&hl=en'>Shantanu Thakoor</a>,
+              <a href='https://scholar.google.com/citations?user=fxr_9oQAAAAJ&hl=en/'>Zhaohan Daniel Guo</a>,
+              <a href='https://robintyh1.github.io/'>Yunhao Tang</a>,
+              <a href='http://chercheurs.lille.inria.fr/~munos/'>Remi Munos</a>,
+              <a href='https://willdabney.com/'>Will Dabney</a>,
+              <a href='https://scholar.google.co.uk/citations?user=LK_CV24AAAAJ&hl=en'>Diana Borsa</a>
             <br>
-          26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)
+          40th International Conference on Machine Learning (ICML 2023)
               <details>
-                <summary>Abstract  </summary>            
+                <summary>Abstract |  </summary>            
                   <p class="message">
-                  Reinforcement learning (RL) has emerged as a general-purpose technique for
-addressing problemIn this work, we consider the off-policy policy evaluation problem for contextual bandits and finite horizon reinforcement learning in the nonstationary setting. Reusing old data is critical for policy evaluation, but existing estimators that reuse old data introduce large bias such that we can not obtain a valid confidence interval. Inspired from a related field called survey sampling, we introduce a variant of the doubly robust (DR) estimator, called the regression-assisted DR estimator, that can incorporate the past data without introducing a large bias. The estimator unifies several existing off-policy policy evaluation methods and improves on them with the use of auxiliary information and a regression approach. We prove that the new estimator is asymptotically unbiased, and provide a consistent variance estimator to a construct a large sample confidence interval. Finally, we empirically show that the new estimator improves estimation for the current and future policy values, and provides a tight and valid interval estimation in several nonstationary recommendation environments. 
+                  Representation learning and exploration are among the key challenges for any deep reinforcement learning agent. In this work, we provide a singular value decomposition based method that can be used to obtain representations that preserve the underlying transition structure in the domain. Perhaps interestingly, we show that these representations also capture the relative frequency of state visitations, thereby providing an estimate for pseudo-counts for free. To scale this decomposition method to large-scale domains, we provide an algorithm that never requires building the transition matrix, can make use of deep networks, and also permits mini-batch training. Further, we draw inspiration from predictive state representations and extend our decomposition method to partially observable environments. With experiments on multi-task settings with partially observable domains, we show that the proposed method can not only learn useful representation on DM-Lab-30 environments (that have inputs involving language instructions, pixel images, rewards, among others) but it can also be effective at hard exploration tasks in DM-Hard-8 environments.
                   </p>
               </details>
           </p>  
@@ -94,6 +96,7 @@ addressing problemIn this work, we consider the off-policy policy evaluation pro
               <a href='https://scholar.google.it/citations?user=R7c1UMMAAAAJ&hl=it'>Daniele Calandriello</a>,
               <a href='https://misovalko.github.io/'>Michal Valko </a>
             <br>
+          40th International Conference on Machine Learning (ICML 2023)
               <details>
                 <summary>Abstract | <a href="https://arxiv.org/abs/2212.03319">Arxiv</a> </summary>            
                   <p class="message">
@@ -106,6 +109,32 @@ addressing problemIn this work, we consider the off-policy policy evaluation pro
           </p>  
      </td>
    </tr> 
+<tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_SSOPE.png" alt="SSOPE" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Asymptotically Unbiased Off-Policy Policy Evaluation when Reusing Old Data
+in Nonstationary Environments</paper>
+              <br>  
+              <a href='https://vincentliu3.github.io/'>Vincent Liu</a>,
+              <b>Yash Chandak</b>,    
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
+              <a href='https://webdocs.cs.ualberta.ca/~whitem/'>Martha White</a>
+            <br>
+          26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)
+              <details>
+                <summary>Abstract | <a href="https://arxiv.org/abs/2302.11725">Arxiv</a>  </summary>            
+                  <p class="message">
+                  Reinforcement learning (RL) has emerged as a general-purpose technique for
+addressing problemIn this work, we consider the off-policy policy evaluation problem for contextual bandits and finite horizon reinforcement learning in the nonstationary setting. Reusing old data is critical for policy evaluation, but existing estimators that reuse old data introduce large bias such that we can not obtain a valid confidence interval. Inspired from a related field called survey sampling, we introduce a variant of the doubly robust (DR) estimator, called the regression-assisted DR estimator, that can incorporate the past data without introducing a large bias. The estimator unifies several existing off-policy policy evaluation methods and improves on them with the use of auxiliary information and a regression approach. We prove that the new estimator is asymptotically unbiased, and provide a consistent variance estimator to a construct a large sample confidence interval. Finally, we empirically show that the new estimator improves estimation for the current and future policy values, and provides a tight and valid interval estimation in several nonstationary recommendation environments. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr> 
+  
   
   </table>
 
