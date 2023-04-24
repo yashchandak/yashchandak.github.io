@@ -51,11 +51,11 @@ I received my PhD at the [University of Massachusetts](https://www.umass.edu/), 
 
 ## Recent
 
+- Our papers on (a) Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition, and (b) Understanding Self-Predictive Learning for Reinforcement Learning , got accepted at ICML'23.
+- Our paper on obtaining asymptotically unbiased off-policy policy evaluation when reusing old data in nonstationary environments got accepted at AISTATS'23.
 - Our papers on (a) Off-Policy evaluation for action-dependent non-stationary environments, and (b) Factored distributionally robust policies for contextual bandits, got accepted at NeurIPS'22.
 - PhD done. Graduated! Thanks to Phil for making my PhD journey amazing!
 - RLDM 2022 best paper award for our work on universal off-policy evaluation.
-- I will be interning at DeepMind London from May. 
-- Outstanding Reviewer at NeurIPS'21 and Top Reviewer at ICML'21.
 <br><br>
 
 ## Selected Publications
