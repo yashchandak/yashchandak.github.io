@@ -44,7 +44,7 @@ I work as a postdoc for [Prof. Emma Brunskill](https://cs.stanford.edu/people/eb
 I received my PhD at the [University of Massachusetts](https://www.umass.edu/), where I was a member of the [Autonomous Learning Lab (ALL)](http://www-all.cs.umass.edu/) and was fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
 
 <br>
-My Resume/CV can be found [here](/docs/Resume.pdf)
+My Resume/CV can be found [here](/docs/Resume.pdf).
   
 <br><br>
 
