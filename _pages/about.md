@@ -45,7 +45,6 @@ I received my PhD at the [University of Massachusetts](https://www.umass.edu/), 
 
 <br>
 My Resume/CV can be found [here](/docs/Resume.pdf)
-
   
 <br><br>
 
