@@ -43,7 +43,34 @@ paper {
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
+
+
   
+  <tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_DPT.png" alt="DPT" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Supervised Pretraining Can Learn In-Context Reinforcement Learning</paper>
+              <br>  
+              <a href='https://jonathannlee.com/'>Jonathan N. Lee</a>,
+              <a href='https://anxie.github.io/'>Annie Xie</a>,
+              <a href='https://www.aldopacchiano.ai/'>Aldo Pacchiano</a>,
+              <b>Yash Chandak</b>,    
+              <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>,
+              <a href='https://ofirnachum.github.io/'>Ofir Nachum</a>,
+              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>
+            <br>
+              <details>
+                <summary>Abstract |  <a href="https://arxiv.org/abs/2306.14892">Arxiv</a> </summary>            
+                  <p class="message">
+                  Large transformer models trained on diverse datasets have shown a remarkable ability to learn in-context, achieving high few-shot performance on tasks they were not explicitly trained to solve. In this paper, we study the in-context learning capabilities of transformers in decision-making problems, i.e., reinforcement learning (RL) for bandits and Markov decision processes. To do so, we introduce and study Decision-Pretrained Transformer (DPT), a supervised pretraining method where the transformer predicts an optimal action given a query state and an in-context dataset of interactions, across a diverse set of tasks. This procedure, while simple, produces a model with several surprising capabilities. We find that the pretrained transformer can be used to solve a range of RL problems in-context, exhibiting both exploration online and conservatism offline, despite not being explicitly trained to do so. The model also generalizes beyond the pretraining distribution to new tasks and automatically adapts its decision-making strategies to unknown structure. Theoretically, we show DPT can be viewed as an efficient implementation of Bayesian posterior sampling, a provably sample-efficient RL algorithm. We further leverage this connection to provide guarantees on the regret of the in-context algorithm yielded by DPT, and prove that it can learn faster than algorithms used to generate the pretraining data. These results suggest a promising yet simple path towards instilling strong in-context decision-making abilities in transformers. 
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr> 
   <tr>
        <td width="14%"  valign="middle">
             <img src="/images/publications/web_DeREX.png" alt="DeREX" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
@@ -70,7 +97,6 @@ paper {
           </p>  
      </td>
    </tr> 
-  
   <tr>
        <td width="14%"  valign="middle">
             <img src="/images/publications/web_BYOLtheory.png" alt="BYOL" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
