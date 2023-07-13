@@ -62,6 +62,7 @@ paper {
               <a href='https://ofirnachum.github.io/'>Ofir Nachum</a>,
               <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>
             <br>
+            New Frontiers in Learning, Control, and Dynamical Systems Workshop, ICML 2023
               <details>
                 <summary>Abstract |  <a href="https://arxiv.org/abs/2306.14892">Arxiv</a> </summary>            
                   <p class="message">
