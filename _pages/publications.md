@@ -60,7 +60,7 @@ paper {
               <a href='https://people.cs.umass.edu/~bsilva/'>Bruno Castro da Silva</a>.
             *Equal contribution
             <br>
-            <b>(Spotlight)</b> Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2023) 
+            <b>(Spotlight)</b> Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS 2023) 
               <details>
                 <summary>Abstract </summary>            
                   <p class="message">
@@ -87,7 +87,7 @@ paper {
               <a href='https://ofirnachum.github.io/'>Ofir Nachum</a>,
               <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>
             <br>
-            <b>(Spotlight)</b> Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2023) 
+            <b>(Spotlight)</b> Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS 2023) 
             <br>
             New Frontiers in Learning, Control, and Dynamical Systems Workshop (ICML 2023)
               <details>
