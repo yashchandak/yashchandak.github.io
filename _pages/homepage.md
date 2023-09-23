@@ -52,7 +52,8 @@ My Resume/CV can be found [here](/docs/Resume.pdf).
 
 ## Recent
 
-- Our papers on (a) Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition, and (b) Understanding Self-Predictive Learning for Reinforcement Learning , got accepted at ICML'23.
+- Our papers on (a) Behavior Alignment via Reward Function Optimization, and (b) Supervised Pretraining Can Learn In-Context Reinforcement Learning, got spotlight acceptance at NeurIPS'23.
+- Our papers on (a) Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition, and (b) Understanding Self-Predictive Learning for Reinforcement Learning, got accepted at ICML'23.
 - Our paper on obtaining asymptotically unbiased off-policy policy evaluation when reusing old data in nonstationary environments got accepted at AISTATS'23.
 - Our papers on (a) Off-Policy evaluation for action-dependent non-stationary environments, and (b) Factored distributionally robust policies for contextual bandits, got accepted at NeurIPS'22.
 - PhD done. Graduated! Thanks to Phil for making my PhD journey amazing!
