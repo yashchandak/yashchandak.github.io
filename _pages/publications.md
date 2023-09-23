@@ -44,7 +44,32 @@ paper {
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
 
-
+ 
+  <tr>
+       <td width="14%"  valign="middle">
+            <img src="/images/publications/web_BARFI.png" alt="BARFI" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Behavior Alignment via Reward Function Optimization</paper>
+              <br>  
+              <a href='https://dhawgupta.com/'>Dhawal Gupta</a>*,
+              <b>Yash Chandak</b>*,    
+              <a href='https://scottjordan.github.io/scottjordan/'>Scott Jordan</a>,
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
+              <a href='https://people.cs.umass.edu/~bsilva/'>Bruno Castro da Silva</a>,
+            *Equal contribution
+            <br>
+            <b>(Spotlight)</b> Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2023) 
+              <details>
+                <summary>Abstract </summary>            
+                  <p class="message">
+                  Designing reward functions to guide reinforcement learning (RL) agents towards desired behavior poses a significant challenge. The difficulty lies in finding the exact reward specification that elicits the desired behavior, as it often leads to sparse learning feedback for the agent. Modifying the reward specification to provide dense feedback may introduce unintended consequences and encourage undesirable behavior. While potential-based reward shaping has been proposed as a solution, we demonstrate its limitations in resolving sub-optimalities resulting from various design choices, and its potential to significantly degrade performance when used naively. To overcome these challenges, we propose a novel framework that employs a bi-level objective for learning a ``behavior alignment reward''. This reward function combines auxiliary rewards, defined by a designer's heuristics, with primary rewards provided by the environment. By doing so, our method remains robust against heuristic misspecification and dynamically adapts the agent's policy optimization procedure, addressing other sub-optimalities introduced by algorithmic design choices. We validate the effectiveness of our approach across a range of tasks, from small-scale to high-dimensional control tasks, where we incorporate heuristics of varying quality as auxiliary rewards, some of which are beneficial and others detrimental. Our framework offers a robust approach for incorporating heuristics that surpasses the limitations of previous methods, including potential-based reward shaping.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr> 
   
   <tr>
        <td width="14%"  valign="middle">
@@ -61,6 +86,8 @@ paper {
               <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>,
               <a href='https://ofirnachum.github.io/'>Ofir Nachum</a>,
               <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>
+            <br>
+            <b>(Spotlight)</b> Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2023) 
             <br>
             New Frontiers in Learning, Control, and Dynamical Systems Workshop (ICML 2023)
               <details>
