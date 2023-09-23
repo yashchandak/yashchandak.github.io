@@ -56,8 +56,8 @@ paper {
               <a href='https://dhawgupta.com/'>Dhawal Gupta</a>*,
               <b>Yash Chandak</b>*,    
               <a href='https://scottjordan.github.io/scottjordan/'>Scott Jordan</a>,
-              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>
-              <a href='https://people.cs.umass.edu/~bsilva/'>Bruno Castro da Silva</a>,
+              <a href='https://people.cs.umass.edu/~pthomas/'>Philip Thomas</a>,
+              <a href='https://people.cs.umass.edu/~bsilva/'>Bruno Castro da Silva</a>.
             *Equal contribution
             <br>
             <b>(Spotlight)</b> Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2023) 
