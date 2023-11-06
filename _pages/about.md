@@ -37,11 +37,11 @@ tbody tr:nth-child(odd) th {
 
 
 <br>
-
-I work as a postdoc for [Prof. Emma Brunskill](https://cs.stanford.edu/people/ebrun/) at Stanford University. My research interests are mostly at the intersection of reinforcement learning and machine learning, specifically on the sub-topics related to continual learning, non-stationarity, safety, off-policy data, and other challenges stemming from real-world applications in education and healthcare.
+I work as a postdoc for [Prof. Emma Brunskill](https://cs.stanford.edu/people/ebrun/) at [Stanford University](https://www.stanford.edu/). 
+I received my PhD at the [University of Massachusetts](https://www.umass.edu/), where I was fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
 
 <br>
-I received my PhD at the [University of Massachusetts](https://www.umass.edu/), where I was a member of the [Autonomous Learning Lab (ALL)](http://www-all.cs.umass.edu/) and was fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
+My interests are at the intersection of foundation models, decision making, and formal reasoning. I have also worked on strategic data collection under unobserved confounding, reward design, and different aspects of  continual and reinforcement learning.
 
 <br>
 My Resume/CV can be found [here](/docs/Resume.pdf).
@@ -54,7 +54,7 @@ My Resume/CV can be found [here](/docs/Resume.pdf).
 Reviewer: [JMLR](https://www.jmlr.org/) (2021-23), [MLJ](https://www.springer.com/journal/10994) (2022-23), [AIJ](https://aij.ijcai.org/) (2023)
 
 ### Conferences
-Reviewer: [ICML](https://icml.cc/) (2019-23), [NeurIPS](https://nips.cc/) (2019-22), [ICLR](https://iclr.cc/) (2022), [TMLR](https://www.jmlr.org/tmlr/) (2022-23), [CoLLAs](https://lifelong-ml.cc/) (2022)  
+Reviewer: [ICML](https://icml.cc/) (2019-23), [NeurIPS](https://nips.cc/) (2019-23), [ICLR](https://iclr.cc/) (2022), [TMLR](https://www.jmlr.org/tmlr/) (2022-23), [CoLLAs](https://lifelong-ml.cc/) (2022)  
 
 <br><br>
 

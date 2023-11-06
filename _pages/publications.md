@@ -44,10 +44,32 @@ paper {
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
 
- 
+ <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_DIA.png" alt="DIA" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Adaptive Instrument Design for Indirect Experiments</paper>
+              <br>  
+              <b>Yash Chandak</b>,    
+              <a href='https://scholar.google.com/citations?user=yK56jugAAAAJ&hl=en'>Shiv Shankar</a>,
+              <a href='https://vsyrgkanis.com/'>Vasilis Syrgkanis</a>,
+              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>.
+            <br>
+            Under review.
+              <details>
+                <summary>Abstract  |  </summary>            
+                  <p class="message">
+                  Indirect experiments provide a valuable framework for estimating treatment effects in situations where conducting randomized control trials (RCTs) is impractical or unethical. Unlike RCTs, indirect experiments estimate treatment effects by leveraging (conditional) instrumental variables, enabling estimation through encouragement and recommendation rather than strict treatment assignment.  However, the sample efficiency of such estimators depends not only on the inherent variability in outcomes but also on the varying compliance levels of users with the instrumental variables and the choice of estimator being used, especially when dealing with numerous instrumental variables.  While adaptive experiment design has a rich literature for \textit{direct} experiments, in this paper we take the initial steps towards enhancing sample efficiency for \textit{indirect} experiments by adaptively designing a data collection policy over instrumental variables.  Our main contribution is a practical computational procedure that utilizes influence functions to search for an optimal data collection policy, minimizing the mean-squared error of the desired (non-linear) estimator. Through experiments conducted in various domains inspired by real-world applications, we showcase how our method can significantly improve the sample efficiency of indirect experiments.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr> 
   <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_BARFI.png" alt="BARFI" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_BARFI.png" alt="BARFI" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -72,8 +94,8 @@ paper {
   </tr> 
   
   <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_DPT.png" alt="DPT" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_DPT.png" alt="DPT" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -85,7 +107,7 @@ paper {
               <b>Yash Chandak</b>,    
               <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>,
               <a href='https://ofirnachum.github.io/'>Ofir Nachum</a>,
-              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>
+              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>.
             <br>
             <b>(Spotlight)</b> Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS 2023) 
             <br>
@@ -100,8 +122,8 @@ paper {
      </td>
   </tr> 
   <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_DeREX.png" alt="DeREX" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_DeREX.png" alt="DeREX" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -113,7 +135,7 @@ paper {
               <a href='https://robintyh1.github.io/'>Yunhao Tang</a>,
               <a href='http://chercheurs.lille.inria.fr/~munos/'>Remi Munos</a>,
               <a href='https://willdabney.com/'>Will Dabney</a>,
-              <a href='https://scholar.google.co.uk/citations?user=LK_CV24AAAAJ&hl=en'>Diana Borsa</a>
+              <a href='https://scholar.google.co.uk/citations?user=LK_CV24AAAAJ&hl=en'>Diana Borsa</a>.
             <br>
           40th International Conference on Machine Learning (ICML 2023)
               <details>
@@ -126,8 +148,8 @@ paper {
      </td>
    </tr> 
   <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_BYOLtheory.png" alt="BYOL" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_BYOLtheory.png" alt="BYOL" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -164,8 +186,8 @@ paper {
      </td>
    </tr> 
 <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_SSOPE.png" alt="SSOPE" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_SSOPE.png" alt="SSOPE" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -199,8 +221,8 @@ addressing problemIn this work, we consider the off-policy policy evaluation pro
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
 <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_thesis.png" alt="Thesis" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_thesis.png" alt="Thesis" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -254,8 +276,8 @@ changes due to active, passive, or hybrid non-stationarity.
   
    
 <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_activeNSDP.png" alt="activeNSDP" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_activeNSDP.png" alt="activeNSDP" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -280,8 +302,8 @@ changes due to active, passive, or hybrid non-stationarity.
    </tr> 
 
 <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_FDRO.png" alt="FDRO" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_FDRO.png" alt="FDRO" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -306,8 +328,8 @@ changes due to active, passive, or hybrid non-stationarity.
   
  
 <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_GG.png" alt="GG" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_GG.png" alt="GG" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -331,8 +353,8 @@ changes due to active, passive, or hybrid non-stationarity.
    </tr> 
 
 <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_sharedCOMDP.png" alt="COMDP" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_sharedCOMDP.png" alt="COMDP" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -357,8 +379,8 @@ changes due to active, passive, or hybrid non-stationarity.
    </tr> 
   
 <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_SharedAutonomy.png" alt="HumanAI" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_SharedAutonomy.png" alt="HumanAI" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -389,8 +411,8 @@ changes due to active, passive, or hybrid non-stationarity.
    </tr>
   
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/hopf.png" alt="HOPF" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/hopf.png" alt="HOPF" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -421,8 +443,8 @@ changes due to active, passive, or hybrid non-stationarity.
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/web_UnO.png" alt="UnO" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/web_UnO.png" alt="UnO" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -451,8 +473,8 @@ changes due to active, passive, or hybrid non-stationarity.
    </tr>
  
   <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/web_SOPE.png" alt="SOPE" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/web_SOPE.png" alt="SOPE" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -478,8 +500,8 @@ changes due to active, passive, or hybrid non-stationarity.
    </tr>
   
  <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/web_CVaR_BPG.png" alt="Risk_BPG" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/web_CVaR_BPG.png" alt="Risk_BPG" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -506,8 +528,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
  
  
 <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_HCGA.png" alt="HCGA" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_HCGA.png" alt="HCGA" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -531,8 +553,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
    </tr>
   
 <tr>
-       <td width="14%"  valign="middle">
-            <img src="/images/publications/web_SharedAutonomy.png" alt="HumanAI" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_SharedAutonomy.png" alt="HumanAI" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -564,8 +586,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
   
   
 <tr>
-  <td width="14%"  valign="middle">
-            <img src="/images/publications/HCOVE.png" alt="SPIN" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+  <td width="14%"  valign="top">
+            <img src="/images/publications/HCOVE.png" alt="SPIN" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -597,8 +619,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/SPIN.png" alt="SPIN" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/SPIN.png" alt="SPIN" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -623,8 +645,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
 
 
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/prognosticator.png" alt="Future" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/prognosticator.png" alt="Future" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -649,8 +671,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
    </tr>
 
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/evalrldm.png" alt="eval" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/evalrldm.png" alt="eval" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -676,8 +698,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
 
 
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/LAICA.png" alt="SAS" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/LAICA.png" alt="SAS" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -702,8 +724,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
    </tr>
 
   <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/SAS.jpg" alt="SAS" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/SAS.jpg" alt="SAS" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -727,8 +749,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
 
 
   <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/cogbias.png" alt="cogbias" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/cogbias.png" alt="cogbias" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -764,8 +786,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
   
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/action_rep.png" alt="action_representations" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/action_rep.png" alt="action_representations" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -789,8 +811,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
    </tr>
    
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/action_rep_2.png" alt="action_generalization" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/action_rep_2.png" alt="action_generalization" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -808,8 +830,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
    </tr>  
    
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/eval.png" alt="eval" style="vertical-align:middle; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/eval.png" alt="eval" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -827,8 +849,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
    </tr>
    
   <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/bellman_optimal.png" alt="Bellman" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/bellman_optimal.png" alt="Bellman" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -860,8 +882,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/dynamic_action.png" alt="dynamic_actions" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/dynamic_action.png" alt="dynamic_actions" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -878,8 +900,8 @@ We show that by carefully choosing the data sampling policy (\emph{behavior poli
    </tr>
 
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/fgcn.png" alt="FGCN" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/fgcn.png" alt="FGCN" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -904,8 +926,8 @@ Knowledge Discovery and Data Mining (KDD 2018).
    </tr>
       
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/hopf.png" alt="HOPF" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/hopf.png" alt="HOPF" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -938,8 +960,8 @@ Artificial Intelligence (IJCAI 2018).
 
 <table>
    <tr>
-     <td width="14%"  valign="middle">
-            <img src="/images/publications/human_machine.png" alt="Human-Machine" align="middle" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
+     <td width="14%"  valign="top">
+            <img src="/images/publications/human_machine.png" alt="Human-Machine" align="top" style="width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
