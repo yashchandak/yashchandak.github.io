@@ -73,7 +73,7 @@ Click [here](/publication) for all the publications.
             <br>
        In preparation.
        <br><br>
-       Abstract: Formal reasoning tasks are challenging to solve but often there is availability of rich feedback, unlike a scalar feedback in the classical RL setting. How do we combine LLMs and RL to obtain the best of both for long-horizon (formal) reasoning?   
+       Abstract: Formal reasoning tasks are challenging to solve but often there is availability of rich feedback, unlike a scalar feedback in the classical RL setting. How do we combine LLMs and RL to obtain the best of both for long-horizon (formal) reasoning tasks like theorem proving and code generation?   
           </p>  
      </td>
    </tr> 
