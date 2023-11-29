@@ -65,7 +65,7 @@ Click [here](/publication) for all the publications.
      </td>
      <td valign="top" width="85%">
           <p>
-              <paper>Neural Theorem Proving with Information Directed Search</paper>
+              <paper>Information Directed Search for Formal Reasoning with Large Language Models</paper>
               <br>  
               <b>Yash Chandak</b>,    
               <a href='https://jonathannlee.com/'>Jonathan N. Lee</a>,
