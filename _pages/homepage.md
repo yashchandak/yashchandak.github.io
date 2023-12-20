@@ -94,7 +94,7 @@ Click [here](/publication) for all the publications.
               <a href='https://ofirnachum.github.io/'>Ofir Nachum</a>,
               <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>.
             <br>
-            <b>(Spotlight)</b> Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS 2023). <a href="https://arxiv.org/abs/2306.14892">[Pdf]</a>
+            <b>(Spotlight)</b> Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS 2023) | <a href="https://arxiv.org/abs/2306.14892">Arxiv</a>
        <br><br>
        Abstract: Can supervised pre-training provide in-context capabilities to solve decision-making problems? Perhaps surprisingly, drawing formal connections to posterior sampling, in-context interaction with the same model can result in conservative behavior in the offline setting, and also optimistic exploration in the online setting.  
           </p>  
@@ -121,7 +121,7 @@ Click [here](/publication) for all the publications.
               <a href='https://vsyrgkanis.com/'>Vasilis Syrgkanis</a>,
               <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>.
             <br>
-            Under review.  <a href="https://arxiv.org/abs/2312.02438">[Pdf]</a>
+            Under review | <a href="https://arxiv.org/abs/2312.02438">Arxiv</a>
        <br><br>
        Abstract: In human-AI systems, AI can only be suggestive and not prescriptive about what a human should do (e.g., how should a student interact with LLMs to learn quicker). In such cases, how should AI systems interact strategically to quickly estimate what would have happened had the human complied to its suggestions?  
           </p>  
@@ -143,7 +143,7 @@ Click [here](/publication) for all the publications.
               <a href='https://people.cs.umass.edu/~bsilva/'>Bruno Castro da Silva</a>.
             *Equal contribution
             <br>
-            <b>(Spotlight)</b> Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS 2023).  <a href="https://arxiv.org/abs/2310.19007">[Pdf]</a>
+            <b>(Spotlight)</b> Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS 2023) | <a href="https://arxiv.org/abs/2310.19007">Arxiv</a>
        <br><br>
        Abstract: How should we leverage side-information to design reward functions that are dense, yet aligned with a user's goal? We show that the classic approach of reward shaping has several limitations, and propose a new bi-level reward alignment procedure to address the challenges. 
         </p>  
