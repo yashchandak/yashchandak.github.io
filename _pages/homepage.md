@@ -121,7 +121,7 @@ Click [here](/publication) for all the publications.
               <a href='https://vsyrgkanis.com/'>Vasilis Syrgkanis</a>,
               <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>.
             <br>
-            Under review | <a href="https://arxiv.org/abs/2312.02438">Arxiv</a>
+            Twelfth International Conference on Learning Representations (ICLR 2024) | <a href="https://arxiv.org/abs/2312.02438">Arxiv</a>
        <br><br>
        Abstract: In human-AI systems, AI can only be suggestive and not prescriptive about what a human should do (e.g., how should a student interact with LLMs to learn quicker). In such cases, how should AI systems interact strategically to quickly estimate what would have happened had the human complied to its suggestions?  
           </p>  
