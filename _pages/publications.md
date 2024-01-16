@@ -39,10 +39,9 @@ paper {
 
 
 </style>
-#### 2023
+#### 2024
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-
 
  <tr>
        <td width="14%"  valign="top">
@@ -57,7 +56,7 @@ paper {
               <a href='https://vsyrgkanis.com/'>Vasilis Syrgkanis</a>,
               <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>.
             <br>
-            Under review.
+            Twelfth International Conference on Learning Representations (ICLR 2024)
               <details>
                 <summary>Abstract  | <a href="https://arxiv.org/abs/2312.02438">Arxiv</a> </summary>            
                   <p class="message">
@@ -67,6 +66,12 @@ paper {
           </p>  
      </td>
   </tr> 
+</table>
+
+#### 2023
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
   <tr>
        <td width="14%"  valign="top">
             <img src="/images/publications/web_BARFI.png" alt="BARFI" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
