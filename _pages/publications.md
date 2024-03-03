@@ -66,6 +66,65 @@ paper {
           </p>  
      </td>
   </tr> 
+
+   <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_interference.png" alt="UNITE" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>A/B testing under Interference with Partial Network Information</paper>
+              <br>  
+              <a href='https://scholar.google.com/citations?user=yK56jugAAAAJ&hl=en'>Shiv Shankar</a>,
+              <a href='https://research.adobe.com/person/ritwik-sinha/'>Ritwik Sinha</a>,
+              <b>Yash Chandak</b>,    
+              <a href='https://research.adobe.com/person/saayan-mitra/'>Saayan Mitra</a>,
+              <a href='https://people.cs.umass.edu/~mfiterau/'>Madalina Fiterau</a>.
+            <br>
+            International Conference on Artificial Intelligence and Statistics (AISTATS 2024)
+              <details>
+                <summary>Abstract  </summary>            
+                  <p class="message">
+                  A/B tests are often required to be conducted on subjects that might have social connections. For e.g., experiments on social media, or medical and social interventions to control the spread of an epidemic. In such settings, the SUTVA assumption for randomized-controlled trials is violated due to network interference, or spill-over effects, as treatments to group A can potentially also affect the control group B. When the underlying social network is known exactly, prior works have demonstrated how to conduct A/B tests adequately to estimate the global average treatment effect (GATE). However, in practice, it is often impossible to obtain knowledge about the exact underlying network. In this paper, we present estimator(s)
+that relax this assumption and can identify GATE while only relying on knowledge of the superset of neighbors for any subject in the graph. Through theoretical analysis and extensive experiments, we show that the proposed approach performs better in comparison to standard estimators.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr> 
+
+ <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_LAK.png" alt="LAK" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Estimating the Causal Treatment Effect of Unproductive Persistence</paper>
+              <br>  
+              <a href='https://scholar.google.com/citations?user=gK_Vh5sAAAAJ&hl=en'>Amelia Leon</a>,
+              <a href='https://anie.me/about'>Allen Nie</a>,
+              <b>Yash Chandak</b>,    
+              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>.
+            <br>
+            International Conference on Learning Analytics and Knowledge (LAK 2024)
+              <details>
+                <summary>Abstract </summary>            
+                  <p class="message">
+                  There has been considerable work in classifying and predicting unproductive persistence, but much less in understanding its causal impact on downstream outcomes of interest, like external assessments. 
+In general, it is experimentally challenging to understand the causal impact because,
+ unlike in many other settings, we cannot directly intervene (to conduct a randomized control trial) 
+ and cause students to struggle unproductively in an authentic manner. In this work, 
+ we use data from a prior study that used virtual reality headsets to alert teacher's 
+ attention to students who were unproductively struggling. We show that we can use 
+ this as an instrumental variable, and use a two-stage least squares analysis 
+ to provide a causal estimate of the treatment effect of unproductive persistence on 
+ post-test performance. Our results further strengthen the importance of unproductive struggle and highlight the potential of leveraging instruments to identify causal treatment effects of student behaviors during the use of educational technology.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr> 
+
 </table>
 
 #### 2023
