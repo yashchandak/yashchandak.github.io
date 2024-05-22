@@ -69,7 +69,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-23), [NeurIPS](https://nips.cc/) (2019-
     <td width="5%"  valign="middle"> <b>2024</b>
     </td>
      <td width="7%"  valign="middle">
-            <img src="/images/aboutme/cohere.png" alt="cohere" style="vertical-align:middle; height:80%; width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/aboutme/cohere.jpg" alt="cohere" style="vertical-align:middle; height:80%; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="middle" width="80%">
           <p>
