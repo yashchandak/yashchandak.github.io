@@ -37,15 +37,17 @@ tbody tr:nth-child(odd) th {
 
 
 <br>
-I work as a postdoc for [Prof. Emma Brunskill](https://cs.stanford.edu/people/ebrun/) at [Stanford University](https://www.stanford.edu/). 
+I work as a member of the technical staff at [Cohere](https://cohere.com/). Previously, I worked as a postdoc for [Prof. Emma Brunskill](https://cs.stanford.edu/people/ebrun/) at [Stanford University](https://www.stanford.edu/). 
 I received my PhD at the [University of Massachusetts](https://www.umass.edu/), where I was fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
 
 <br>
-My interests are at the intersection of foundation models, decision making, and formal reasoning. I have also worked on strategic data collection under unobserved confounding, reward design, and different aspects of  continual and reinforcement learning.
+My interests are at the intersection of foundation models, decision-making/RL, and formal reasoning.
 
+<!--
 <br>
 My Resume/CV can be found [here](/docs/Resume.pdf).
-  
+-->
+
 <br><br>
 
 ## Service
@@ -63,6 +65,18 @@ Reviewer: [ICML](https://icml.cc/) (2019-23), [NeurIPS](https://nips.cc/) (2019-
 <br>
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+   <tr>
+    <td width="5%"  valign="middle"> <b>2024</b>
+    </td>
+     <td width="7%"  valign="middle">
+            <img src="/images/aboutme/cohere.png" alt="cohere" style="vertical-align:middle; height:80%; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="middle" width="80%">
+          <p>
+              <b>Member of the Technical Staff at </b> <a href="https://cohere.com/">Cohere</a>.
+          </p>  
+     </td>
+   </tr>
 
    <tr>
     <td width="5%"  valign="middle"> <b>2022</b>
@@ -72,7 +86,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-23), [NeurIPS](https://nips.cc/) (2019-
      </td>
      <td valign="middle" width="80%">
           <p>
-              <b>Postdoc at </b> <a href="https://www.cics.umass.edu/">Stanford University</a>.
+              <b>Postdoc at </b> <a href=https://www.stanford.edu/">Stanford University</a>.
               <br>
               Advised by <a href="https://cs.stanford.edu/people/ebrun/">Prof. Emma Brunskill</a>.
           </p>  
