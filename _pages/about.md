@@ -86,7 +86,7 @@ Reviewer: [ICML](https://icml.cc/) (2019-23), [NeurIPS](https://nips.cc/) (2019-
      </td>
      <td valign="middle" width="80%">
           <p>
-              <b>Postdoc at </b> <a href=https://www.stanford.edu/">Stanford University</a>.
+              <b>Postdoc at </b> <a href="https://www.stanford.edu/">Stanford University</a>.
               <br>
               Advised by <a href="https://cs.stanford.edu/people/ebrun/">Prof. Emma Brunskill</a>.
           </p>  
