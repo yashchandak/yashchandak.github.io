@@ -58,7 +58,7 @@ paper {
             <br>
             Twelfth International Conference on Learning Representations (ICLR 2024)
               <details>
-                <summary>Abstract  | <a href="https://arxiv.org/abs/2312.02438">Arxiv</a> </summary>            
+                <summary>Abstract  | <a href="https://arxiv.org/abs/2312.02438">Arxiv</a> | <a href="https://github.com/yashchandak/IndirectExpDesign/tree/main">Code</a> </summary>            
                   <p class="message">
                   Indirect experiments provide a valuable framework for estimating treatment effects in situations where conducting randomized control trials (RCTs) is impractical or unethical. Unlike RCTs, indirect experiments estimate treatment effects by leveraging (conditional) instrumental variables, enabling estimation through encouragement and recommendation rather than strict treatment assignment.  However, the sample efficiency of such estimators depends not only on the inherent variability in outcomes but also on the varying compliance levels of users with the instrumental variables and the choice of estimator being used, especially when dealing with numerous instrumental variables.  While adaptive experiment design has a rich literature for \textit{direct} experiments, in this paper we take the initial steps towards enhancing sample efficiency for \textit{indirect} experiments by adaptively designing a data collection policy over instrumental variables.  Our main contribution is a practical computational procedure that utilizes influence functions to search for an optimal data collection policy, minimizing the mean-squared error of the desired (non-linear) estimator. Through experiments conducted in various domains inspired by real-world applications, we showcase how our method can significantly improve the sample efficiency of indirect experiments.
                   </p>
@@ -83,7 +83,7 @@ paper {
             <br>
             International Conference on Artificial Intelligence and Statistics (AISTATS 2024)
               <details>
-                <summary>Abstract  </summary>            
+                <summary>Abstract  | <a href="https://arxiv.org/abs/2404.10547">Arxiv</a>  </summary>            
                   <p class="message">
                   A/B tests are often required to be conducted on subjects that might have social connections. For e.g., experiments on social media, or medical and social interventions to control the spread of an epidemic. In such settings, the SUTVA assumption for randomized-controlled trials is violated due to network interference, or spill-over effects, as treatments to group A can potentially also affect the control group B. When the underlying social network is known exactly, prior works have demonstrated how to conduct A/B tests adequately to estimate the global average treatment effect (GATE). However, in practice, it is often impossible to obtain knowledge about the exact underlying network. In this paper, we present estimator(s)
 that relax this assumption and can identify GATE while only relying on knowledge of the superset of neighbors for any subject in the graph. Through theoretical analysis and extensive experiments, we show that the proposed approach performs better in comparison to standard estimators.
@@ -108,7 +108,7 @@ that relax this assumption and can identify GATE while only relying on knowledge
             <br>
             International Conference on Learning Analytics and Knowledge (LAK 2024)
               <details>
-                <summary>Abstract </summary>            
+                <summary>Abstract  | <a href="https://dl.acm.org/doi/10.1145/3636555.3636899">Paper</a>  </summary>            
                   <p class="message">
                   There has been considerable work in classifying and predicting unproductive persistence, but much less in understanding its causal impact on downstream outcomes of interest, like external assessments. 
 In general, it is experimentally challenging to understand the causal impact because,
