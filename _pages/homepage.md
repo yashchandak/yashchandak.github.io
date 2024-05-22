@@ -43,9 +43,9 @@ paper {
 
 I work as a member of the technical staff at [Cohere](https://cohere.com/). Previously, I worked as a postdoc for [Prof. Emma Brunskill](https://cs.stanford.edu/people/ebrun/) at [Stanford University](https://www.stanford.edu/). 
 I received my PhD at the [University of Massachusetts](https://www.umass.edu/), where I was fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
-<br>  
-My Resume/CV can be found [here](/docs/Resume.pdf). 
 
+<!-- <br>  
+ My Resume/CV can be found [here](/docs/Resume.pdf).  -->
 <br>
 
 
