@@ -42,6 +42,145 @@ paper {
 #### 2024
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+     <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_LLH.png" alt="LLH" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Averaging log-likelihoods in direct alignment</paper>
+              <br>  
+              Nathan Grinsztajn, Yannis Flet-Berliac, Mohammad Gheshlaghi Azar, Florian Strub, Bill Wu, Eugene Choi, Chris Cremer, Arash Ahmadian, <b>Yash Chandak</b>, Olivier Pietquin, Matthieu Geist
+            <br>
+             Preprint
+              <details>
+                <summary>Abstract  | <a href="https://arxiv.org/pdf/2406.19188?">Arxiv</a> </summary>            
+                  <p class="message">
+                To better align Large Language Models (LLMs) with human judgment, Reinforcement Learning from Human Feedback (RLHF) learns a reward model and then optimizes it using regularized RL. Recently, direct alignment methods were introduced to learn such a fine-tuned model directly from a preference dataset without computing a proxy reward function. These methods are built upon contrastive losses involving the log-likelihood of (dis)preferred completions according to the trained model. However, completions have various lengths, and the log-likelihood is not length-invariant. On the other side, the cross-entropy loss used in supervised training is length-invariant, as batches are typically averaged token-wise. To reconcile these approaches, we introduce a principled approach for making direct alignment length-invariant. Formally, we introduce a new averaging operator, to be composed with the optimality operator giving the best policy for the underlying RL problem. It translates into averaging the log-likelihood within the loss. We empirically study the effect of such averaging, observing a trade-off between the length of generations and their scores.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr>  
+    <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_GPT.png" alt="GPT" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>The GPT Surprise: Offering Large Language Model Chat in a Massive Coding Class Reduced Engagement but Increased Adopters’ Exam Performances</paper>
+              <br>  
+             Allen Nie, <b>Yash Chandak </b>, Miroslav Suzara, Ali Malik, Juliette Woodrow, Matt Peng, Mehran Sahami, Emma Brunskill, Chris Piech
+            <br>
+             Preprint
+              <details>
+                <summary>Abstract  | <a href="https://osf.io/download/6628930d80d25c0de8f919e6/">Arxiv</a> </summary>            
+                  <p class="message">
+                 Large language models (LLMs) are quickly being adopted in a wide range of learning experiences, especially via ubiquitous and broadly accessible chat interfaces like ChatGPT and Copilot. This type of
+interface is readily available to students and teachers around the world, yet relatively little research has
+been done to assess the impact of such generic tools on student learning. Coding education is an interesting test case, both because LLMs have strong performance on coding tasks, and because LLM-powered
+support tools are rapidly becoming part of the workflow of professional software engineers. To help
+understand the impact of generic LLM use on coding education, we conducted a large-scale randomized
+control trial with 5,831 students from 146 countries in an online coding class in which we provided some
+students with access to a chat interface with GPT-4. We estimate positive benefits on exam performance
+for adopters, the students who used the tool, but over all students, the advertisement of GPT-4 led to a
+significant average decrease in exam participation. We observe similar decreases in other forms of course
+engagement. However, this decrease is modulated by the student’s country of origin. Offering access to
+LLMs to students from low human development index countries increased their exam participation rate
+on average. Our results suggest there may be promising benefits to using LLMs in an introductory coding
+class, but also potential harms for engagement, which makes their longer term impact on student success
+unclear. Our work highlights the need for additional investigations to help understand the potential
+impact of future adoption and integration of LLMs into classrooms.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr> 
+  <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_SLVA.png" alt="SLVA" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Short-Long Policy Evaluation with Novel Actions</paper>
+              <br>  
+              Hyunji Alex Nam, <b>Yash Chandak</b>, Emma Brunskill
+            <br>
+             Preprint
+              <details>
+                <summary>Abstract  | <a href="https://arxiv.org/pdf/2407.03674">Arxiv</a> </summary>            
+                  <p class="message">
+                 From incorporating LLMs in education, to identifying new drugs and improving ways to charge batteries, innovators constantly try new strategies in search of better long-term outcomes for students, patients and consumers. One major bottleneck in this innovation cycle is the amount of time it takes to observe the downstream effects of a decision policy that incorporates new interventions. The key question is whether we can quickly evaluate long-term outcomes of a new decision policy without making long-term observations. Organizations often have access to prior data about past decision policies and their outcomes, evaluated over the full horizon of interest. Motivated by this, we introduce a new setting for short-long policy evaluation for sequential decision making tasks. Our proposed methods significantly outperform prior results on simulators of HIV treatment, kidney dialysis and battery charging. We also demonstrate that our methods can be useful for applications in AI safety by quickly identifying when a new decision policy is likely to have substantially lower performance than past policies.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr> 
+         <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_IDTS.png" alt="IDTS" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Information Directed Tree Search: Reasoning and Planning with Language Agents</paper>
+              <br>  
+              <b>Yash Chandak</b>, HyunJi Nam, Allen Nie, Jonathan Lee, Emma Brunskill
+            <br>
+             Bayesian Decision-making and Uncertainty Workshop at Neural Information Processing Systems (BDU@NeurIPS 2024) 
+              <details>
+                <summary>Abstract  | <a href="https://arxiv.org/pdf/2406.19185">Arxiv</a> </summary>            
+                  <p class="message">
+               Reinforcement Learning (RL) has been used to finetune Large Language Models (LLMs) using a reward model trained from preference data, to better align with human judgment. The recently introduced direct alignment methods, which are often simpler, more stable, and computationally lighter, can more directly achieve this. However, these approaches cannot optimize arbitrary rewards, and the preference-based ones are not the only rewards of interest for LLMs (eg., unit tests for code generation or textual entailment for summarization, among others). RL-finetuning is usually done with a variation of policy gradient, which calls for on-policy or near-on-policy samples, requiring costly generations. We introduce Contrastive Policy Gradient, or CoPG, a simple and mathematically principled new RL algorithm that can estimate the optimal policy even from off-policy data. It can be seen as an off-policy policy gradient approach that does not rely on important sampling techniques and highlights the importance of using (the right) state baseline. We show this approach to generalize the direct alignment method IPO (identity preference optimization) and classic policy gradient. We experiment with the proposed CoPG on a toy bandit problem to illustrate its properties, as well as for finetuning LLMs on a summarization task, using a learned reward function considered as ground truth for the purpose of the experiments.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr>  
+         <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_CoPG.png" alt="LLH" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Contrastive Policy Gradient: Aligning LLMs on sequence-level scores in a supervised-friendly fashion</paper>
+              <br>  
+              Yannis Flet-Berliac, Nathan Grinsztajn, Florian Strub, Eugene Choi, Chris Cremer, Arash Ahmadian, <b>Yash Chandak</b>, Mohammad Gheshlaghi Azar, Olivier Pietquin, Matthieu Geist
+            <br>
+             Conference on Empirical Methods in Natural Language Processing (EMNLP 2024)
+              <details>
+                <summary>Abstract  | <a href="https://arxiv.org/pdf/2406.19185">Arxiv</a> </summary>            
+                  <p class="message">
+               Reinforcement Learning (RL) has been used to finetune Large Language Models (LLMs) using a reward model trained from preference data, to better align with human judgment. The recently introduced direct alignment methods, which are often simpler, more stable, and computationally lighter, can more directly achieve this. However, these approaches cannot optimize arbitrary rewards, and the preference-based ones are not the only rewards of interest for LLMs (eg., unit tests for code generation or textual entailment for summarization, among others). RL-finetuning is usually done with a variation of policy gradient, which calls for on-policy or near-on-policy samples, requiring costly generations. We introduce Contrastive Policy Gradient, or CoPG, a simple and mathematically principled new RL algorithm that can estimate the optimal policy even from off-policy data. It can be seen as an off-policy policy gradient approach that does not rely on important sampling techniques and highlights the importance of using (the right) state baseline. We show this approach to generalize the direct alignment method IPO (identity preference optimization) and classic policy gradient. We experiment with the proposed CoPG on a toy bandit problem to illustrate its properties, as well as for finetuning LLMs on a summarization task, using a learned reward function considered as ground truth for the purpose of the experiments.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr>  
+ <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_OPERA.png" alt="OPERA" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>OPERA: Automatic Offline Policy Evaluation with Re-weighted Aggregates of Multiple Estimators</paper>
+              <br>  
+              Allen Nie,
+              <b>Yash Chandak</b>,    
+              Christina J Yuan,
+              Anirudhan Badrinath,
+              Yannis Flet-Berliac,
+             Emma Brunskill.
+            <br>
+             Thirty-eigth Conference on Neural Information Processing Systems (NeurIPS 2024) 
+              <details>
+                <summary>Abstract  | <a href="https://arxiv.org/pdf/2405.17708">Arxiv</a> </summary>            
+                  <p class="message">
+                 Offline policy evaluation (OPE) allows us to evaluate and estimate a new sequential decision-making policy's performance by leveraging historical interaction data collected from other policies. Evaluating a new policy online without a confident estimate of its performance can lead to costly, unsafe, or hazardous outcomes, especially in education and healthcare. Several OPE estimators have been proposed in the last decade, many of which have hyperparameters and require training. Unfortunately, choosing the best OPE algorithm for each task and domain is still unclear. In this paper, we propose a new algorithm that adaptively blends a set of OPE estimators given a dataset without relying on an explicit selection using a statistical procedure. We prove that our estimator is consistent and satisfies several desirable properties for policy evaluation. Additionally, we demonstrate that when compared to alternative approaches, our estimator can be used to select higher-performing policies in healthcare and robotics. Our work contributes to improving ease of use for a general-purpose, estimator-agnostic, off-policy evaluation framework for offline RL.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr> 
 
  <tr>
        <td width="14%"  valign="top">
@@ -275,6 +414,46 @@ addressing problemIn this work, we consider the off-policy policy evaluation pro
      </td>
    </tr> 
   
+  <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_COAGENT.png" alt="Coagent" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Coagent Networks: Generalized and Scaled</paper>
+              <br>  
+              James E Kostas, Scott M Jordan, <b>Yash Chandak</b>, Georgios Theocharous, Dhawal Gupta, Martha White, Bruno Castro da Silva, Philip S Thomas
+            <br>
+          Preprint
+              <details>
+                <summary>Abstract | <a href="https://arxiv.org/pdf/2305.09838">Arxiv</a>  </summary>            
+                  <p class="message">
+                 Coagent networks for reinforcement learning (RL) [Thomas and Barto, 2011]
+provide a powerful and flexible framework for deriving principled learning rules
+for arbitrary stochastic neural networks. The coagent framework offers an alternative to backpropagation-based deep learning (BDL) that overcomes some of
+backpropagation’s main limitations. For example, coagent networks can compute
+different parts of the network asynchronously (at different rates or at different
+times), can incorporate non-differentiable components that cannot be used with
+backpropagation, and can explore at levels higher than their action spaces (that
+is, they can be designed as hierarchical networks for exploration and/or temporal
+abstraction). However, the coagent framework is not just an alternative to BDL;
+the two approaches can be blended: BDL can be combined with coagent learning
+rules to create architectures with the advantages of both approaches. This work
+generalizes the coagent theory and learning rules provided by previous works; this
+generalization provides more flexibility for network architecture design within
+the coagent framework. This work also studies one of the chief disadvantages of
+coagent networks: high variance updates for networks that have many coagents
+and do not use backpropagation. We show that a coagent algorithm with a policy
+network that does not use backpropagation can scale to a challenging RL domain
+with a high-dimensional state and action space (the MuJoCo Ant environment),
+learning reasonable (although not state-of-the-art) policies. These contributions
+motivate and provide a more general theoretical foundation for future work that
+studies coagent networks
+                  </p>
+              </details>
+          </p>  
+     </td>
+   </tr> 
   
   </table>
 
