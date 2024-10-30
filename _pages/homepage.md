@@ -65,13 +65,11 @@ Click [here](/publication) for all the publications.
      </td>
      <td valign="top" width="85%">
           <p>
-              <paper>Information Directed Search for Formal Reasoning with Large Language Models</paper>
+             <paper>Information Directed Tree Search: Reasoning and Planning with Language Agents</paper>
               <br>  
-              <b>Yash Chandak</b>,    
-              <a href='https://jonathannlee.com/'>Jonathan N. Lee</a>,
-              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>.
+              <b>Yash Chandak</b>, HyunJi Nam, Allen Nie, Jonathan Lee, Emma Brunskill
             <br>
-       In preparation.
+             Bayesian Decision-making and Uncertainty Workshop at Neural Information Processing Systems (BDU@NeurIPS 2024) 
        <br><br>
        Abstract: Formal reasoning tasks are challenging to solve but often there is availability of rich feedback, unlike a scalar feedback in the classical RL setting. How do we combine LLMs and RL to obtain the best of both for long-horizon (formal) reasoning tasks like theorem proving and code generation?   
           </p>  
