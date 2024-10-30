@@ -42,7 +42,27 @@ paper {
 #### 2024
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-         <tr>
+        <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_BPG.png" alt="BPG" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Data-Efficient Policy Evaluation Through Behavior Policy Search</paper>
+              <br>  
+              Josiah P. Hanna, <b>Yash Chandak</b>, Philip S. Thomas, Martha White, Peter Stone, Scott Niekum
+            <br>
+             Journal of Machine Learning Research (JMLR) 
+              <details>
+                <summary>Abstract  </summary>            
+                  <p class="message">
+           We consider the task of evaluating a policy for a \textit{Markov decision process} (MDP). The standard unbiased technique for evaluating a policy is to deploy the policy and observe its performance. We show that the data collected from deploying a different policy, commonly called the \textit{behavior policy}, can be used to produce unbiased estimates with lower mean squared error than this standard technique. We derive an analytic expression for a \textit{minimal variance behavior policy} -- a behavior policy that minimizes the mean squared error of the resulting estimates. Because this expression depends on terms that are unknown in practice, we propose a novel policy evaluation sub-problem, \textit{behavior policy search}: searching for a behavior policy that reduces mean squared error. We present two behavior policy search algorithms and empirically demonstrate their effectiveness in lowering the mean squared error of policy performance estimates.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr>    
+  <tr>
        <td width="14%"  valign="top">
             <img src="/images/publications/web_LEAN.png" alt="IDTS" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
