@@ -116,10 +116,7 @@ paper {
           <p>
               <paper>Adaptive Instrument Design for Indirect Experiments</paper>
               <br>  
-              <b>Yash Chandak</b>,    
-              <a href='https://scholar.google.com/citations?user=yK56jugAAAAJ&hl=en'>Shiv Shankar</a>,
-              <a href='https://vsyrgkanis.com/'>Vasilis Syrgkanis</a>,
-              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>.
+              <b>Yash Chandak</b>, Shiv Shankar, Vasilis Syrgkanis, Emma Brunskill.
             <br>
             Twelfth International Conference on Learning Representations (ICLR 2024)
               <details>
@@ -139,12 +136,9 @@ paper {
      <td valign="top" width="85%">
           <p>
               <paper>A/B testing under Interference with Partial Network Information</paper>
-              <br>  
-              <a href='https://scholar.google.com/citations?user=yK56jugAAAAJ&hl=en'>Shiv Shankar</a>,
-              <a href='https://research.adobe.com/person/ritwik-sinha/'>Ritwik Sinha</a>,
+              <br>  Shiv Shankar, Ritwik Sinha,
               <b>Yash Chandak</b>,    
-              <a href='https://research.adobe.com/person/saayan-mitra/'>Saayan Mitra</a>,
-              <a href='https://people.cs.umass.edu/~mfiterau/'>Madalina Fiterau</a>.
+              Saayan Mitra, Madalina Fiterau.
             <br>
             International Conference on Artificial Intelligence and Statistics (AISTATS 2024)
               <details>
@@ -166,10 +160,8 @@ that relax this assumption and can identify GATE while only relying on knowledge
           <p>
               <paper>Estimating the Causal Treatment Effect of Unproductive Persistence</paper>
               <br>  
-              <a href='https://scholar.google.com/citations?user=gK_Vh5sAAAAJ&hl=en'>Amelia Leon</a>,
-              <a href='https://anie.me/about'>Allen Nie</a>,
-              <b>Yash Chandak</b>,    
-              <a href='https://cs.stanford.edu/people/ebrun/'>Emma Brunskill</a>.
+              Amelia Leon, Allen Nie,
+              <b>Yash Chandak</b>, Emma Brunskill.
             <br>
             International Conference on Learning Analytics and Knowledge (LAK 2024)
               <details>
