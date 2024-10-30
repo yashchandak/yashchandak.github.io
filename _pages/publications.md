@@ -42,83 +42,9 @@ paper {
 #### 2024
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-     <tr>
-       <td width="14%"  valign="top">
-            <img src="/images/publications/web_LLH.png" alt="LLH" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
-     </td>
-     <td valign="top" width="85%">
-          <p>
-              <paper>Averaging log-likelihoods in direct alignment</paper>
-              <br>  
-              Nathan Grinsztajn, Yannis Flet-Berliac, Mohammad Gheshlaghi Azar, Florian Strub, Bill Wu, Eugene Choi, Chris Cremer, Arash Ahmadian, <b>Yash Chandak</b>, Olivier Pietquin, Matthieu Geist
-            <br>
-             Preprint
-              <details>
-                <summary>Abstract  | <a href="https://arxiv.org/pdf/2406.19188?">Arxiv</a> </summary>            
-                  <p class="message">
-                To better align Large Language Models (LLMs) with human judgment, Reinforcement Learning from Human Feedback (RLHF) learns a reward model and then optimizes it using regularized RL. Recently, direct alignment methods were introduced to learn such a fine-tuned model directly from a preference dataset without computing a proxy reward function. These methods are built upon contrastive losses involving the log-likelihood of (dis)preferred completions according to the trained model. However, completions have various lengths, and the log-likelihood is not length-invariant. On the other side, the cross-entropy loss used in supervised training is length-invariant, as batches are typically averaged token-wise. To reconcile these approaches, we introduce a principled approach for making direct alignment length-invariant. Formally, we introduce a new averaging operator, to be composed with the optimality operator giving the best policy for the underlying RL problem. It translates into averaging the log-likelihood within the loss. We empirically study the effect of such averaging, observing a trade-off between the length of generations and their scores.
-                  </p>
-              </details>
-          </p>  
-     </td>
-  </tr>  
-    <tr>
-       <td width="14%"  valign="top">
-            <img src="/images/publications/web_GPT.png" alt="GPT" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
-     </td>
-     <td valign="top" width="85%">
-          <p>
-              <paper>The GPT Surprise: Offering Large Language Model Chat in a Massive Coding Class Reduced Engagement but Increased Adopters’ Exam Performances</paper>
-              <br>  
-             Allen Nie, <b>Yash Chandak </b>, Miroslav Suzara, Ali Malik, Juliette Woodrow, Matt Peng, Mehran Sahami, Emma Brunskill, Chris Piech
-            <br>
-             Preprint
-              <details>
-                <summary>Abstract  | <a href="https://osf.io/download/6628930d80d25c0de8f919e6/">Arxiv</a> </summary>            
-                  <p class="message">
-                 Large language models (LLMs) are quickly being adopted in a wide range of learning experiences, especially via ubiquitous and broadly accessible chat interfaces like ChatGPT and Copilot. This type of
-interface is readily available to students and teachers around the world, yet relatively little research has
-been done to assess the impact of such generic tools on student learning. Coding education is an interesting test case, both because LLMs have strong performance on coding tasks, and because LLM-powered
-support tools are rapidly becoming part of the workflow of professional software engineers. To help
-understand the impact of generic LLM use on coding education, we conducted a large-scale randomized
-control trial with 5,831 students from 146 countries in an online coding class in which we provided some
-students with access to a chat interface with GPT-4. We estimate positive benefits on exam performance
-for adopters, the students who used the tool, but over all students, the advertisement of GPT-4 led to a
-significant average decrease in exam participation. We observe similar decreases in other forms of course
-engagement. However, this decrease is modulated by the student’s country of origin. Offering access to
-LLMs to students from low human development index countries increased their exam participation rate
-on average. Our results suggest there may be promising benefits to using LLMs in an introductory coding
-class, but also potential harms for engagement, which makes their longer term impact on student success
-unclear. Our work highlights the need for additional investigations to help understand the potential
-impact of future adoption and integration of LLMs into classrooms.
-                  </p>
-              </details>
-          </p>  
-     </td>
-  </tr> 
-  <tr>
-       <td width="14%"  valign="top">
-            <img src="/images/publications/web_SLVA.png" alt="SLVA" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
-     </td>
-     <td valign="top" width="85%">
-          <p>
-              <paper>Short-Long Policy Evaluation with Novel Actions</paper>
-              <br>  
-              Hyunji Alex Nam, <b>Yash Chandak</b>, Emma Brunskill
-            <br>
-             Preprint
-              <details>
-                <summary>Abstract  | <a href="https://arxiv.org/pdf/2407.03674">Arxiv</a> </summary>            
-                  <p class="message">
-                 From incorporating LLMs in education, to identifying new drugs and improving ways to charge batteries, innovators constantly try new strategies in search of better long-term outcomes for students, patients and consumers. One major bottleneck in this innovation cycle is the amount of time it takes to observe the downstream effects of a decision policy that incorporates new interventions. The key question is whether we can quickly evaluate long-term outcomes of a new decision policy without making long-term observations. Organizations often have access to prior data about past decision policies and their outcomes, evaluated over the full horizon of interest. Motivated by this, we introduce a new setting for short-long policy evaluation for sequential decision making tasks. Our proposed methods significantly outperform prior results on simulators of HIV treatment, kidney dialysis and battery charging. We also demonstrate that our methods can be useful for applications in AI safety by quickly identifying when a new decision policy is likely to have substantially lower performance than past policies.
-                  </p>
-              </details>
-          </p>  
-     </td>
-  </tr> 
          <tr>
        <td width="14%"  valign="top">
-            <img src="/images/publications/web_IDTS.png" alt="IDTS" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/web_LEAN.png" alt="IDTS" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
@@ -171,7 +97,7 @@ impact of future adoption and integration of LLMs into classrooms.
               Yannis Flet-Berliac,
              Emma Brunskill.
             <br>
-             Thirty-eigth Conference on Neural Information Processing Systems (NeurIPS 2024) 
+             Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS 2024) 
               <details>
                 <summary>Abstract  | <a href="https://arxiv.org/pdf/2405.17708">Arxiv</a> </summary>            
                   <p class="message">
@@ -263,7 +189,80 @@ In general, it is experimentally challenging to understand the causal impact bec
           </p>  
      </td>
   </tr> 
-
+     <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_LLH.png" alt="LLH" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Averaging log-likelihoods in direct alignment</paper>
+              <br>  
+              Nathan Grinsztajn, Yannis Flet-Berliac, Mohammad Gheshlaghi Azar, Florian Strub, Bill Wu, Eugene Choi, Chris Cremer, Arash Ahmadian, <b>Yash Chandak</b>, Olivier Pietquin, Matthieu Geist
+            <br>
+             Preprint
+              <details>
+                <summary>Abstract  | <a href="https://arxiv.org/pdf/2406.19188?">Arxiv</a> </summary>            
+                  <p class="message">
+                To better align Large Language Models (LLMs) with human judgment, Reinforcement Learning from Human Feedback (RLHF) learns a reward model and then optimizes it using regularized RL. Recently, direct alignment methods were introduced to learn such a fine-tuned model directly from a preference dataset without computing a proxy reward function. These methods are built upon contrastive losses involving the log-likelihood of (dis)preferred completions according to the trained model. However, completions have various lengths, and the log-likelihood is not length-invariant. On the other side, the cross-entropy loss used in supervised training is length-invariant, as batches are typically averaged token-wise. To reconcile these approaches, we introduce a principled approach for making direct alignment length-invariant. Formally, we introduce a new averaging operator, to be composed with the optimality operator giving the best policy for the underlying RL problem. It translates into averaging the log-likelihood within the loss. We empirically study the effect of such averaging, observing a trade-off between the length of generations and their scores.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr>  
+    <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_GPT.png" alt="GPT" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>The GPT Surprise: Offering Large Language Model Chat in a Massive Coding Class Reduced Engagement but Increased Adopters’ Exam Performances</paper>
+              <br>  
+             Allen Nie, <b>Yash Chandak </b>, Miroslav Suzara, Ali Malik, Juliette Woodrow, Matt Peng, Mehran Sahami, Emma Brunskill, Chris Piech
+            <br>
+             Preprint
+              <details>
+                <summary>Abstract  | <a href="https://osf.io/download/6628930d80d25c0de8f919e6/">Arxiv</a> </summary>            
+                  <p class="message">
+                 Large language models (LLMs) are quickly being adopted in a wide range of learning experiences, especially via ubiquitous and broadly accessible chat interfaces like ChatGPT and Copilot. This type of
+interface is readily available to students and teachers around the world, yet relatively little research has
+been done to assess the impact of such generic tools on student learning. Coding education is an interesting test case, both because LLMs have strong performance on coding tasks, and because LLM-powered
+support tools are rapidly becoming part of the workflow of professional software engineers. To help
+understand the impact of generic LLM use on coding education, we conducted a large-scale randomized
+control trial with 5,831 students from 146 countries in an online coding class in which we provided some
+students with access to a chat interface with GPT-4. We estimate positive benefits on exam performance
+for adopters, the students who used the tool, but over all students, the advertisement of GPT-4 led to a
+significant average decrease in exam participation. We observe similar decreases in other forms of course
+engagement. However, this decrease is modulated by the student’s country of origin. Offering access to
+LLMs to students from low human development index countries increased their exam participation rate
+on average. Our results suggest there may be promising benefits to using LLMs in an introductory coding
+class, but also potential harms for engagement, which makes their longer term impact on student success
+unclear. Our work highlights the need for additional investigations to help understand the potential
+impact of future adoption and integration of LLMs into classrooms.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr> 
+  <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_SLVA.png" alt="SLVA" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Short-Long Policy Evaluation with Novel Actions</paper>
+              <br>  
+              Hyunji Alex Nam, <b>Yash Chandak</b>, Emma Brunskill
+            <br>
+             Preprint
+              <details>
+                <summary>Abstract  | <a href="https://arxiv.org/pdf/2407.03674">Arxiv</a> </summary>            
+                  <p class="message">
+                 From incorporating LLMs in education, to identifying new drugs and improving ways to charge batteries, innovators constantly try new strategies in search of better long-term outcomes for students, patients and consumers. One major bottleneck in this innovation cycle is the amount of time it takes to observe the downstream effects of a decision policy that incorporates new interventions. The key question is whether we can quickly evaluate long-term outcomes of a new decision policy without making long-term observations. Organizations often have access to prior data about past decision policies and their outcomes, evaluated over the full horizon of interest. Motivated by this, we introduce a new setting for short-long policy evaluation for sequential decision making tasks. Our proposed methods significantly outperform prior results on simulators of HIV treatment, kidney dialysis and battery charging. We also demonstrate that our methods can be useful for applications in AI safety by quickly identifying when a new decision policy is likely to have substantially lower performance than past policies.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr> 
 </table>
 
 #### 2023
