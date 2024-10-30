@@ -415,7 +415,7 @@ addressing problemIn this work, we consider the off-policy policy evaluation pro
   
   <tr>
        <td width="14%"  valign="top">
-            <img src="/images/publications/web_COAGENT.png" alt="Coagent" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+            <img src="/images/publications/web_sharedCOMDP.png" alt="Coagent" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
      </td>
      <td valign="top" width="85%">
           <p>
