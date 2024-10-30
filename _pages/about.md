@@ -53,10 +53,12 @@ My Resume/CV can be found [here](/docs/Resume.pdf).
 ## Service
 
 ### Journals
-Reviewer: [JMLR](https://www.jmlr.org/) (2021-23), [MLJ](https://www.springer.com/journal/10994) (2022-23), [AIJ](https://aij.ijcai.org/) (2023)
+Reviewer: [JMLR](https://www.jmlr.org/) (2021-24), [MLJ](https://www.springer.com/journal/10994) (2022-23), [AIJ](https://aij.ijcai.org/) (2023)
 
 ### Conferences
-Reviewer: [ICML](https://icml.cc/) (2019-23), [NeurIPS](https://nips.cc/) (2019-23), [ICLR](https://iclr.cc/) (2022), [TMLR](https://www.jmlr.org/tmlr/) (2022-23), [CoLLAs](https://lifelong-ml.cc/) (2022)  
+Area Chair: [NeurIPS](https://nips.cc/) (2024)
+
+Reviewer: [ICML](https://icml.cc/) (2019-23), [NeurIPS](https://nips.cc/) (2019-23), [ICLR](https://iclr.cc/) (2022-24), [TMLR](https://www.jmlr.org/tmlr/) (2022-23), [CoLLAs](https://lifelong-ml.cc/) (2022-23)  
 
 <br><br>
 
