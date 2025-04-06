@@ -39,6 +39,40 @@ paper {
 
 
 </style>
+#### 2025
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+       <td width="14%"  valign="top">
+            <img src="/images/publications/web_CmDA.png" alt="CmDA" style="vertical-align:top; width: 80%; margin:0px 10px; border-radius:0%"/> 
+     </td>
+     <td valign="top" width="85%">
+          <p>
+              <paper>Command A:
+An Enterprise-Ready Large Language Model</paper>
+              <br>  
+              Team Cohere.
+            <br>
+              <details>
+                <summary>Abstract | <a href="https://arxiv.org/pdf/2504.00698">Arxiv</a>  </summary>            
+                  <p class="message">
+          In this report we describe the development of Command A, a powerful large language model purpose-built to
+excel at real-world enterprise use cases. Command A is an agent-optimised and multilingual-capable model,
+with support for 23 languages of global business, and a novel hybrid architecture balancing efficiency with top
+of the range performance. It offers best-in-class Retrieval Augmented Generation (RAG) capabilities with
+grounding and tool use to automate sophisticated business processes. These abilities are achieved through
+a decentralised training approach, including self-refinement algorithms and model merging techniques. We
+also include results for Command R7B which shares capability and architectural similarities to Command A.
+Weights for both models have been released for research purposes. This technical report details our original
+training pipeline and presents an extensive evaluation of our models across a suite of enterprise-relevant tasks
+and public benchmarks, demonstrating excellent performance and efficiency.
+                  </p>
+              </details>
+          </p>  
+     </td>
+  </tr>   
+</table>
+  
 #### 2024
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
