@@ -44,6 +44,7 @@ paper {
 I work on the post-training team at [Cohere](https://cohere.com/). Previously, I worked as a postdoc for [Prof. Emma Brunskill](https://cs.stanford.edu/people/ebrun/) at [Stanford University](https://www.stanford.edu/). 
 I received my PhD at the [University of Massachusetts](https://www.umass.edu/), where I was fortunate to be advised by [Prof. Philip Thomas](https://people.cs.umass.edu/~pthomas/).
 
+<br>
 Currently, my research interests mostly include reinforcement learning and large language models. 
 
 <!-- <br>  
